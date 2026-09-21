@@ -1,0 +1,28 @@
+# The models in a tells run, addressed as rune profiles so each call goes
+# through the installed harness with its own auth. A generator writes the
+# corpus. A judge annotates documents written by the other generators and
+# never its own. The adjudicator reads only the sentences the judges split
+# on. Versions are recorded per run in the .run.json sidecars, not here.
+generators:
+    - profile: kimi@claude
+      family: kimi
+    - profile: grok@grok
+      family: grok
+    - profile: lumo@opencode
+      family: lumo
+    - profile: astra@codex
+      family: openai
+
+judges:
+    - profile: kimi@claude
+      family: kimi
+    - profile: grok@grok
+      family: grok
+    - profile: lumo@opencode
+      family: lumo
+    - profile: astra@codex
+      family: openai
+
+adjudicator:
+    profile: main@claude
+    family: anthropic

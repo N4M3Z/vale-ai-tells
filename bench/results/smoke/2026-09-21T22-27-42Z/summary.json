@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "suiteId": "smoke",
+    "timestamp": "2026-09-21T22-27-42Z",
+    "version": "tells-report-1",
+    "documents": 1,
+    "confirmedTells": 1,
+    "valeCaught": 1,
+    "valeMissed": 0,
+    "valeRecall": 1.0,
+    "splitsForAdjudicator": 2,
+    "majority": 2
+  },
+  "rankings": [
+    {
+      "model": "grok@grok",
+      "confirmedTells": 1
+    }
+  ],
+  "judges": [
+    {
+      "judge": "kimi-claude",
+      "annotations": 2
+    },
+    {
+      "judge": "lumo-opencode",
+      "annotations": 2
+    }
+  ],
+  "gapByCategory": []
+}

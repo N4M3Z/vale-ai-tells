@@ -1,0 +1,188 @@
+{
+  "grok-grok--email-outage": [
+    {
+      "Action": {
+        "Name": "",
+        "Params": null
+      },
+      "Suggestions": [],
+      "Span": [
+        4,
+        9
+      ],
+      "Check": "STE.StrictWords",
+      "Description": "",
+      "Link": "",
+      "Message": "Strict mode: avoid 'should' in procedures and runbooks.",
+      "Severity": "suggestion",
+      "Match": "should",
+      "Line": 3
+    },
+    {
+      "Action": {
+        "Name": "",
+        "Params": null
+      },
+      "Suggestions": [],
+      "Span": [
+        11,
+        22
+      ],
+      "Check": "Deslop.SlopVocab",
+      "Description": "",
+      "Link": "",
+      "Message": "'leverage the' is an AI-slop tell. Cut it or say the thing plainly.",
+      "Severity": "warning",
+      "Match": "leverage the",
+      "Line": 3
+    },
+    {
+      "Action": {
+        "Name": "",
+        "Params": null
+      },
+      "Suggestions": [],
+      "Span": [
+        11,
+        18
+      ],
+      "Check": "ai-tells-experimental.VocabularySwap",
+      "Description": "",
+      "Link": "",
+      "Message": "AI vocabulary: use use|apply|build on instead of 'leverage'.",
+      "Severity": "warning",
+      "Match": "leverage",
+      "Line": 3
+    },
+    {
+      "Action": {
+        "Name": "replace",
+        "Params": [
+          "use"
+        ]
+      },
+      "Suggestions": [
+        "use"
+      ],
+      "Span": [
+        11,
+        18
+      ],
+      "Check": "STE.Substitutions",
+      "Description": "",
+      "Link": "",
+      "Message": "Use 'use' instead of 'leverage'.",
+      "Severity": "suggestion",
+      "Match": "leverage",
+      "Line": 3
+    },
+    {
+      "Action": {
+        "Name": "",
+        "Params": null
+      },
+      "Suggestions": [],
+      "Span": [
+        11,
+        18
+      ],
+      "Check": "ai-tells.OverusedVocabularyVerbs",
+      "Description": "",
+      "Link": "",
+      "Message": "AI vocabulary (verb form): 'leverage'. Replace with a direct verb.",
+      "Severity": "error",
+      "Match": "leverage",
+      "Line": 3
+    },
+    {
+      "Action": {
+        "Name": "",
+        "Params": null
+      },
+      "Suggestions": [],
+      "Span": [
+        24,
+        31
+      ],
+      "Check": "Deslop.SlopVocab",
+      "Description": "",
+      "Link": "",
+      "Message": "'seamless' is an AI-slop tell. Cut it or say the thing plainly.",
+      "Severity": "warning",
+      "Match": "seamless",
+      "Line": 3
+    },
+    {
+      "Action": {
+        "Name": "",
+        "Params": null
+      },
+      "Suggestions": [],
+      "Span": [
+        24,
+        31
+      ],
+      "Check": "STE.Marketing",
+      "Description": "",
+      "Link": "",
+      "Message": "'seamless' is marketing language. State the fact.",
+      "Severity": "suggestion",
+      "Match": "seamless",
+      "Line": 3
+    },
+    {
+      "Action": {
+        "Name": "",
+        "Params": null
+      },
+      "Suggestions": [],
+      "Span": [
+        24,
+        40
+      ],
+      "Check": "ai-tells.AIAdjectiveNounPairs",
+      "Description": "",
+      "Link": "",
+      "Message": "AI adjective-noun pair: 'seamless pipeline'. Use concrete description instead.",
+      "Severity": "error",
+      "Match": "seamless pipeline",
+      "Line": 3
+    },
+    {
+      "Action": {
+        "Name": "",
+        "Params": null
+      },
+      "Suggestions": [],
+      "Span": [
+        46,
+        67
+      ],
+      "Check": "Core.NegativeParallelism",
+      "Description": "",
+      "Link": "",
+      "Message": "Negative parallelism: state the point directly, drop the denied half (rule Deslop).",
+      "Severity": "warning",
+      "Match": "is not a cache. It is ",
+      "Line": 3
+    },
+    {
+      "Action": {
+        "Name": "",
+        "Params": null
+      },
+      "Suggestions": [],
+      "Span": [
+        62,
+        76
+      ],
+      "Check": "ai-tells.MicDrop",
+      "Description": "",
+      "Link": "",
+      "Message": "AI mic-drop: 'It is a ledger.'. Integrate the point into the surrounding text or cut it.",
+      "Severity": "error",
+      "Match": "It is a ledger.",
+      "Line": 3
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "suite": "smoke",
+  "test": "email-outage",
+  "profile": "grok@grok",
+  "tool": "grok",
+  "model_id": "",
+  "started": "2026-09-21T22:24:47Z",
+  "seconds": 4,
+  "exit": 1,
+  "prompt_sha256": "23f5bacede87bc329f737e3ce2fbee3c16e0cd79854bf4f206bd13430620f088",
+  "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "words": 0
+}

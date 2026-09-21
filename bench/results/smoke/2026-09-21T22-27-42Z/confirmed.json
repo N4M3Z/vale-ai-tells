@@ -1,0 +1,23 @@
+[
+  {
+    "document": "grok-grok--email-outage",
+    "generator": "grok@grok",
+    "sentence": "It is not a cache. It is a ledger.",
+    "judges": [
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "is not .+\\. It is"
+    ],
+    "tells": [
+      "denial then reveal",
+      "negative parallelism"
+    ],
+    "line": 3,
+    "vale_hit": true
+  }
+]

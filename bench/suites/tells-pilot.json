@@ -1,0 +1,78 @@
+{
+  "id": "tells-pilot",
+  "name": "AI tells pilot corpus",
+  "description": "Ten generation prompts across four registers, on subjects unrelated to the fork owner or any real project. Each model writes every prompt; the text is the corpus that cross-model judges annotate for AI-writing tells and that Vale is measured against. There are no answers: the score is the gap between what judges flag and what Vale flags.",
+  "system_prompt": "Write the requested text in full. Do not add a preamble, a title line unless asked, a note about being an AI, or a closing offer. Write as a competent human author would for the stated audience.",
+  "tests": [
+    {
+      "id": "explainer-raft",
+      "category": "technical-explainer",
+      "difficulty": "medium",
+      "provenance": "tells-pilot",
+      "prompt": "Write a 900-word explainer for junior engineers on how leader election works in the Raft consensus algorithm. Cover terms, heartbeats, election timeouts, and split votes."
+    },
+    {
+      "id": "readme-cli",
+      "category": "technical-explainer",
+      "difficulty": "medium",
+      "provenance": "tells-pilot",
+      "prompt": "Write the README for a fictional command-line tool called `tidewatch` that polls tide tables for a list of harbours and prints the next high and low tide. Include installation, usage with three examples, configuration, and a troubleshooting section. About 700 words."
+    },
+    {
+      "id": "runbook-postgres",
+      "category": "technical-explainer",
+      "difficulty": "hard",
+      "provenance": "tells-pilot",
+      "prompt": "Write an on-call runbook for the alert 'PostgreSQL replication lag above 60 seconds' at a fictional company. Give the operator diagnosis steps, three likely causes with the fix for each, and when to escalate. About 800 words."
+    },
+    {
+      "id": "essay-libraries",
+      "category": "essay",
+      "difficulty": "medium",
+      "provenance": "tells-pilot",
+      "prompt": "Write a 1000-word opinion essay for a general newspaper arguing that public libraries should stay open late into the evening. Take a clear position and address the strongest objection."
+    },
+    {
+      "id": "essay-handwriting",
+      "category": "essay",
+      "difficulty": "medium",
+      "provenance": "tells-pilot",
+      "prompt": "Write a 900-word reflective essay for a literary magazine on why some people still write letters by hand. Use concrete detail; avoid a thesis-first structure."
+    },
+    {
+      "id": "review-headphones",
+      "category": "essay",
+      "difficulty": "easy",
+      "provenance": "tells-pilot",
+      "prompt": "Write a 700-word consumer review of a fictional pair of wireless headphones, the Corvid Q3, for a gadget blog. Cover sound, comfort, battery, and value, and give a verdict."
+    },
+    {
+      "id": "email-outage",
+      "category": "marketing-and-announcements",
+      "difficulty": "easy",
+      "provenance": "tells-pilot",
+      "prompt": "Write a 300-word customer email from a fictional online bookshop explaining that orders placed last Tuesday were delayed by a warehouse system outage, what was done, and what customers should expect."
+    },
+    {
+      "id": "launch-teakettle",
+      "category": "marketing-and-announcements",
+      "difficulty": "easy",
+      "provenance": "tells-pilot",
+      "prompt": "Write a 400-word product launch announcement for a fictional stovetop kettle called the Marlow, for the company blog. Describe the design, the materials, the price, and where to buy it."
+    },
+    {
+      "id": "fiction-ferry",
+      "category": "fiction",
+      "difficulty": "medium",
+      "provenance": "tells-pilot",
+      "prompt": "Write a 1000-word short story about two strangers who share a bench on the last ferry of the night. Third person, past tense, with dialogue. No twist ending."
+    },
+    {
+      "id": "fiction-dialogue-repair",
+      "category": "fiction",
+      "difficulty": "hard",
+      "provenance": "tells-pilot",
+      "prompt": "Write an 800-word scene consisting mostly of dialogue between a bicycle mechanic and a customer who cannot describe what is wrong with the bike. Keep narration minimal."
+    }
+  ]
+}

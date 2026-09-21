@@ -1,0 +1,15 @@
+{
+  "id": "tells-pilot",
+  "name": "AI tells pilot corpus",
+  "description": "Ten generation prompts across four registers, on subjects unrelated to the fork owner or any real project. Each model writes every prompt; the text is the corpus that cross-model judges annotate for AI-writing tells and that Vale is measured against. There are no answers: the score is the gap between what judges flag and what Vale flags.",
+  "system_prompt": "Write the requested text in full. Do not add a preamble, a title line unless asked, a note about being an AI, or a closing offer. Write as a competent human author would for the stated audience.",
+  "tests": [
+    {
+      "id": "email-outage",
+      "category": "marketing-and-announcements",
+      "difficulty": "easy",
+      "provenance": "tells-pilot",
+      "prompt": "Write a 300-word customer email from a fictional online bookshop explaining that orders placed last Tuesday were delayed by a warehouse system outage, what was done, and what customers should expect."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "document": "grok-grok--email-outage",
+    "generator": "grok@grok",
+    "sentence": "We should leverage the seamless pipeline.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "vocabulary"
+    ],
+    "regexes": [
+      "\\bleverage\\b"
+    ],
+    "tells": [
+      "AI vocabulary"
+    ]
+  },
+  {
+    "document": "grok-grok--email-outage",
+    "generator": "grok@grok",
+    "sentence": "The queue drained by noon.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "figurative-verb"
+    ],
+    "regexes": [],
+    "tells": [
+      "figurative drain"
+    ]
+  }
+]
