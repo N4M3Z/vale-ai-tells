@@ -1,0 +1,63 @@
+bench/corpus/smoke/grok-grok/email-outage.md
+  s_005b23fc14fbd9::t_adc5e96d27ca5e 1-5
+bench/scripts/judge.sh
+  s_005b23fc14fbd9::t_bb0ecda362735b 1-84
+  s_005b23fc14fbd9::t_9149f7af2fff4d 85-88
+bench/scripts/pilot.sh
+  s_005b23fc14fbd9::t_09392163c86abd 1-35
+bench/judgments/smoke/lumo-opencode/grok-grok--email-outage.json
+  s_005b23fc14fbd9::t_5848cc07b51365 1
+bench/vale.ini
+  s_005b23fc14fbd9::t_5b8c76d61a7f75 1-8
+bench/judgments/smoke/astra-codex/grok-grok--email-outage.json
+  s_005b23fc14fbd9::t_ec02123ba01c43 1
+bench/scripts/generate.sh
+  s_005b23fc14fbd9::t_56f6c9657e5658 1-58,62-63,65-76
+  s_005b23fc14fbd9::t_e902c39b70e722 59-61,64
+  s_005b23fc14fbd9::t_e0b20494f6302a 77-80
+bench/scripts/report.py
+  s_005b23fc14fbd9::t_d94b726e15f3ae 1-174
+bench/corpus/.vale.ini
+  s_005b23fc14fbd9::t_32423965914546 1-8
+bench/models.yaml
+  s_005b23fc14fbd9::t_b10d65f12ade31 1-28
+bench/judgments/smoke/kimi-claude/grok-grok--email-outage.json
+  s_005b23fc14fbd9::t_8d65fa14f86dad 1
+bench/suites/tells-pilot.json
+  s_005b23fc14fbd9::t_5798f719e7ab9e 1-78
+bench/prompts/judge.md
+  s_005b23fc14fbd9::t_fdecbda6d309a8 3-21
+  s_005b23fc14fbd9::t_a08f39de3331f6 1-2
+bench/corpus/smoke/grok-grok/email-outage.run.json
+  s_005b23fc14fbd9::t_dd6115fc25d7ae 1-13
+bench/results/smoke/2026-09-21T22-27-42Z/confirmed.json
+  s_005b23fc14fbd9::t_235e8c7abf44d3 1-23
+bench/results/smoke/2026-09-21T22-27-42Z/gap.json
+  s_005b23fc14fbd9::t_cac4de91e3cd71 1
+bench/results/smoke/2026-09-21T22-27-42Z/report.md
+  s_005b23fc14fbd9::t_c27cb6228581a3 1-10
+bench/results/smoke/2026-09-21T22-27-42Z/splits.json
+  s_005b23fc14fbd9::t_8df31e1ff5e45a 1-34
+bench/results/smoke/2026-09-21T22-27-42Z/summary.json
+  s_005b23fc14fbd9::t_8796960f523206 1-31
+bench/results/smoke/2026-09-21T22-27-42Z/vale.json
+  s_005b23fc14fbd9::t_d558ff22ca7baf 1-188
+bench/suites/smoke.json
+  s_005b23fc14fbd9::t_1115622df25b2f 1-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5c3d118e914ff257bb8b1d4608059bb4c5377dbf",
+  "prompts": {},
+  "sessions": {
+    "s_005b23fc14fbd9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "44568f17-b8b1-4233-9e9b-cc18f52791bb",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Martin Zeman <N4M3Z@users.noreply.github.com>"
+    }
+  }
+}
