@@ -1,0 +1,21 @@
+bench/corpus/smoke/grok-grok/email-outage.md
+  s_005b23fc14fbd9::t_d0165b822a73ee 3-5
+.gitignore
+  s_005b23fc14fbd9::t_7e5cbe294f6e59 58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "d98eacdee2212e3b5821e090a9310cb0f2775b5f",
+  "prompts": {},
+  "sessions": {
+    "s_005b23fc14fbd9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "44568f17-b8b1-4233-9e9b-cc18f52791bb",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Martin Zeman <N4M3Z@users.noreply.github.com>"
+    }
+  }
+}
