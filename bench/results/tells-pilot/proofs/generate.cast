@@ -1,4 +1,4 @@
-{"version":3,"term":{"cols":80,"rows":24},"timestamp":1790077563,"command":"bash /Users/N4M3Z/Developer/N4M3Z/vale-ai-tells/bench/scripts/generate.sh tells-pilot","env":{"SHELL":"/bin/zsh"}}
+{"version":3,"term":{"cols":80,"rows":24},"timestamp":1790077563,"command":"bash ./bench/scripts/generate.sh tells-pilot","env":{"SHELL":"/bin/zsh"}}
 [52.934, "o", "kimi-run-claude/explainer-raft exit=0 words=997 1790077616s\r\n"]
 [61.221, "o", "kimi-run-claude/readme-cli exit=0 words=663 1790077678s\r\n"]
 [71.300, "o", "kimi-run-claude/runbook-postgres exit=0 words=979 1790077749s\r\n"]

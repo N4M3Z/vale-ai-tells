@@ -1,3 +1,3 @@
-{"version":3,"term":{"cols":80,"rows":24},"timestamp":1790134637,"command":"python3 /Users/N4M3Z/Developer/N4M3Z/vale-ai-tells/bench/scripts/report.py tells-pilot","env":{"SHELL":"/bin/zsh"}}
-[28.145, "o", "/Users/N4M3Z/Developer/N4M3Z/vale-ai-tells/bench/results/tells-pilot/2026-09-23T03-37-17Z\r\n"]
+{"version":3,"term":{"cols":80,"rows":24},"timestamp":1790134637,"command":"python3 ./bench/scripts/report.py tells-pilot","env":{"SHELL":"/bin/zsh"}}
+[28.145, "o", "./bench/results/tells-pilot/2026-09-23T03-37-17Z\r\n"]
 [0.005, "x", "0"]

@@ -1,4 +1,4 @@
-{"version":3,"term":{"cols":80,"rows":24},"timestamp":1790122278,"command":"bash /Users/N4M3Z/Developer/N4M3Z/vale-ai-tells/bench/scripts/judge.sh tells-pilot","env":{"SHELL":"/bin/zsh"}}
+{"version":3,"term":{"cols":80,"rows":24},"timestamp":1790122278,"command":"bash ./bench/scripts/judge.sh tells-pilot","env":{"SHELL":"/bin/zsh"}}
 [0.058, "o", "skip kimi-claude/astra-codex--email-outage\r\n"]
 [0.027, "o", "skip kimi-claude/astra-codex--essay-handwriting\r\n"]
 [0.027, "o", "skip kimi-claude/astra-codex--essay-libraries\r\n"]
