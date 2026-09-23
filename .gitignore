@@ -55,3 +55,4 @@ __pycache__/
 bench/judgments/
 bench/results/*/.superseded/
 bench/corpus/*/.failed-*/
+bench/results/smoke/
