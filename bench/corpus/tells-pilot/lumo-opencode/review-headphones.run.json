@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "review-headphones",
+  "profile": "lumo@opencode",
+  "tool": "opencode",
+  "model_id": "proton-lumo/lumo-max",
+  "started": "2026-09-22T09:36:52Z",
+  "seconds": 66,
+  "exit": 0,
+  "prompt_sha256": "eb494a9bdfd68beef5f7a7a6d37490e80839aa4a21647961a5bfac143baa46f3",
+  "text_sha256": "04328f554b42fb1e99e51b489c0451395ef17e8aae68f4bf8eef05b94901bbaa",
+  "words": 679
+}

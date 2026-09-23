@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "essay-handwriting",
+  "profile": "kimi@claude",
+  "tool": "claude",
+  "model_id": "kimi-k3",
+  "started": "2026-09-22T11:50:24Z",
+  "seconds": 66,
+  "exit": 0,
+  "prompt_sha256": "e3d9273157d557d8d2f5e1451f9f7d2ef3a0a1b50ce52abfcec27112a97dc691",
+  "text_sha256": "af85d2569a2cc0be01032638ccf6a4e7a7a490a31719b2af07a8923674e1ddb6",
+  "words": 970
+}

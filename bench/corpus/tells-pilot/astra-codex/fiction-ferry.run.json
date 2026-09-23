@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "fiction-ferry",
+  "profile": "astra@codex",
+  "tool": "codex",
+  "model_id": "gpt-6-astra",
+  "started": "2026-09-22T12:15:17Z",
+  "seconds": 236,
+  "exit": 0,
+  "prompt_sha256": "5c89149452c37c99cba19e6edde684f509ba49e9460fc09814a68ab368eaaa78",
+  "text_sha256": "b237f965caf3b06b7ad32d32024539b1594435efa6bb22bde246b921e54d3b8c",
+  "words": 1000
+}

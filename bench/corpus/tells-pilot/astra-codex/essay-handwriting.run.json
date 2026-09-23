@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "essay-handwriting",
+  "profile": "astra@codex",
+  "tool": "codex",
+  "model_id": "gpt-6-astra",
+  "started": "2026-09-22T12:06:36Z",
+  "seconds": 170,
+  "exit": 0,
+  "prompt_sha256": "e3d9273157d557d8d2f5e1451f9f7d2ef3a0a1b50ce52abfcec27112a97dc691",
+  "text_sha256": "877b658fc994712b7025bf4f3a00a0f33f9e32535e3a26ce3eeab4fa7f5a9374",
+  "words": 900
+}

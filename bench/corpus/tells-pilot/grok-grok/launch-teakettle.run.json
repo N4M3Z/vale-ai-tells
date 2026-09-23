@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "launch-teakettle",
+  "profile": "grok@grok",
+  "tool": "grok",
+  "model_id": "grok-4.7",
+  "started": "2026-09-22T09:17:29Z",
+  "seconds": 48,
+  "exit": 0,
+  "prompt_sha256": "f898119a212f8625ff47448d951fd65b5de0d9f38aeb9014438d4e2790584a51",
+  "text_sha256": "48eedd973a860abdd3600c8b57d80de910df6979a592582cb588d58b105e87d2",
+  "words": 452
+}

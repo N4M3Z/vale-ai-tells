@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "runbook-postgres",
+  "profile": "astra@codex",
+  "tool": "codex",
+  "model_id": "gpt-6-astra",
+  "started": "2026-09-22T12:00:34Z",
+  "seconds": 170,
+  "exit": 0,
+  "prompt_sha256": "72d57d8793148a4d4ca415a30e5193d5a8c31fdeef41c99c503d2a925783639a",
+  "text_sha256": "233ad9afea4ff7f84db02315cc9e6438e5a0fd74a4966a2b28c06f9e55c06342",
+  "words": 803
+}

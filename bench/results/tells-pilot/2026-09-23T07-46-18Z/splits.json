@@ -1,0 +1,3560 @@
+[
+  {
+    "document": "astra-codex--essay-handwriting",
+    "generator": "astra@codex",
+    "line": 17,
+    "sentence": "For a moment, his hands will follow the decision made by hers.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "For a moment, .* will follow"
+    ],
+    "tells": [
+      "A deliberately resonant final image engineered for closure, the essay-circle ending characteristic of model prose."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--essay-libraries",
+    "generator": "astra@codex",
+    "line": 11,
+    "sentence": "That expense does not settle the question.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "other"
+    ],
+    "regexes": [
+      "\\bdeserves?\\b",
+      "\\bdoes not settle\\b"
+    ],
+    "tells": [
+      "A paragraph opens by saying the previous point did not finish the argument.",
+      "An abstract choice is said to deserve a place, in the essay's repeated 'deserve' pattern."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "astra-codex--essay-libraries",
+    "generator": "astra@codex",
+    "line": 13,
+    "sentence": "Consistency matters because people need to plan visits around jobs, classes, and family responsibilities.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      ",\\s+[^,]+,\\s+(?:and|or)\\s+"
+    ],
+    "tells": [
+      "Jobs, classes, and family duties arrive as another three-part list of life burdens."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "astra-codex--essay-libraries",
+    "generator": "astra@codex",
+    "line": 15,
+    "sentence": "Evening work affects their families, transport, and safety, just as closing times affect library users.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other",
+      "rule-of-three"
+    ],
+    "regexes": [
+      ",\\s+[^,]+,\\s+(?:and|or)\\s+",
+      "\\bmust never become an excuse\\b"
+    ],
+    "tells": [
+      "Three effects on staff are grouped in one list, and the essay keeps grouping things in threes.",
+      "Pay, staffing, and schedules arrive as three matched workplace promises.",
+      "A boundary is worded as a warning that the policy must never become an excuse."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--explainer-raft",
+    "generator": "astra@codex",
+    "line": 13,
+    "sentence": "For example, a cluster with five servers requires three votes, while three servers require two votes.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "staccato"
+    ],
+    "regexes": [
+      "\\d+ \\w+ requires \\d+ \\w+, while \\d+ \\w+ require \\d+ \\w+"
+    ],
+    "tells": [
+      "Repeats a numerical pattern in parallel clauses for clarity, resembling generated examples."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--explainer-raft",
+    "generator": "astra@codex",
+    "line": null,
+    "sentence": "Granting a vote also resets the server's timer for starting elections.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler"
+    ],
+    "regexes": [
+      "also \\w+"
+    ],
+    "tells": [
+      "Uses 'also' to add a secondary effect in a predictable additive pattern."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--explainer-raft",
+    "generator": "astra@codex",
+    "line": 17,
+    "sentence": "That shared server would have to vote for both candidates, which Raft forbids.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "figurative-verb",
+      "over-compression"
+    ],
+    "regexes": [
+      ", which \\w+ forbids",
+      "to establish its \\w+"
+    ],
+    "tells": [
+      "Ends a clause with a terse, authoritative prohibition ('which X forbids').",
+      "Personifies the leader as acting to 'establish authority' rather than simply broadcasting state."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--explainer-raft",
+    "generator": "astra@codex",
+    "line": 23,
+    "sentence": "This tradeoff protects consistency: the cluster can pause progress until enough servers can communicate and establish a legitimate leader again.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "generic-conclusion"
+    ],
+    "regexes": [
+      "(?i)\\bthis \\w+ protects\\b"
+    ],
+    "tells": [
+      "The closing sentence sums up the partition rule as a tradeoff that protects consistency."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 1,
+    "sentence": "It has started disagreeing with me.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "anthropomorphism"
+    ],
+    "regexes": [
+      "(?i)\\bit (has )?(started )?disagree(s|ing)?\\b"
+    ],
+    "tells": [
+      "The bicycle is given human willfulness as the story's central conceit, a hallmark of LLM fiction built on one cute personification."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 9,
+    "sentence": "No. It turns. Then it has another opinion.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "staccato"
+    ],
+    "regexes": [
+      "(\\b\\w{1,6}\\.(\\s|$)){3,}"
+    ],
+    "tells": [
+      "Clipped one-to-five-word fragments chained for deadpan rhythm; this fragment rhythm is sustained through nearly every exchange in the dialogue, not used once for effect."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 63,
+    "sentence": "My stomach moved sideways.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "A literal question answered with a deflecting body-humor quip, the standard witty-deflection beat in generated banter."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 127,
+    "sentence": "Two parts need to stay close. They have become distant.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "anthropomorphism"
+    ],
+    "regexes": [
+      "(?i)\\bthey have (become|grown) (distant|estranged|apart)\\b"
+    ],
+    "tells": [
+      "Mechanical parts recast as a drifting couple, continuing the pattern of describing the bicycle as a relationship in trouble."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 131,
+    "sentence": "It depends how long they have ignored each other.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "anthropomorphism"
+    ],
+    "regexes": [
+      "(?i)\\bignored each other\\b"
+    ],
+    "tells": [
+      "Two headset parts described as mutually snubbing people, extending the personification past the initial joke into an explanation."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 255,
+    "sentence": "Everything has such narrow preferences.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\beverything has (such )?narrow preferences\\b"
+    ],
+    "tells": [
+      "A generalizing aphorism about the fussiness of the world, placed to feel wise rather than to advance the scene."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 217,
+    "sentence": "People say that about many things.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "vague-attribution"
+    ],
+    "regexes": [
+      "(?i)\\bpeople say\\b"
+    ],
+    "tells": [
+      "An unnamed 'people' supplies the authority for a wry generalization, attribution to no one in particular."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 225,
+    "sentence": "Tell him the bicycle declined to identify anyone.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "anthropomorphism"
+    ],
+    "regexes": [
+      "(?i)\\bdeclined to (identify|comment|answer)\\b"
+    ],
+    "tells": [
+      "The bicycle speaks legalese like a discreet witness, another polished personification gag in the same register as the opening conceit."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 193,
+    "sentence": "Because I brake, signal, wear this coat, exist near her school.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\b\\w+, \\w+, \\w+ [a-z ]+, (and )?\\w+\\b"
+    ],
+    "tells": [
+      "An escalating comma list ending on the absurd final item ('exist'), the classic three-plus-punchline list construction."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 187,
+    "sentence": "A qualified expert.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "The dry one-line comeback dismissing a teenager, part of the dialogue's unbroken volley of symmetrical quips where no line is allowed to be merely functional."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 275,
+    "sentence": "It arrives with me.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "figurative-verb"
+    ],
+    "regexes": [
+      "(?i)\\bit arrives with (me|you)\\b"
+    ],
+    "tells": [
+      "A deliberately cryptic-poetic phrasing of 'the bike responds now,' later enshrined on the receipt, the kind of opaque gem generated fiction plants so it can pay off."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 327,
+    "sentence": "Confidence cannot tighten a headset.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bconfidence cannot\\b"
+    ],
+    "tells": [
+      "The story's thesis packaged as an epigram and repeated verbatim a beat later so the reader notices it, the unmistakable quotable-moral move of machine fiction."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 345,
+    "sentence": "Without the committee meeting.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "metaphor-noun"
+    ],
+    "regexes": [
+      "(?i)\\bcommittee meeting\\b"
+    ],
+    "tells": [
+      "Steering play described as a 'committee meeting,' another cute institutional metaphor for mechanical behavior."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 305,
+    "sentence": "People do.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "vague-attribution"
+    ],
+    "regexes": [
+      "(?i)\\bpeople do\\.?\\s*$"
+    ],
+    "tells": [
+      "A two-word rejoinder resting on what unnamed people generally do, the second instance of anonymous-population authority in the dialogue."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 25,
+    "sentence": "It only does it when I am somewhere inconvenient.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bi am\\b"
+    ],
+    "tells": [
+      "The long form \"I am\" stands where spoken English uses \"I'm,\" in a scene that has no contractions at all."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 87,
+    "sentence": "Let us try something.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "vocabulary"
+    ],
+    "regexes": [
+      "(?i)\\blet us\\b"
+    ],
+    "tells": [
+      "\"Let us\" is formal written English for \"Let's,\" and the scene has no contractions at all."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 123,
+    "sentence": "There is movement where there should be none.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "vocabulary"
+    ],
+    "regexes": [
+      "(?i)where there should be none"
+    ],
+    "tells": [
+      "\"Where there should be none\" gives the warning a polished, inverted close."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 143,
+    "sentence": "I must check it first.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "vocabulary"
+    ],
+    "regexes": [
+      "(?i)\\bi must\\b"
+    ],
+    "tells": [
+      "\"I must\" is ceremonial grammar for an ordinary check."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 151,
+    "sentence": "There is a chair.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bthere is\\b"
+    ],
+    "tells": [
+      "The long form \"There is\" stands where spoken English uses \"There's,\" in a scene that has no contractions at all."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 165,
+    "sentence": "I am checking the bearings.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bi am\\b"
+    ],
+    "tells": [
+      "The long form \"I am\" stands where spoken English uses \"I'm,\" in a scene that has no contractions at all."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 175,
+    "sentence": "That does not count.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bdoes not\\b"
+    ],
+    "tells": [
+      "The long form \"does not\" stands where spoken English uses \"doesn't,\" in a scene that has no contractions at all."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 221,
+    "sentence": "I cannot tell you who left it loose.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bcannot\\b"
+    ],
+    "tells": [
+      "The long form \"cannot\" stands where spoken English uses \"can't,\" in a scene that has no contractions at all."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 231,
+    "sentence": "That is unusual.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bthat is\\b"
+    ],
+    "tells": [
+      "The long form \"That is\" stands where spoken English uses \"That's,\" in a scene that has no contractions at all."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 313,
+    "sentence": "Even if I cannot explain?",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bcannot\\b"
+    ],
+    "tells": [
+      "The long form \"cannot\" stands where spoken English uses \"can't,\" in a scene that has no contractions at all."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 319,
+    "sentence": "We can establish that.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "vocabulary"
+    ],
+    "regexes": [
+      "(?i)\\bestablish\\b"
+    ],
+    "tells": [
+      "\"Establish\" is the verb of a written finding for a simple shop check."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 351,
+    "sentence": "There is one more thing.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bthere is\\b"
+    ],
+    "tells": [
+      "The long form \"There is\" stands in a remark spoken English almost always starts with \"There's,\" and the scene has no contractions at all."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 183,
+    "sentence": "Daniel considered this.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "filler"
+    ],
+    "regexes": [
+      "\\b\\w+\\s+considered\\s+(this|that|it)\\.?"
+    ],
+    "tells": [
+      "A placeholder action beat that pauses the scene without adding information; 'considered this' asserts thought without content."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 15,
+    "sentence": "Orange lights stretched across the black water, then broke beneath the wake.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "figurative-verb"
+    ],
+    "regexes": [
+      "(stretched|spilled|bled|danced|broke)\\s+(across|beneath|over)\\s+the\\s+"
+    ],
+    "tells": [
+      "Paired lyrical verbs animating inanimate light, a decorative description pattern common in generated fiction."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 23,
+    "sentence": "\u201cThat seems to be the agreed response.\u201d",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "vocabulary"
+    ],
+    "regexes": [
+      "\\b(?:agreed|expected|appropriate) response\\b"
+    ],
+    "tells": [
+      "The reply names the congratulations as an agreed response, which is abstract talk about the script of the conversation."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 65,
+    "sentence": "Usually when somebody needs me awake.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "The line turns his broken sleep into a compact paradox about being needed."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 73,
+    "sentence": "She had agreed that these things sounded pleasant.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "hedging"
+    ],
+    "regexes": [
+      "\\b(?:sounded|seemed) pleasant\\b"
+    ],
+    "tells": [
+      "Agreed, these things, and pleasant each soften the sentence, so her own wish stays vague."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 115,
+    "sentence": "She cut through the lettering, separating her name from the thanks.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "superficial-ing"
+    ],
+    "regexes": [],
+    "tells": [
+      "The participle explains that the cut divides her name from the thanks."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 123,
+    "sentence": "\u201cAn inefficient arrangement.\u201d",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "vocabulary"
+    ],
+    "regexes": [
+      "\\binefficient arrangement\\b"
+    ],
+    "tells": [
+      "The joke is put in abstract report wording, a second case after agreed response."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 155,
+    "sentence": "\u201cTo sit where nobody needs anything.\u201d",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "The answer states the theme in one balanced line about a place where nobody needs anything."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 181,
+    "sentence": "\u201cI will not miss the rice,\u201d she decided. \u201cBut I might miss knowing.\u201d",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "\\bnot miss\\b.{0,80}\\bmiss\\b"
+    ],
+    "tells": [
+      "She sets aside missing the rice and replaces it with the tidier idea that she might miss knowing."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 185,
+    "sentence": "\u201cI check whether the baby is breathing about twenty times a night.\u201d",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "The breath checks give him a private ritual that matches her worry about being needed at the school."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 211,
+    "sentence": "\u201cThen I had better leave it.\u201d",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "\\bhad better\\b"
+    ],
+    "tells": [
+      "I had better stays in its full form, and the spoken lines throughout the piece never use a contraction."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--launch-teakettle",
+    "generator": "astra@codex",
+    "line": 9,
+    "sentence": "A whistle tells you when the water boils.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism"
+    ],
+    "regexes": [
+      "\\w+ tells you"
+    ],
+    "tells": [
+      "Mechanical signal described as communicative speech act."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "astra-codex--readme-cli",
+    "generator": "astra@codex",
+    "line": 93,
+    "sentence": "**The command reports an unknown harbour.**",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "bold-or-list-overuse"
+    ],
+    "regexes": [
+      "^\\*\\*[^*]+\\.\\*\\*"
+    ],
+    "tells": [
+      "Every entry in the Troubleshooting section opens with a bolded sentence used as a pseudo-heading, a repeated bold-as-structure pattern rather than a single legitimate emphasis."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--readme-cli",
+    "generator": "astra@codex",
+    "line": 27,
+    "sentence": "The first request requires an internet connection.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler"
+    ],
+    "regexes": [
+      "for temporary connection failures",
+      "requires an internet connection"
+    ],
+    "tells": [
+      "States an obvious requirement without adding information.",
+      "Explains the purpose of caching in generic terms."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--readme-cli",
+    "generator": "astra@codex",
+    "line": 31,
+    "sentence": "It selects each next event independently, so a low tide can appear before a high tide.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "over-compression"
+    ],
+    "regexes": [
+      "independently, so"
+    ],
+    "tells": [
+      "Compresses cause and effect into a tight clause."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--readme-cli",
+    "generator": "astra@codex",
+    "line": 55,
+    "sentence": "Watch mode polls immediately, then repeats at the specified interval.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "staccato"
+    ],
+    "regexes": [
+      "[a-z]+ immediately, then [a-z]+"
+    ],
+    "tells": [
+      "Short sequential actions joined by comma and then."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--readme-cli",
+    "generator": "astra@codex",
+    "line": 67,
+    "sentence": "Diagnostics go to standard error, so redirected standard output contains only JSON.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "over-compression"
+    ],
+    "regexes": [
+      "so .* contains only"
+    ],
+    "tells": [
+      "Compresses rationale and result into one clause."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--readme-cli",
+    "generator": "astra@codex",
+    "line": 83,
+    "sentence": "Configuration alone does not enable watch mode.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "hedging"
+    ],
+    "regexes": [
+      "alone does not"
+    ],
+    "tells": [
+      "Adds qualifier 'alone' to soften the statement."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--readme-cli",
+    "generator": "astra@codex",
+    "line": 87,
+    "sentence": "Command-line options override matching configuration values.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler"
+    ],
+    "regexes": [
+      "override matching .* values"
+    ],
+    "tells": [
+      "Generic statement about precedence without specific context."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--readme-cli",
+    "generator": "astra@codex",
+    "line": 89,
+    "sentence": "An invalid configuration stops execution and reports the affected setting.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "staccato"
+    ],
+    "regexes": [
+      "[a-z]+ and [a-z]+"
+    ],
+    "tells": [
+      "Two short actions joined by and."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--readme-cli",
+    "generator": "astra@codex",
+    "line": 106,
+    "sentence": "Code `2` indicates invalid arguments or configuration.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "synonym-cycling"
+    ],
+    "regexes": [],
+    "tells": [
+      "The verb switches to indicates after the two earlier exit-code sentences used means for the same relation."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--runbook-postgres",
+    "generator": "astra@codex",
+    "line": 49,
+    "sentence": "PostgreSQL\u2019s [replication statistics](https://www.postgresql.org/docs/current/monitoring-stats.html#MONITORING-PG-STAT-REPLICATION-VIEW) describe `replay_lag` as recent replay delay, not recovery time.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "negative-parallelism"
+    ],
+    "regexes": [
+      ",\\s+not\\s+[a-z]+\\s[a-z]+\\."
+    ],
+    "tells": [
+      "Second use of the 'X, not Y' contrast in the same paragraph (after 'outstanding WAL volume, not elapsed time'); the repeated definitional contrast is a machine-composition pattern."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--runbook-postgres",
+    "generator": "astra@codex",
+    "line": 55,
+    "sentence": "A bulk import, backup, or reporting workload coincides with the increase.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(\\w+, ){2}(\\w+|\\w+ \\w+) or "
+    ],
+    "tells": [
+      "A triple enumeration joined by commas and or, the classic three-item list rhythm."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--runbook-postgres",
+    "generator": "astra@codex",
+    "line": 79,
+    "sentence": "Errors may identify authentication failures, network failures, or unavailable WAL segments.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(\\w+ failures?, ){2}or "
+    ],
+    "tells": [
+      "Another three-item enumeration in the same two-or-list pattern, adding to the density of triples."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "astra-codex--runbook-postgres",
+    "generator": "astra@codex",
+    "line": 51,
+    "sentence": "Check CPU, storage latency, free space, network errors, WAL production, and database logs.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler"
+    ],
+    "regexes": [
+      "Check [A-Z][^,]+(, [^,]+){3,}"
+    ],
+    "tells": [
+      "An exhaustive checklist enumeration covering every plausible metric at once, a breadth-over-specificity habit typical of generated prose."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "astra-codex--runbook-postgres",
+    "generator": "astra@codex",
+    "line": 97,
+    "sentence": "Record the cause, corrective actions, evidence, and preventive work.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "generic-conclusion"
+    ],
+    "regexes": [
+      "Record the .*, .*, .* and "
+    ],
+    "tells": [
+      "A closing boilerplate inventory of what to record, echoing the opening inventory sentence, the symmetry a model reaches for at document ends."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "grok-grok--email-outage",
+    "generator": "grok@grok",
+    "line": 9,
+    "sentence": "Here is what you should expect.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "filler"
+    ],
+    "regexes": [
+      "\\bhere (is|'s) what (you|to)\\b"
+    ],
+    "tells": [
+      "A signpost sentence announcing that information follows, adding no content of its own."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--email-outage",
+    "generator": "grok@grok",
+    "line": 13,
+    "sentence": "Thank you for your patience.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "generic-conclusion"
+    ],
+    "regexes": [
+      "\\bthank you for your (patience|understanding|cooperation)\\b"
+    ],
+    "tells": [
+      "A stock closing courtesy that carries no specific information about the situation."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "grok-grok--essay-handwriting",
+    "generator": "grok@grok",
+    "line": 9,
+    "sentence": "One of those letters said I had stood in the doorway of his old apartment after the movers left and could not remember which wall the bookshelf had used.",
+    "judges": [
+      "astra-codex"
+    ],
+    "categories": [
+      "anthropomorphism"
+    ],
+    "regexes": [
+      "(?i)\\bbookshelf\\s+(?:had\\s+)?used\\b"
+    ],
+    "tells": [
+      "The sentence gives the bookshelf agency by saying it used a wall."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "grok-grok--explainer-raft",
+    "generator": "grok@grok",
+    "line": 25,
+    "sentence": "The candidate's term is at least the server's term.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "staccato"
+    ],
+    "regexes": [
+      "^(the \\w+('s)? (term|log|vote) (is|has|passes))"
+    ],
+    "tells": [
+      "One of a run of subject-less checklist fragments presented as separate one-line sentences, a list disguised as prose."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "grok-grok--explainer-raft",
+    "generator": "grok@grok",
+    "line": 7,
+    "sentence": "A partitioned server can skip terms, from 4 to 7, on the next message it accepts.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "false-range"
+    ],
+    "regexes": [
+      "/from \\d+ to \\d+/i"
+    ],
+    "tells": [
+      "Arbitrary numeric range presented without justification or context."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "grok-grok--explainer-raft",
+    "generator": "grok@grok",
+    "line": 15,
+    "sentence": "For example, the paper uses a random draw from 150 to 300 milliseconds.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "false-range"
+    ],
+    "regexes": [
+      "/from \\d+ to \\d+/i"
+    ],
+    "tells": [
+      "Specific numeric range that may be accurate but reads as a fabricated detail typical of model hallucination patterns."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-dialogue-repair",
+    "generator": "grok@grok",
+    "line": 51,
+    "sentence": "Tell me the hill.",
+    "judges": [
+      "astra-codex"
+    ],
+    "categories": [
+      "over-compression"
+    ],
+    "regexes": [],
+    "tells": [
+      "The request removes the words that would explain what information about the hill matters."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-dialogue-repair",
+    "generator": "grok@grok",
+    "line": 73,
+    "sentence": "Then I'll say it badly and you can sand it down.",
+    "judges": [
+      "astra-codex"
+    ],
+    "categories": [
+      "figurative-verb"
+    ],
+    "regexes": [],
+    "tells": [
+      "The dialogue adds a woodworking metaphor to its repeated figurative descriptions of speech."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-dialogue-repair",
+    "generator": "grok@grok",
+    "line": 103,
+    "sentence": "The quiet was not bravery.",
+    "judges": [
+      "astra-codex"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "The reply repeats the previous metaphor as a polished verdict, making both speakers share the same rhetorical style."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-dialogue-repair",
+    "generator": "grok@grok",
+    "line": 69,
+    "sentence": "I didn't say fade because if I pick the wrong word, you fix the wrong part and I pay for the sentence.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "Three-beat escalation (wrong word, wrong part, pay for the sentence) landing on a polished metaphor."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-dialogue-repair",
+    "generator": "grok@grok",
+    "line": 71,
+    "sentence": "You pay for parts and for time. The sentence is how I choose.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "Epigrammatic button that answers the previous line point-for-point, extending the same metaphor with aphoristic symmetry."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-dialogue-repair",
+    "generator": "grok@grok",
+    "line": 93,
+    "sentence": "Fine means she got it back to you.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "Definitional one-liner epigram (\"X means Y\") delivered as a closing beat."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-dialogue-repair",
+    "generator": "grok@grok",
+    "line": 95,
+    "sentence": "When it's a toaster I can say flame. When it's a bike I only have a feeling, and a feeling sounds like I want you to repair my nerves.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "\\bwhen it'?s a\\b.+\\bwhen it'?s a\\b"
+    ],
+    "tells": [
+      "Mirrored \"When it's X / When it's Y\" antithesis resolving into a quotable metaphor (\"repair my nerves\"), a composed symmetry unlikely in spontaneous speech."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-dialogue-repair",
+    "generator": "grok@grok",
+    "line": 107,
+    "sentence": "He squeezed the lever once, the way a person tests a door that might be someone else's.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "\\bthe way a person\\b"
+    ],
+    "tells": [
+      "Ornamental \"the way a person Xs\" simile that announces its own cleverness, a stock move in generated literary prose."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-dialogue-repair",
+    "generator": "grok@grok",
+    "line": 113,
+    "sentence": "You led with a noise. We got here.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "staccato"
+    ],
+    "regexes": [],
+    "tells": [
+      "Part of a dense run of clipped two-to-five-word sentences (\"Good.\" / \"I know.\" / \"The old tick is protected.\" / \"We got here.\") used as rhythmic buttons throughout the piece; the density of the device is the tell, not any single fragment."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-ferry",
+    "generator": "grok@grok",
+    "line": 39,
+    "sentence": "Cal nodded as if the shape was familiar.",
+    "judges": [
+      "astra-codex"
+    ],
+    "categories": [
+      "metaphor-noun"
+    ],
+    "regexes": [],
+    "tells": [
+      "The abstract noun \"shape\" substitutes for a specific shared experience."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-ferry",
+    "generator": "grok@grok",
+    "line": 3,
+    "sentence": "The visit ran long.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "false-range",
+      "rule-of-three",
+      "staccato"
+    ],
+    "regexes": [
+      "between one \\w+ and the next",
+      "then the [^,.]{3,50}, then the"
+    ],
+    "tells": [
+      "Bare three-word punch sentence; the piece leans on this clipped rhythm throughout (\"Cal lifted a hand. The door shut.\", \"In January.\", \"Not most nights.\"), a density of staccato that reads as manufactured restraint.",
+      "Three-item escalating list built on a repeated \"then the\" scaffold.",
+      "Pseudo-concrete time span (\"between one Tuesday and the next\") that sounds specific but denotes nothing measurable."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-ferry",
+    "generator": "grok@grok",
+    "line": 13,
+    "sentence": "The city drew thin, a line of sodium lights.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "figurative-verb"
+    ],
+    "regexes": [],
+    "tells": [
+      "Aestheticized intransitive verb (\"drew thin\") doing poetic work a plainer verb would not, a typical lyric-compression move."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-ferry",
+    "generator": "grok@grok",
+    "line": 37,
+    "sentence": "We do better in the kitchen than on the phone.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "\\bdo better \\w+ than \\w+"
+    ],
+    "tells": [
+      "Dialogue delivered as a balanced aphorism; the exchange is saturated with such epigrams (\"It helps that she does it.\", \"She filed that under suggestions.\"), so every character speaks in quotable thesis lines."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-ferry",
+    "generator": "grok@grok",
+    "line": 85,
+    "sentence": "It was a Tuesday.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "Isolated specificity detail performing authenticity; it also echoes the earlier \"one Tuesday and the next\", forming a self-conscious motif."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-ferry",
+    "generator": "grok@grok",
+    "line": 113,
+    "sentence": "If your father is still up, tell him the porch light can rest.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "anthropomorphism"
+    ],
+    "regexes": [
+      "\\b(the )?\\w+ can rest\\b"
+    ],
+    "tells": [
+      "Grants the porch light the human ability to rest, closing the story's lamp motif with a personifying flourish."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-ferry",
+    "generator": "grok@grok",
+    "line": 115,
+    "sentence": "She watched the dock lights draw close.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "Final sentence mirrors the opening diction (\"the city drew thin\"), a manufactured frame that bookends the piece with matching lyric verbs."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--fiction-ferry",
+    "generator": "grok@grok",
+    "line": 11,
+    "sentence": "He sat and set a hard hat beside his boot, crown down, so it would not roll.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "superficial-ing"
+    ],
+    "regexes": [
+      ", (?:crown|face|lid) down, so it would not"
+    ],
+    "tells": [
+      "Symbol-laden physical detail that reads as an inserted characterization beat typical of model fiction; generic and single, hence low."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "grok-grok--launch-teakettle",
+    "generator": "grok@grok",
+    "line": 5,
+    "sentence": "The steel is bare.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "staccato"
+    ],
+    "regexes": [],
+    "tells": [
+      "Part of a run of clipped three-to-six-word declaratives ('There is no plastic on the kettle. The steel is bare.') that creates a choppy, mannered rhythm."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--readme-cli",
+    "generator": "grok@grok",
+    "line": 104,
+    "sentence": "**The shell cannot find the command.** The install directory is not on `PATH`.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "bold-or-list-overuse"
+    ],
+    "regexes": [
+      "^\\*\\*[^*]+\\*\\*\\."
+    ],
+    "tells": [
+      "The Troubleshooting section is a run of paragraphs that each open with a bolded symptom phrase, a density of bold-led list items rather than a single emphatic use."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--review-headphones",
+    "generator": "grok@grok",
+    "line": 13,
+    "sentence": "Battery life is the figure Corvid prints largest: 36 hours with noise cancelling on, 48 with it off.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "colon-drumroll"
+    ],
+    "regexes": [
+      "\\b(is|are|has|have)\\s+[^:;.]{3,40}:\\s"
+    ],
+    "tells": [
+      "Colon staging a reveal; the same device recurs across the text ('more like a studio sample than a store product:', 'the usual checks:', 'Clamp is moderate:', 'Corvid's app is plain:', 'They are a fair deal:')."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--review-headphones",
+    "generator": "grok@grok",
+    "line": 7,
+    "sentence": "Noise cancelling is competent rather than class-leading.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "hedging"
+    ],
+    "regexes": [
+      "(?i)\\b\\w+ rather than \\w+\\b"
+    ],
+    "tells": [
+      "The 'X rather than Y' grading formula hedges the judgment with a neat antithesis instead of a plain verdict."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--runbook-postgres",
+    "generator": "grok@grok",
+    "line": 1,
+    "sentence": "The primary can still be healthy.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "staccato"
+    ],
+    "regexes": [],
+    "tells": [
+      "The document leans on a dense run of very short one-clause declaratives (this sentence plus 'Do not promote a replica because this alert fired.', 'Read the two results together.', 'Lag should fall without a restart.', 'Do not drop the replication slot.', 'You do not need a root cause to escalate.') that manufacture urgency through rhythm rather than content."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--runbook-postgres",
+    "generator": "grok@grok",
+    "line": 77,
+    "sentence": "You are not sure which host is the primary. Do not promote, do not drop a slot, and do not restart the primary.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      "do not \\w[^,.]{0,30}, do not \\w[^,.]{0,30}, and do not"
+    ],
+    "tells": [
+      "An anaphoric triple of negated imperatives ('Do not X, do not Y, and do not Z') arranged for rhetorical closure rather than because three distinct prohibitions were needed at this point."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "grok-grok--runbook-postgres",
+    "generator": "grok@grok",
+    "line": 66,
+    "sentence": "A full primary disk is an outage, and a rebuild is slower than catch-up.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "over-compression"
+    ],
+    "regexes": [],
+    "tells": [
+      "A balanced aphoristic contrast ('X is an outage, and Y is slower than Z') that compresses two warnings into a quotable maxim, a rhetorical shape common in generated prose."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "kimi-claude--email-outage",
+    "generator": "kimi@claude",
+    "line": 9,
+    "sentence": "Orders are now being picked, packed, and dispatched in the order they were received.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      "\\b\\w+ed, \\w+ed, and \\w+ed\\b"
+    ],
+    "tells": [
+      "Alliterative triple of participle verbs, a stock machine cadence."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "kimi-claude--explainer-raft",
+    "generator": "kimi@claude",
+    "line": 57,
+    "sentence": "Candidates also include their last log index and term in the `RequestVote` RPC.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler"
+    ],
+    "regexes": [
+      "\\balso includes?\\b"
+    ],
+    "tells": [
+      "\"also\" adds mild padding to a topic shift."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "kimi-claude--explainer-raft",
+    "generator": "kimi@claude",
+    "line": 55,
+    "sentence": "The majority requirement is the safety core of Raft: two majorities in the same term must overlap in at least one server, and that server can vote only once, so two leaders cannot win the same term.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "colon-drumroll"
+    ],
+    "regexes": [
+      "\\bis the \\w+ core of\\b"
+    ],
+    "tells": [
+      "Colon announces a grand characterization before an explanation."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "kimi-claude--explainer-raft",
+    "generator": "kimi@claude",
+    "line": 35,
+    "sentence": "Transitions happen only through timeouts and RPCs, never through some external coordinator.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "(?i)only through [^.]{0,80}never through"
+    ],
+    "tells": [
+      "The real mechanism and a negated alternative are set in matching 'through' phrases."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "kimi-claude--explainer-raft",
+    "generator": "kimi@claude",
+    "line": 67,
+    "sentence": "Putting it together",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "generic-conclusion"
+    ],
+    "regexes": [
+      "(?i)putting it together"
+    ],
+    "tells": [
+      "A stock heading announces a recap instead of naming a new topic."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-dialogue-repair",
+    "generator": "kimi@claude",
+    "line": null,
+    "sentence": "\"Sand doesn't help. Falls don't help. Your brother-in-law's enthusiasm didn't help.\"",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      "\\w+ doesn'?t help\\.\\s+\\w+ doesn'?t help\\."
+    ],
+    "tells": [
+      "Three parallel clauses with an escalating third item, a rhythm machine prose uses for punchlines."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-dialogue-repair",
+    "generator": "kimi@claude",
+    "line": null,
+    "sentence": "\"You might have a whole percussion section in here.\"",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "metaphor-noun"
+    ],
+    "regexes": [
+      "percussion section"
+    ],
+    "tells": [
+      "Orchestral metaphor that converts the two noises into a tidy witty image; paired with 'free bonus track' nearby it reads as a crafted humor beat."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-dialogue-repair",
+    "generator": "kimi@claude",
+    "line": null,
+    "sentence": "\"It'll be the quietest ride of your life.\"",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "figurative-verb"
+    ],
+    "regexes": [
+      "the \\w+est \\w+ of your life"
+    ],
+    "tells": [
+      "Superlative flourish that polishes the reassurance into a quotable line; human shop talk would more likely understate."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-dialogue-repair",
+    "generator": "kimi@claude",
+    "line": null,
+    "sentence": "\"Tick versus knock, worse uphill, maybe left turns.\"",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      "\\w+ versus \\w+, \\w+ \\w+, (maybe|perhaps) \\w+"
+    ],
+    "tells": [
+      "Three-item recap compressed into a rhythmically balanced summary, tidier than spoken recall."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-dialogue-repair",
+    "generator": "kimi@claude",
+    "line": 105,
+    "sentence": "\"Oh. Whenever it feels like it. It's got a mind of its own.\"",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism"
+    ],
+    "regexes": [
+      "mind of its own"
+    ],
+    "tells": [
+      "Clich\u00e9d personification handed to the customer as filler quip; the mechanic's reply then bounces off it, marking it as a planted setup."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-dialogue-repair",
+    "generator": "kimi@claude",
+    "line": 67,
+    "sentence": "Bumps, drops, a roommate backing over it with a car?",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\b\\w+,\\s+\\w+,\\s+a\\s+\\w+(?:\\s+\\w+){3,}"
+    ],
+    "tells": [
+      "A three-part list saves a long, odd image for the final beat."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-dialogue-repair",
+    "generator": "kimi@claude",
+    "line": 75,
+    "sentence": "Order matters less than you'd think.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)less than you(?:'d| would) think"
+    ],
+    "tells": [
+      "The line hands over a general rule about order, cushioned by a soft correction."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-dialogue-repair",
+    "generator": "kimi@claude",
+    "line": 129,
+    "sentence": "Tick versus knock, worse uphill, maybe left turns.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "Three separate riding details are packed into one short diagnostic list."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-dialogue-repair",
+    "generator": "kimi@claude",
+    "line": 151,
+    "sentence": "It'll be the quietest ride of your life.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bthe [a-z]+est\\s+[a-z]+\\s+of your life\\b"
+    ],
+    "tells": [
+      "The stock superlative of your life turns a repair into an absolute promise."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": null,
+    "sentence": "\"Cancel the paper. Find the will. It's obscene.\"",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "staccato"
+    ],
+    "regexes": [
+      "Cancel the \\w+\\. Find the \\w+\\."
+    ],
+    "tells": [
+      "Two-beat fragment list followed by a punch adjective, a compressed cadence models use to signal numbness."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 1,
+    "sentence": "Ruth had chosen to ride up top because her car smelled of the casserole dish she had forgotten in the trunk for two days, and the cold was a better companion than that.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "anthropomorphism"
+    ],
+    "regexes": [
+      "better companion"
+    ],
+    "tells": [
+      "The cold is cast as a companion, weather given a person-like social role."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 5,
+    "sentence": "Sitting beside a stranger at midnight on the water was the kind of thing her daughter would call unnecessary.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "filler"
+    ],
+    "regexes": [
+      "the kind of"
+    ],
+    "tells": [
+      "The phrase \"the kind of thing\" is a filler frame that supplies a judgment by assigning it to her daughter."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 11,
+    "sentence": "Ahead, the sound was black except for a scatter of lights on the far shore, none of them moving.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "The sentence calls the sound black and then makes an exception for lights, mixing ear and eye in one claim."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 21,
+    "sentence": "A small exhale that might have been a laugh.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "hedging"
+    ],
+    "regexes": [
+      "might have been a"
+    ],
+    "tells": [
+      "The breath is hedged into something that only might have been a laugh."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 29,
+    "sentence": "She said it carefully, like a phrase she had been practicing all day and still didn't trust.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "The spoken thanks is glossed at once by a simile about practice and distrust, the same explanatory habit as the cup and the deck."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 33,
+    "sentence": "Her eyes were red-rimmed but dry.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "vocabulary"
+    ],
+    "regexes": [
+      "red-rimmed but"
+    ],
+    "tells": [
+      "Red-rimmed is a stock sign of recent crying, paired in the same phrase with dry."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 45,
+    "sentence": "The woman laughed, a short, cracked sound, and it seemed to surprise her.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "hedging"
+    ],
+    "regexes": [
+      "seemed to surprise"
+    ],
+    "tells": [
+      "The laugh is hedged with seemed and treated as a surprise to the woman herself."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 49,
+    "sentence": "Because the kind ones are the worst.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "the \\w+ ones are the worst"
+    ],
+    "tells": [
+      "Kindness is flipped into harm by a one-line paradox."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 55,
+    "sentence": "Both things.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "\\bboth things\\b"
+    ],
+    "tells": [
+      "The two-word line names the double agreement, keeping both sides at once."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 59,
+    "sentence": "Flat calm, twenty minutes out, green as a pea.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "green as a"
+    ],
+    "tells": [
+      "Seasick color arrives through a slightly scrambled stock comparison, green as a pea."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 65,
+    "sentence": "Take an afternoon and just stand in it.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "negative-parallelism",
+      "other",
+      "over-compression"
+    ],
+    "regexes": [],
+    "tells": [
+      "Her image of standing in the kitchen is handed back as an instruction.",
+      "The advice opens by denying that it fixes anything, the first half of a consolation pivot.",
+      "The promise compresses down to a vague possession of it."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 73,
+    "sentence": "You just find yourself on the last ferry.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "over-compression"
+    ],
+    "regexes": [],
+    "tells": [
+      "The literal crossing is compressed into a figure for how this kind of loss actually moves."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 85,
+    "sentence": "She drove off into the sparse midnight traffic and followed the taillights ahead of her over the rise of the coast road, and for a while one particular pair of them stayed in front, all the way to the hospital turnoff, where they went one way and she went the other.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "generic-conclusion"
+    ],
+    "regexes": [
+      "one way and .{0,40}the other"
+    ],
+    "tells": [
+      "The closing image divides the two cars at the hospital turnoff, a balanced parting that diagrams the end."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "kimi-claude--launch-teakettle",
+    "generator": "kimi@claude",
+    "line": 7,
+    "sentence": "The handle is the part we argued about most.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "we (argued|debated|fought) about"
+    ],
+    "tells": [
+      "Manufactured authenticity anecdote ('we argued about most') that product copy from models inserts to simulate human deliberation."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "kimi-claude--launch-teakettle",
+    "generator": "kimi@claude",
+    "line": 17,
+    "sentence": "Replacement lids, handles, and filters will be sold separately, so a dropped lid never means a new kettle.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "\\bnever means\\b"
+    ],
+    "tells": [
+      "\u201cNever means\u201d compresses the spare-parts policy into a tidy absolute slogan."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--launch-teakettle",
+    "generator": "kimi@claude",
+    "line": 19,
+    "sentence": "Write to us at hello@marlowkitchen.example and a person will reply.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "\\ba (?:real )?(?:person|human) will (?:reply|respond)\\b"
+    ],
+    "tells": [
+      "The sign-off stresses that a person will answer, a small performed assurance of human contact."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--review-headphones",
+    "generator": "kimi@claude",
+    "line": 25,
+    "sentence": "That puts the Q3 ahead of several competitors that cost twice as much.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "vague-attribution"
+    ],
+    "regexes": [
+      "several competitors"
+    ],
+    "tells": [
+      "It claims a lead over several unnamed competitors at twice the price."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "kimi-claude--runbook-postgres",
+    "generator": "kimi@claude",
+    "line": 24,
+    "sentence": "Compare `sent_lsn` against `replay_lsn`.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "figurative-verb"
+    ],
+    "regexes": [
+      "\\bcompare\\s+[^,]+\\s+against\\b"
+    ],
+    "tells": [
+      "Uses 'against' figuratively for comparison rather than literal spatial opposition."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "kimi-claude--runbook-postgres",
+    "generator": "kimi@claude",
+    "line": 51,
+    "sentence": "Large `lag_bytes` during a bulk load, backfill, or index build points to cause: write burst exceeds apply capacity.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      "[^,]+,\\s+[^,]+,\\s+or\\s+[^,]+"
+    ],
+    "tells": [
+      "Lists exactly three items in a series, a common ML preference for triadic enumeration."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "kimi-claude--runbook-postgres",
+    "generator": "kimi@claude",
+    "line": 75,
+    "sentence": "Common entries are a dropped connection or a slot removed by mistake.",
+    "judges": [
+      "lumo-opencode"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [],
+    "tells": [
+      "Lists exactly two items where more would be realistic; ML often truncates enumerations to small fixed counts."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "kimi-claude--runbook-postgres",
+    "generator": "kimi@claude",
+    "line": 3,
+    "sentence": "**Alert**: `pg_replication_lag_seconds > 60` for more than 5 minutes on any streaming replica in the `meridian` production cluster at Northwind Logistics.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "bold-or-list-overuse"
+    ],
+    "regexes": [],
+    "tells": [
+      "Bold labels stack up across the header, every numbered step, and a Confirm/Fix/Prevent block under each cause, and each Fix list holds exactly three items."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--runbook-postgres",
+    "generator": "kimi@claude",
+    "line": 89,
+    "sentence": "Wait, if the burst is short and finite.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "figurative-verb",
+      "filler"
+    ],
+    "regexes": [
+      "lag drains",
+      "short and finite"
+    ],
+    "tells": [
+      "Short and finite sit side by side as a polished pair for one idea.",
+      "The verb drains pictures lag as a liquid leaving a container."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "kimi-claude--runbook-postgres",
+    "generator": "kimi@claude",
+    "line": 91,
+    "sentence": "If the replica disk is the bottleneck (check `iostat -x 5`, utilization above 90 percent), move WAL replay pressure by adding memory or faster storage at the next maintenance window.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "figurative-verb"
+    ],
+    "regexes": [
+      "move .{0,40}pressure"
+    ],
+    "tells": [
+      "The verb move treats WAL replay pressure as a physical load the operator can shift."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "kimi-claude--runbook-postgres",
+    "generator": "kimi@claude",
+    "line": 100,
+    "sentence": "This points at the primary, not the replicas.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "negative-parallelism"
+    ],
+    "regexes": [
+      ", not the \\w+"
+    ],
+    "tells": [
+      "A contrastive pair sets the primary against the replicas in the same breath."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--email-outage",
+    "generator": "lumo@opencode",
+    "line": 5,
+    "sentence": "What happened",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)^what (?:happened|we(?:'ve| have) done|to expect)$"
+    ],
+    "tells": [
+      "Three formulaic headings \u2014 What happened, What we've done, and What to expect \u2014 carve this short note into a stock incident-email scaffold."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--email-outage",
+    "generator": "lumo@opencode",
+    "line": 9,
+    "sentence": "What we've done",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)^what (?:happened|we(?:'ve| have) done|to expect)$"
+    ],
+    "tells": [
+      "Three formulaic headings \u2014 What happened, What we've done, and What to expect \u2014 carve this short note into a stock incident-email scaffold."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--email-outage",
+    "generator": "lumo@opencode",
+    "line": 13,
+    "sentence": "What to expect",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)^what (?:happened|we(?:'ve| have) done|to expect)$"
+    ],
+    "tells": [
+      "Three formulaic headings \u2014 What happened, What we've done, and What to expect \u2014 carve this short note into a stock incident-email scaffold."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--email-outage",
+    "generator": "lumo@opencode",
+    "line": 19,
+    "sentence": "This outage was on us, not the couriers, and we've since added a backup process so a single system fault can't stall orders like this again.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "generic-conclusion",
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "(?i),\\s+not\\s+the\\s+\\w+",
+      "(?i)\\ba single\\b.{0,80}\\bagain\\b"
+    ],
+    "tells": [
+      "The clause draws a neat us-not-them contrast that pins the outage on the company and clears the couriers.",
+      "A purpose clause wraps the incident up by promising this kind of fault is now impossible."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--email-outage",
+    "generator": "lumo@opencode",
+    "line": 21,
+    "sentence": "Thank you for your patience, and happy reading.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "generic-conclusion"
+    ],
+    "regexes": [
+      "(?i)thank you for your \\w+, and happy \\w+"
+    ],
+    "tells": [
+      "A cheerful stock sign-off is joined to a patience thanks at the end of a delay apology."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "lumo-opencode--explainer-raft",
+    "generator": "lumo@opencode",
+    "line": 47,
+    "sentence": "Sometimes the race still ties.",
+    "judges": [
+      "astra-codex"
+    ],
+    "categories": [
+      "metaphor-noun"
+    ],
+    "regexes": [],
+    "tells": [
+      "The sentence extends the sports metaphor from the previous paragraph into another compact slogan."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "lumo-opencode--explainer-raft",
+    "generator": "lumo@opencode",
+    "line": 5,
+    "sentence": "The cast of characters",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "metaphor-noun"
+    ],
+    "regexes": [
+      "cast of characters"
+    ],
+    "tells": [
+      "Uses the stock theater metaphor 'cast of characters' as a section heading for a list of server states, a common LLM explainer device."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--explainer-raft",
+    "generator": "lumo@opencode",
+    "line": 9,
+    "sentence": "**Follower**: the default state.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "bold-or-list-overuse"
+    ],
+    "regexes": [
+      "^\\s*[-*]\\s+\\*\\*[^*\\n]+\\*\\*[.:]"
+    ],
+    "tells": [
+      "Every list in the document (states, election outcomes, safety rules) leads each bullet with a bolded term, a persistent bold-lead formatting habit rather than a single emphasis."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--explainer-raft",
+    "generator": "lumo@opencode",
+    "line": 27,
+    "sentence": "What happens when the leader dies or becomes unreachable?",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "filler"
+    ],
+    "regexes": [
+      "(?i)\\bwhat happens when\\b[^?]{0,120}\\?"
+    ],
+    "tells": [
+      "A rhetorical question in a textbook voice stalls before the explanation."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--explainer-raft",
+    "generator": "lumo@opencode",
+    "line": 35,
+    "sentence": "**It wins the election.**",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "bold-or-list-overuse"
+    ],
+    "regexes": [],
+    "tells": [
+      "Bold labels recur on roles, outcomes, rules, and defined terms, a glossary density past a single emphasis."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--explainer-raft",
+    "generator": "lumo@opencode",
+    "line": 49,
+    "sentence": "Each then starts a *new* election: increment the term, vote for self, solicit votes.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "over-compression"
+    ],
+    "regexes": [
+      "(?i):\\s*[a-z]+(?: [a-z]+){1,3}, [a-z]+(?: [a-z]+){1,3}, [a-z]+(?: [a-z]+){0,3}"
+    ],
+    "tells": [
+      "Three bare verb fragments after the colon squeeze the steps into a telegram."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--fiction-dialogue-repair",
+    "generator": "lumo@opencode",
+    "line": 41,
+    "sentence": "Time moves weird.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "filler"
+    ],
+    "regexes": [
+      "\\btime moves weird\\b"
+    ],
+    "tells": [
+      "Vague quirky filler line inserted to mimic casual human speech without adding information."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "lumo-opencode--fiction-dialogue-repair",
+    "generator": "lumo@opencode",
+    "line": 59,
+    "sentence": "\"Then you fixed it by touching it. It knows.\"",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "anthropomorphism"
+    ],
+    "regexes": [
+      "\\bit knows\\.\\s*$"
+    ],
+    "tells": [
+      "Two-beat deadpan anthropomorphism of the bike, a patterned punchline construction."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--fiction-dialogue-repair",
+    "generator": "lumo@opencode",
+    "line": 95,
+    "sentence": "'Haunted door' is going in my notebook.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "The exit line files the story's own cute phrase in a notebook and underlines the metaphor."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--fiction-ferry",
+    "generator": "lumo@opencode",
+    "line": 3,
+    "sentence": "The man sat three rows behind her, near the door, with a duffel bag between his knees like a dog he was afraid would run off.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "like a \\w+ (he|she|it) (was|had been) afraid",
+      "the color of an? (old|faded|yellowed) photograph"
+    ],
+    "tells": [
+      "Extended whimsical simile in a scene-setting beat; the story averages close to one elaborated simile per paragraph, which is a density tell.",
+      "Resonant color simile that names no actual color, a stock machine-fiction image."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--fiction-ferry",
+    "generator": "lumo@opencode",
+    "line": 5,
+    "sentence": "That was how it happened. No mystery to it.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "staccato"
+    ],
+    "regexes": [],
+    "tells": [
+      "Clipped fragment used for narrative authority; the text leans on this device throughout (\"They sat with that.\", \"A secret. A letter.\", \"Just coolant.\", \"Ruth.\"), and the density is the tell."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "lumo-opencode--fiction-ferry",
+    "generator": "lumo@opencode",
+    "line": 27,
+    "sentence": "It's archaeological work, accounting.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "metaphor-noun"
+    ],
+    "regexes": [
+      "it'?s (archaeological|forensic|detective) work"
+    ],
+    "tells": [
+      "An ordinary job is redefined through a clever domain metaphor, the aphoristic-conceit pattern of machine dialogue."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--fiction-ferry",
+    "generator": "lumo@opencode",
+    "line": 43,
+    "sentence": "He said it with the particular weariness of a man who has already checked in online.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "the particular \\w+ of a (man|woman|person) who"
+    ],
+    "tells": [
+      "The \"particular X of a man who\" formula capped with a wry modern detail, a recognizable machine character-sketch construction."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "lumo-opencode--fiction-ferry",
+    "generator": "lumo@opencode",
+    "line": 81,
+    "sentence": "The ferry's horn sounded once, fat and low, announcing them to nobody.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "superficial-ing"
+    ],
+    "regexes": [
+      "\\w+ing (\\w+ )?to (nobody|no one)\\b"
+    ],
+    "tells": [
+      "Trailing participle that assigns poetic significance (\"to nobody\") to a mechanical event."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--launch-teakettle",
+    "generator": "lumo@opencode",
+    "line": 3,
+    "sentence": "Today we're launching the Marlow, a stovetop kettle we've spent two years getting right.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "filler"
+    ],
+    "regexes": [
+      "spent \\w+ (years|months) (getting|perfecting|crafting)"
+    ],
+    "tells": [
+      "Unverifiable development-effort claim used as a credibility warm-up, a standard launch-post opener."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--launch-teakettle",
+    "generator": "lumo@opencode",
+    "line": 13,
+    "sentence": "Every Marlow is inspected before it ships, boiled once, dried, and boxed in recycled cardboard with zero foam.",
+    "judges": [
+      "kimi-claude"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      "\\b\\w+ed\\b[^.]*,\\s*\\w+ed[^.]*,\\s*\\w+ed,\\s*and\\s*\\w+ed"
+    ],
+    "tells": [
+      "Compressed four-beat participle stack that lists process steps as a rhythm rather than as information."
+    ],
+    "confidence": [
+      "low"
+    ]
+  },
+  {
+    "document": "lumo-opencode--readme-cli",
+    "generator": "lumo@opencode",
+    "line": 53,
+    "sentence": "Check one harbour, wherever you are:",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bwherever you are\\b"
+    ],
+    "tells": [
+      "A cozy place-phrase pads the example label."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--readme-cli",
+    "generator": "lumo@opencode",
+    "line": 70,
+    "sentence": "`--format json` \u2014 machine-readable output for scripts.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "em-dash"
+    ],
+    "regexes": [],
+    "tells": [
+      "Em dashes recur as the hinge between a label and its gloss across the options, settings, and troubleshooting entries."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--readme-cli",
+    "generator": "lumo@opencode",
+    "line": 71,
+    "sentence": "`--window 12h` \u2014 extend the horizon from the default 6 hours to 12.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "em-dash"
+    ],
+    "regexes": [],
+    "tells": [
+      "Em dashes recur as the hinge between a label and its gloss across the options, settings, and troubleshooting entries."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--readme-cli",
+    "generator": "lumo@opencode",
+    "line": 72,
+    "sentence": "`--no-color` \u2014 plain output for logging or cron jobs.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "em-dash"
+    ],
+    "regexes": [],
+    "tells": [
+      "Em dashes recur as the hinge between a label and its gloss across the options, settings, and troubleshooting entries."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--readme-cli",
+    "generator": "lumo@opencode",
+    "line": null,
+    "sentence": "`timezone` \u2014 \"local\", \"utc\", or an IANA name such as \"America/Halifax\".",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "em-dash"
+    ],
+    "regexes": [],
+    "tells": [
+      "Em dashes recur as the hinge between a label and its gloss across the options, settings, and troubleshooting entries."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--readme-cli",
+    "generator": "lumo@opencode",
+    "line": 95,
+    "sentence": "`cache_minutes` \u2014 how long downloaded tide tables stay valid on disk.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "em-dash"
+    ],
+    "regexes": [],
+    "tells": [
+      "Em dashes recur as the hinge between a label and its gloss across the options, settings, and troubleshooting entries."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--readme-cli",
+    "generator": "lumo@opencode",
+    "line": 96,
+    "sentence": "`providers.<name>.api_key` \u2014 API keys live in this table, never in the harbour list.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "(?i), never\\b"
+    ],
+    "tells": [
+      "The right place for keys is set against a forbidden place in one tight contrast."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--readme-cli",
+    "generator": "lumo@opencode",
+    "line": 102,
+    "sentence": "**Stale or wrong times** \u2014 Tide tables are cached under `~/.cache/tidewatch/`.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "bold-or-list-overuse"
+    ],
+    "regexes": [],
+    "tells": [
+      "Bold symptom labels front every troubleshooting entry, six in one repeated block."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--readme-cli",
+    "generator": "lumo@opencode",
+    "line": 104,
+    "sentence": "**\"station not in provider\"** \u2014 Station IDs change occasionally.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "bold-or-list-overuse"
+    ],
+    "regexes": [],
+    "tells": [
+      "Bold symptom labels front every troubleshooting entry, six in one repeated block."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--readme-cli",
+    "generator": "lumo@opencode",
+    "line": 106,
+    "sentence": "**Network errors behind a proxy** \u2014 `tidewatch` respects the standard `HTTPS_PROXY` and `NO_PROXY` variables.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "bold-or-list-overuse"
+    ],
+    "regexes": [],
+    "tells": [
+      "Bold symptom labels front every troubleshooting entry, six in one repeated block."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--readme-cli",
+    "generator": "lumo@opencode",
+    "line": 108,
+    "sentence": "**Heights look wrong by a constant offset** \u2014 Some stations report heights above chart datum and others above a local datum.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "bold-or-list-overuse"
+    ],
+    "regexes": [],
+    "tells": [
+      "Bold symptom labels front every troubleshooting entry, six in one repeated block."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--review-headphones",
+    "generator": "lumo@opencode",
+    "line": 7,
+    "sentence": "Corvid claims 55 hours with ANC off and 38 with it on, and my testing bore those numbers out almost exactly: I averaged 36 hours per charge with noise cancellation active, measured across five full discharge cycles with a mix of music, podcasts, and video calls.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "generic-conclusion",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "\\bi wish more \\w+ did this\\b",
+      "music,\\s+podcasts,\\s+and\\s+video calls"
+    ],
+    "tells": [
+      "The listening test closes on a stock trio of music, podcasts, and video calls.",
+      "The charging note ends on a vague wish that could follow any likable feature."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--runbook-postgres",
+    "generator": "lumo@opencode",
+    "line": 9,
+    "sentence": "It does not mean replication is broken (that is the separate `pg_replication_down` alert), only that it has fallen behind.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "(?i)does not mean\\b.{0,200}\\bonly that\\b"
+    ],
+    "tells": [
+      "The sentence defines the alert with a \u201cdoes not mean \u2026 only that\u201d denial-and-pivot."
+    ],
+    "confidence": [
+      "high"
+    ]
+  },
+  {
+    "document": "lumo-opencode--runbook-postgres",
+    "generator": "lumo@opencode",
+    "line": 33,
+    "sentence": "Sustained RTT above 50 ms or packet loss above 0.1% explains slow WAL shipping without anything being wrong with PostgreSQL itself.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "(?i)without anything being wrong\\b"
+    ],
+    "tells": [
+      "The cause is framed through a closing denial that PostgreSQL itself is at fault."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--runbook-postgres",
+    "generator": "lumo@opencode",
+    "line": 39,
+    "sentence": "You will see high WAL generation rate on the primary and normal CPU on the standby, with lag climbing sharply at a specific timestamp.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\byou will see\\b"
+    ],
+    "tells": [
+      "The same \u201cYou will see\u201d preface is repeated in every cause section to bundle several symptoms into one tidy sentence."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--runbook-postgres",
+    "generator": "lumo@opencode",
+    "line": 41,
+    "sentence": "If it is a scheduled job, let it finish; lag should decay steadily afterward, roughly at replay speed minus generation speed.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "over-compression"
+    ],
+    "regexes": [
+      "(?i)\\broughly\\b.{0,50}\\b(minus|divided by)\\b"
+    ],
+    "tells": [
+      "Catch-up is compressed into the verbal formula \u201creplay speed minus generation speed.\u201d"
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--runbook-postgres",
+    "generator": "lumo@opencode",
+    "line": 45,
+    "sentence": "You will see low network lag but growing replay lag, plus long-duration queries from step 5.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\byou will see\\b"
+    ],
+    "tells": [
+      "The same \u201cYou will see\u201d preface is repeated in every cause section to bundle several symptoms into one tidy sentence."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--runbook-postgres",
+    "generator": "lumo@opencode",
+    "line": 47,
+    "sentence": "If this happens repeatedly, file a ticket for the analytics team to add a statement timeout, and consider raising `hot_standby_feedback` off and lowering `max_standby_streaming_delay` after discussing with the query owners.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "filler",
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bdo not hesitate\\b",
+      "(?i)\\braising\\b.{0,40}\\boff\\b"
+    ],
+    "tells": [
+      "The verb \u201craising\u201d is paired with \u201coff,\u201d a mismatched collocation for a boolean setting.",
+      "\u201cDo not hesitate\u201d adds a pep-talk clause after the kill decision is already stated."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--runbook-postgres",
+    "generator": "lumo@opencode",
+    "line": 51,
+    "sentence": "Cross-AZ or cross-region bandwidth caps, a snapshot backup saturating the same link, or DNS failover rerouting traffic can starve WAL shipping.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)[^,]+,\\s+[^,]+,\\s+or\\s+[^,]+",
+      "(?i)\\byou will see\\b"
+    ],
+    "tells": [
+      "Three unrelated network failures are lined up as one rhythmic subject.",
+      "The same \u201cYou will see\u201d preface is repeated in every cause section to bundle several symptoms into one tidy sentence."
+    ],
+    "confidence": [
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--runbook-postgres",
+    "generator": "lumo@opencode",
+    "line": 53,
+    "sentence": "If the link itself is degraded, page network on-call (see escalation) and set `wal_sender_timeout` awareness aside; do not modify it under pressure.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "other",
+      "over-compression"
+    ],
+    "regexes": [
+      "(?i)\\broughly\\b.{0,50}\\b(minus|divided by)\\b",
+      "(?i)\\bset\\b.{0,80}\\bawareness aside\\b"
+    ],
+    "tells": [
+      "A parameter name is planted inside the idiom \u201cset awareness aside,\u201d and the warning is then repeated.",
+      "Drain time is compressed into the verbal formula \u201caccumulated lag divided by available headroom.\u201d"
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ]
+  },
+  {
+    "document": "lumo-opencode--runbook-postgres",
+    "generator": "lumo@opencode",
+    "line": 62,
+    "sentence": "After resolution, acknowledge the alert with a short postmortem note in `#db-incidents`: peak lag, root cause, fix, and any follow-up tickets filed.",
+    "judges": [
+      "grok-grok"
+    ],
+    "categories": [
+      "generic-conclusion"
+    ],
+    "regexes": [
+      "(?i)postmortem\\b[^.]{0,120}:\\s*[^.]*,\\s*[^.]*,\\s*[^.]*,\\s*and\\s"
+    ],
+    "tells": [
+      "The runbook closes by assigning a stock four-part postmortem checklist of peak, cause, fix, and follow-up."
+    ],
+    "confidence": [
+      "low"
+    ]
+  }
+]

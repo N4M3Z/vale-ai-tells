@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "fiction-ferry",
+  "profile": "grok@grok",
+  "tool": "grok",
+  "model_id": "grok-4.7",
+  "started": "2026-09-22T09:18:17Z",
+  "seconds": 360,
+  "exit": 0,
+  "prompt_sha256": "5c89149452c37c99cba19e6edde684f509ba49e9460fc09814a68ab368eaaa78",
+  "text_sha256": "daa03962f604dee44a0054f88670adb7e589fad9aeb4925b4cc182eb84c61e6f",
+  "words": 1000
+}

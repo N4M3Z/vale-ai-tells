@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "fiction-ferry",
+  "profile": "kimi@claude",
+  "tool": "claude",
+  "model_id": "kimi-k3",
+  "started": "2026-09-22T11:53:35Z",
+  "seconds": 87,
+  "exit": 0,
+  "prompt_sha256": "5c89149452c37c99cba19e6edde684f509ba49e9460fc09814a68ab368eaaa78",
+  "text_sha256": "ebb3aecfd9fd94ba2b2144d2ee9514af19d0ef5c17ea01f2f183213be056fbd7",
+  "words": 1446
+}

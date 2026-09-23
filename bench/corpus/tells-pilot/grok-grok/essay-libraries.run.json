@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "essay-libraries",
+  "profile": "grok@grok",
+  "tool": "grok",
+  "model_id": "grok-4.7",
+  "started": "2026-09-22T09:03:53Z",
+  "seconds": 194,
+  "exit": 0,
+  "prompt_sha256": "2c78c66dca93e4458b27aee847384d83177e122c82b0e46f26c8be1b4af16ca3",
+  "text_sha256": "f7406f8261b2fe9bf3e9869fb3cddb91fb2abe5afb2da6d77b4046aa7d2a67d6",
+  "words": 1032
+}

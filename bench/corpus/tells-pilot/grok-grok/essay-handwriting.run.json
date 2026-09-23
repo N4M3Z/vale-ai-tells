@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "essay-handwriting",
+  "profile": "grok@grok",
+  "tool": "grok",
+  "model_id": "grok-4.7",
+  "started": "2026-09-22T09:07:07Z",
+  "seconds": 440,
+  "exit": 0,
+  "prompt_sha256": "e3d9273157d557d8d2f5e1451f9f7d2ef3a0a1b50ce52abfcec27112a97dc691",
+  "text_sha256": "982523ce0ee319cab6e32070e90f9ff0d89cb042b0695e982f847e149b251de3",
+  "words": 927
+}

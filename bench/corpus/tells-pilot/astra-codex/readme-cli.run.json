@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "readme-cli",
+  "profile": "astra@codex",
+  "tool": "codex",
+  "model_id": "gpt-6-astra",
+  "started": "2026-09-22T11:59:14Z",
+  "seconds": 80,
+  "exit": 0,
+  "prompt_sha256": "d2fb56ab2705cff627864382c3853e0dcbc09402e8683bcb38d5e3c44901b340",
+  "text_sha256": "8b026cb9ae9ead793c0552f4bb682d4157121b2caf0bf6b8b3fec3240e86f6d4",
+  "words": 695
+}

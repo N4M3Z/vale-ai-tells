@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "readme-cli",
+  "profile": "kimi@claude",
+  "tool": "claude",
+  "model_id": "kimi-k3",
+  "started": "2026-09-22T11:46:56Z",
+  "seconds": 62,
+  "exit": 0,
+  "prompt_sha256": "d2fb56ab2705cff627864382c3853e0dcbc09402e8683bcb38d5e3c44901b340",
+  "text_sha256": "ed2f031dd1edf584e80815ac3242afd7f74cba29a916284b568da0e7247003bf",
+  "words": 663
+}

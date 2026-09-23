@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "email-outage",
+  "profile": "kimi@claude",
+  "tool": "claude",
+  "model_id": "kimi-k3",
+  "started": "2026-09-22T11:52:18Z",
+  "seconds": 34,
+  "exit": 0,
+  "prompt_sha256": "23f5bacede87bc329f737e3ce2fbee3c16e0cd79854bf4f206bd13430620f088",
+  "text_sha256": "81168f3bfeb2d1da381321b8c75409b4a202550c8a9f76dbe90aa5532cde72b3",
+  "words": 335
+}

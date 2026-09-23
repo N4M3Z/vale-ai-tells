@@ -51,3 +51,7 @@ Thumbs.db
 
 # APM dependencies
 apm_modules/
+__pycache__/
+bench/judgments/
+bench/results/*/.superseded/
+bench/corpus/*/.failed-*/

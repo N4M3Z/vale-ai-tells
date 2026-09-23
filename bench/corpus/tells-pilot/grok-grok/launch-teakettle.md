@@ -1,0 +1,11 @@
+The Marlow is a stovetop kettle for people who still boil water on a burner. It holds 1.7 liters, enough for a full pot of tea or two large mugs, and the body sits low so it stays steady on a small ring.
+
+The walls are brushed 18/10 stainless steel, 0.8 millimeters thick, with a heavier shoulder where the handle attaches. A three-millimeter copper disc is bonded under the base. On gas, the copper carries heat out to the rim instead of leaving a hot spot in the middle. On induction, a steel plate beneath the copper does the coupling, so one kettle works on gas, coil, ceramic, and induction hobs. The spout is a short gooseneck with a narrow lip. A steady tilt lands in a teapot. A glass lid in a stainless rim lets you see the first bubbles. The whistle is a small brass cap on a short chimney: lift it to fill or to pour, set it back, and it sounds once when the water rolls, then goes quiet when you take it off.
+
+The handle is oil-finished beech, with a flat for the thumb and a slight swell in the grip. Two stainless rivets hold it to the body. Through a normal boil the wood stays comfortable in the hand. There is no plastic on the kettle. The steel is bare. The copper edge at the base will darken with heat and washing. Polish it back if you want the bright ring, or leave the color. The lid knob is the same beech. Edges that meet the hand are rounded. With the lid on, the Marlow stands 21 centimeters tall and 17 centimeters across the belly. The weight of a full kettle sits low, so you can pour with one hand.
+
+The Marlow costs $148. That includes the kettle, a cotton storage sack, and a small tin of food-safe oil for the handle. We assemble and water-test each one in our workshop in Providence, Rhode Island, and we check the whistle, the lid fit, and the pour before it leaves.
+
+You can buy it today at marlowkettle.com. It is also on the shelf at Field & Kettle in Portland, Maine, Hearth Supply in Hudson, New York, and The Cook's Table in Chicago. Orders inside the United States ship in two to four business days. Shipping to Canada takes about a week. The body and the base carry a five-year warranty. If the handle or the brass cap needs replacing later, we will send a new one at cost for as long as you own the kettle.
+
+Fill it to the seam under the spout, set it on the burner, and wait for the brass cap to sing.

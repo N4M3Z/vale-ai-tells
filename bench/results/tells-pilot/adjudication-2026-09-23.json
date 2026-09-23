@@ -1,0 +1,47 @@
+{
+  "adjudicator": "claude-fable-5-1",
+  "method": "One pass over the 35 single-judge splits marked high confidence in results/tells-pilot/2026-09-23T03-39-45Z/splits.json. A split is upheld when the sentence carries the named tell on its own reading; rejected when the judge graded plain prose, a term of art, or a fiction line doing narrative work. Fable saw only the sentence, the category, and the judge's tell text, never the documents.",
+  "upheld": [
+    {"document": "astra-codex--essay-libraries", "sentence": "Consistency matters because people need to plan visits around jobs, classes, and family responsibilities.", "category": "rule-of-three"},
+    {"document": "astra-codex--essay-libraries", "sentence": "Evening work affects their families, transport, and safety, just as closing times affect library users.", "category": "rule-of-three"},
+    {"document": "astra-codex--essay-libraries", "sentence": "That expense does not settle the question.", "category": "anthropomorphism"},
+    {"document": "astra-codex--fiction-dialogue-repair", "sentence": "No. It turns. Then it has another opinion.", "category": "staccato"},
+    {"document": "astra-codex--fiction-dialogue-repair", "sentence": "Confidence cannot tighten a headset.", "category": "mic-drop"},
+    {"document": "astra-codex--fiction-ferry", "sentence": "“I will not miss the rice,” she decided. “But I might miss knowing.”", "category": "negative-parallelism"},
+    {"document": "grok-grok--fiction-ferry", "sentence": "We do better in the kitchen than on the phone.", "category": "mic-drop"},
+    {"document": "grok-grok--fiction-ferry", "sentence": "It was a Tuesday.", "category": "staccato"},
+    {"document": "kimi-claude--email-outage", "sentence": "Orders are now being picked, packed, and dispatched in the order they were received.", "category": "rule-of-three"},
+    {"document": "kimi-claude--explainer-raft", "sentence": "Transitions happen only through timeouts and RPCs, never through some external coordinator.", "category": "negative-parallelism"},
+    {"document": "kimi-claude--explainer-raft", "sentence": "Putting it together", "category": "generic-conclusion"},
+    {"document": "kimi-claude--fiction-dialogue-repair", "sentence": "\"Sand doesn't help. Falls don't help. Your brother-in-law's enthusiasm didn't help.\"", "category": "rule-of-three"},
+    {"document": "kimi-claude--fiction-ferry", "sentence": "She said it carefully, like a phrase she had been practicing all day and still didn't trust.", "category": "simile-gloss"},
+    {"document": "kimi-claude--fiction-ferry", "sentence": "Both things.", "category": "staccato"},
+    {"document": "kimi-claude--fiction-ferry", "sentence": "You just find yourself on the last ferry.", "category": "generic-conclusion"},
+    {"document": "kimi-claude--review-headphones", "sentence": "That puts the Q3 ahead of several competitors that cost twice as much.", "category": "vague-attribution"},
+    {"document": "lumo-opencode--email-outage", "sentence": "This outage was on us, not the couriers, and we've since added a backup process so a single system fault can't stall orders like this again.", "category": "negative-parallelism"},
+    {"document": "lumo-opencode--email-outage", "sentence": "Thank you for your patience, and happy reading.", "category": "generic-conclusion"},
+    {"document": "lumo-opencode--fiction-ferry", "sentence": "The man sat three rows behind her, near the door, with a duffel bag between his knees like a dog he was afraid would run off.", "category": "simile-gloss"},
+    {"document": "lumo-opencode--fiction-ferry", "sentence": "That was how it happened. No mystery to it.", "category": "staccato"},
+    {"document": "lumo-opencode--fiction-ferry", "sentence": "He said it with the particular weariness of a man who has already checked in online.", "category": "simile-gloss"},
+    {"document": "lumo-opencode--runbook-postgres", "sentence": "It does not mean replication is broken (that is the separate `pg_replication_down` alert), only that it has fallen behind.", "category": "negative-parallelism"}
+  ],
+  "rejected": [
+    {"document": "astra-codex--explainer-raft", "sentence": "This tradeoff protects consistency: the cluster can pause progress until enough servers can communicate and establish a legitimate leader again.", "reason": "A precise statement of Raft's availability tradeoff, not a generic close."},
+    {"document": "astra-codex--fiction-dialogue-repair", "sentence": "Let us try something.", "reason": "Plain dialogue."},
+    {"document": "astra-codex--fiction-ferry", "sentence": "She cut through the lettering, separating her name from the thanks.", "reason": "The participle reports a physical action, not a gloss."},
+    {"document": "astra-codex--launch-teakettle", "sentence": "A whistle tells you when the water boils.", "reason": "A kettle whistle tells; conventional English."},
+    {"document": "grok-grok--explainer-raft", "sentence": "A partitioned server can skip terms, from 4 to 7, on the next message it accepts.", "reason": "Terms are integers on a real scale; a true range."},
+    {"document": "grok-grok--fiction-ferry", "sentence": "The visit ran long.", "reason": "Ordinary short sentence, no pattern."},
+    {"document": "kimi-claude--fiction-ferry", "sentence": "Ahead, the sound was black except for a scatter of lights on the far shore, none of them moving.", "reason": "Description doing scene work."},
+    {"document": "kimi-claude--fiction-ferry", "sentence": "A small exhale that might have been a laugh.", "reason": "Narrative uncertainty is the point, not a hedge."},
+    {"document": "kimi-claude--fiction-ferry", "sentence": "The woman laughed, a short, cracked sound, and it seemed to surprise her.", "reason": "Same: the character's surprise is narrated, not hedged."},
+    {"document": "kimi-claude--fiction-ferry", "sentence": "She drove off into the sparse midnight traffic and followed the taillights ahead of her over the rise of the coast road, and for a while one particular pair of", "reason": "A concrete closing image, not a stock conclusion."},
+    {"document": "kimi-claude--runbook-postgres", "sentence": "If the replica disk is the bottleneck (check `iostat -x 5`, utilization above 90 percent), move WAL replay pressure by adding memory or faster storage at the ne", "reason": "'Move pressure' is operations idiom, not a figurative tell."},
+    {"document": "lumo-opencode--runbook-postgres", "sentence": "If this happens repeatedly, file a ticket for the analytics team to add a statement timeout, and consider raising `hot_standby_feedback` off and lowering `max_s", "reason": "Runbook instruction; the filler label does not hold."},
+    {"document": "lumo-opencode--runbook-postgres", "sentence": "If the link itself is degraded, page network on-call (see escalation) and set `wal_sender_timeout` awareness aside; do not modify it under pressure.", "reason": "Awkward but not compressed; a wording issue, not a tell."}
+  ],
+  "new_categories_needed": [
+    {"name": "mic-drop", "note": "Short closing sentence that restates the paragraph as an aphorism. ai-tells has MicDrop; the judge prompt lacks the label so judges filed it under other or staccato."},
+    {"name": "simile-gloss", "note": "A simile attached to an incidental prop to establish tone (a bag like a dog, the smell of Tuesday). The largest pure-other group in fiction. No Vale rule can carry it; keep it model-side but name it so the counts are honest."}
+  ]
+}

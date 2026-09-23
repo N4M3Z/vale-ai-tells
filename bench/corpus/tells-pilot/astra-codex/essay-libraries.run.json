@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "essay-libraries",
+  "profile": "astra@codex",
+  "tool": "codex",
+  "model_id": "gpt-6-astra",
+  "started": "2026-09-22T12:03:24Z",
+  "seconds": 192,
+  "exit": 0,
+  "prompt_sha256": "2c78c66dca93e4458b27aee847384d83177e122c82b0e46f26c8be1b4af16ca3",
+  "text_sha256": "79178e3de961c1c528ff640682e99eabe8878f1e44ddf6ca19eeebe2c1ec440d",
+  "words": 1000
+}

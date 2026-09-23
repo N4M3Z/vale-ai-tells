@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "essay-libraries",
+  "profile": "lumo@opencode",
+  "tool": "opencode",
+  "model_id": "proton-lumo/lumo-max",
+  "started": "2026-09-22T09:33:28Z",
+  "seconds": 111,
+  "exit": 0,
+  "prompt_sha256": "2c78c66dca93e4458b27aee847384d83177e122c82b0e46f26c8be1b4af16ca3",
+  "text_sha256": "1b3c02dcc2235d486a7037d6312ae3f6a23d563707ab364201eba6cdcc34b953",
+  "words": 1220
+}

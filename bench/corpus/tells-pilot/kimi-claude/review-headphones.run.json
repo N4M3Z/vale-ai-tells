@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "review-headphones",
+  "profile": "kimi@claude",
+  "tool": "claude",
+  "model_id": "kimi-k3",
+  "started": "2026-09-22T11:51:30Z",
+  "seconds": 48,
+  "exit": 0,
+  "prompt_sha256": "eb494a9bdfd68beef5f7a7a6d37490e80839aa4a21647961a5bfac143baa46f3",
+  "text_sha256": "93332f39aa372e0a45bb2a4a7f93fc14385c97882e5276acdb33469105c92f9e",
+  "words": 726
+}

@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "launch-teakettle",
+  "profile": "astra@codex",
+  "tool": "codex",
+  "model_id": "gpt-6-astra",
+  "started": "2026-09-22T12:13:23Z",
+  "seconds": 114,
+  "exit": 0,
+  "prompt_sha256": "f898119a212f8625ff47448d951fd65b5de0d9f38aeb9014438d4e2790584a51",
+  "text_sha256": "c0583c96e6852d06c64e847e324db5d7fc13f955b14d9d573aae6269d28be46a",
+  "words": 400
+}

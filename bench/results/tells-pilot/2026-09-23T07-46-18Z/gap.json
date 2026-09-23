@@ -1,0 +1,4353 @@
+[
+  {
+    "document": "astra-codex--essay-handwriting",
+    "generator": "astra@codex",
+    "line": 7,
+    "sentence": "The silence may mean illness, distraction, resentment, or simply another long week full of errands.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "colon-drumroll",
+      "false-range",
+      "generic-conclusion",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i):\\s*(?:beneath|inside|against|under|within|beside)\\b[^,]*,\\s*(?:beneath|inside|against|under|within|beside)\\b[^,]*,\\s*(?:beneath|inside|against|under|within|beside)\\b",
+      "(?i)\\bmay mean\\b[^.]*, or simply\\b",
+      "(?i)\\bmodest exercise in\\b",
+      "(illness|may mean) .*, .* or simply",
+      ": beneath .*, inside .*, against",
+      "\\b\\w+,\\s*\\w+,\\s*\\w+,\\s*or\\s+simply\\b",
+      "beyond our view"
+    ],
+    "tells": [
+      "A run of abstract nouns capped with an \"or simply\" catch-all item pads the list to manufacture exhaustiveness.",
+      "Three parallel prepositional phrases, one after a colon, forming a drumroll list.",
+      "An enumerating list capped by \"or simply\", a routine way to gesture at open-ended possibility.",
+      "A summarizing aphorism that resolves the paragraph into a quotable generality.",
+      "A colon opens onto three location phrases that share one grammatical shape.",
+      "The list runs from serious causes to a trivial one and pretends to cover why a person does not answer.",
+      "The paragraph ends by turning a concrete wait into a soft lesson about other lives."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--essay-handwriting",
+    "generator": "astra@codex",
+    "line": 9,
+    "sentence": "Its pleasures remain particular, shaped by the body, the circumstances, and the person we hope will answer.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "other",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\banyone \\w+ing\\b[^.]{0,80}\\bshould remember\\b",
+      "(?i)\\bthe \\w+, the \\w+, and the \\w+\\b",
+      "\\bthe\\s+\\w+,\\s*the\\s+\\w+,\\s*and\\s+the\\s+\\w+",
+      "the \\w+, the \\w+, and the \\w+"
+    ],
+    "tells": [
+      "A third three-part list with parallel definite articles, reinforcing the essay's repeated tricolon rhythm.",
+      "Sentence closes on a triple abstraction, a formulaic cadence for paragraph endings.",
+      "The sentence leaves the scene to instruct anyone who likes handwriting to remember keyboard users.",
+      "A closing sentence stacks three abstract causes in one grammatical frame."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--essay-handwriting",
+    "generator": "astra@codex",
+    "line": 3,
+    "sentence": "The letters lean forward as though impatient, or stand apart with the careful spacing of fence posts.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "metaphor-noun",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\bthe [^,]{3,50}, the [^,]{3,70}, the [^.]{3,70}",
+      "as though \\w+",
+      "feels close to"
+    ],
+    "tells": [
+      "Handwriting is given human feelings and posture, paired similes stacked in one balanced sentence.",
+      "A neat figurative comparison offered as an explanation of feeling.",
+      "Three noun phrases of the same shape stand in a row with no main verb."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--essay-handwriting",
+    "generator": "astra@codex",
+    "line": 11,
+    "sentence": "Across the distance, two people briefly occupy the same ordinary afternoon, with its bad harvest and its unnecessary cake.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "generic-conclusion",
+      "hedging",
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bmight seem too\\b",
+      "(?i)\\bshould be enough\\b",
+      "(?i)\\byet\\b[^.]{0,60}\\bthe point\\b",
+      "its \\w+ and its \\w+"
+    ],
+    "tells": [
+      "A crafted callback pairing used as a poetic closer, symmetry arranged for effect.",
+      "\"Might seem\" weakens the details so the next sentence can reverse that judgment.",
+      "\"Yet\" and \"the point\" announce a small insight after the previous sentence called the details slight.",
+      "The sentence states the theme, that the small news is enough, after the examples have already shown it."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--essay-libraries",
+    "generator": "astra@codex",
+    "line": 1,
+    "sentence": "Collect a child, prepare dinner, and the chance disappears.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "generic-conclusion",
+      "other",
+      "staccato"
+    ],
+    "regexes": [
+      "\\bmeans little when\\b",
+      "\\bthe public\\b.*\\bthe public\\b"
+    ],
+    "tells": [
+      "Compressed asyndetic chain of two imperatives resolved by 'and the chance disappears', a punched-up fragment that mimics drama rather than narrating events.",
+      "The opening repeats 'the public' and turns on a paradox about service stopping when people become free.",
+      "Two clipped commands and a sudden result are stacked into one dramatic beat.",
+      "The paragraph ends on a maxim that treats a locked door as the failure of access."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--essay-libraries",
+    "generator": "astra@codex",
+    "line": 3,
+    "sentence": "People with less control over their schedules cannot.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "generic-conclusion",
+      "other",
+      "over-compression",
+      "rule-of-three",
+      "staccato"
+    ],
+    "regexes": [
+      ",\\s+[^,]+,\\s+(?:and|or)\\s+",
+      "\\bdeserves?\\b",
+      "\\bpeople with\\b.*\\bcan\\b",
+      "\\bpeople with\\b.*\\bcannot\\b",
+      "\\bthat is a (matter|question) of \\w+",
+      "\\bthat is a matter of\\b",
+      "^that is a matter of",
+      "therefore \\w+s (a|the) \\w+ \\w+ly"
+    ],
+    "tells": [
+      "Mirrored antithesis with the preceding sentence ('People with flexible jobs can ... People with less control ... cannot'), a symmetrical can/cannot pair typical of generated argument.",
+      "Short aphoristic verdict sentence capping a paragraph; the essay repeatedly lands paragraphs on clipped declaratives of this kind ('Time deserves equal attention.', 'These uses deserve respect.', 'Libraries should reject that bargain.'), a density rather than a single occurrence.",
+      "Very short verdict sentence appended to close a paragraph with a drumbeat; the document accumulates several of these clipped aphoristic closers, a density that reads as machine cadence.",
+      "Abstract nominalized summary sentence ('distributes a shared service unevenly') that compresses an argument into sociology-register phrasing, the tidy analytical wrap-up cadence of model prose.",
+      "An abstract noun gets a moral claim, and other abstract subjects in the essay are also said to deserve things.",
+      "Three stock figures stand in for people with awkward hours, in an essay that keeps listing things in threes.",
+      "This sentence is the first half of a mirrored pair that the next sentence completes by ending on 'cannot'.",
+      "The sentence repeats 'People with' and stops on 'cannot', a mirror of the sentence before it.",
+      "A short sentence stamps the paragraph with an abstract virtue."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--essay-libraries",
+    "generator": "astra@codex",
+    "line": 5,
+    "sentence": "Consider a teenager who shares a bedroom with younger siblings.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler",
+      "negative-parallelism",
+      "other",
+      "over-compression",
+      "rule-of-three"
+    ],
+    "regexes": [
+      ",\\s+[^,]+,\\s+(?:and|or)\\s+",
+      "\\bboth need\\b",
+      "\\bconsider an?\\s+\\w+\\b",
+      "\\bneither\\b.*\\bneeds?\\b",
+      "^consider (an?|the)",
+      "^consider (a|an) \\w+",
+      "^neither \\w+ \\w+s\\b"
+    ],
+    "tells": [
+      "Imperative 'Consider a [person]' scenario scaffolding, repeated again with 'Consider an adult' two sentences later, a stock device for inventing illustrative personas.",
+      "Second instance of the repeated 'Consider a ...' imperative scaffolding, pairing a teenager and an adult as symmetrical illustrative cases.",
+      "'Neither ... Both ...' balanced pair with the following sentence, tidily resolving the two invented personas in parallel clauses.",
+      "Essay-scaffolding imperative that addresses the reader instead of making the point directly; it appears twice in a row ('Consider a... Consider an...'), which is a stock move of machine-written persuasive essays.",
+      "Second consecutive 'Consider a...' hypothetical-person vignette, the paired-example scaffold typical of model-written argument essays.",
+      "A vignette opens with 'Consider a' plus a type of person, and the same formula returns for a second vignette.",
+      "A three-part list widens at the end from concrete things into the softer phrase about family life.",
+      "A very short sentence claims a large effect and does not say what changes.",
+      "The 'Consider a' vignette formula is used a second time for another stock person.",
+      "The sentence denies a grand program so the next sentence can offer a smaller alternative.",
+      "Paired with the previous 'Neither' sentence, this line supplies the milder alternative."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--essay-libraries",
+    "generator": "astra@codex",
+    "line": 7,
+    "sentence": "These uses deserve respect.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "generic-conclusion",
+      "negative-parallelism",
+      "other",
+      "rule-of-three",
+      "staccato"
+    ],
+    "regexes": [
+      ",\\s+[^,]+,\\s+(?:and|or)\\s+",
+      "\\bdeserves?\\b",
+      "\\bordinary\\s+\\w+\\s+as well as\\b",
+      "\\brequires no\\s+\\w+\\s+justification\\b",
+      "\\bwithout making\\b",
+      "deserve(s)? (respect|a|their)"
+    ],
+    "tells": [
+      "Another clipped aphoristic paragraph-ender; part of the document-wide pattern of short declarative verdict sentences after longer builds.",
+      "The sentence separates displaying a form from completing it in a contrast shaped like an insight.",
+      "Three supports are lined up, and the third shifts from an object to a service.",
+      "A short sentence lets an abstraction deserve respect, one of several 'deserve' claims in the essay.",
+      "Two abstract poles are paired so the moral claim sounds complete.",
+      "Enjoyment is defended in a principle-shaped sentence that also lets reading earn a public place."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--explainer-raft",
+    "generator": "astra@codex",
+    "line": 11,
+    "sentence": "It is a suspicion mechanism.",
+    "judges": [
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "over-compression",
+      "rule-of-three",
+      "staccato"
+    ],
+    "regexes": [
+      "(?:network latency|scheduling delays|pauses in server execution)(?:,\\s*(?:network latency|scheduling delays|pauses in server execution)){2}",
+      "It is a \\w+ mechanism",
+      "[^,;.]+,\\s*[^,;.]+,\\s*and\\s+",
+      "^(It|This|That) is a \\w+ \\w+\\.$"
+    ],
+    "tells": [
+      "Isolated four-word definitional punch after longer sentences; the same dramatic short-sentence beat recurs at 'Nobody has the required three votes.', giving the text a staccato rhythm.",
+      "Second three-part list in the document, confirming a habitual triple-enumeration pattern rather than a one-off.",
+      "Compresses a nuanced concept into an abstract noun phrase without elaboration.",
+      "Lists three technical factors in a rhythmic sequence."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--explainer-raft",
+    "generator": "astra@codex",
+    "line": 19,
+    "sentence": "Nobody has the required three votes.",
+    "judges": [
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler",
+      "staccato"
+    ],
+    "regexes": [
+      "This \\w+ is called"
+    ],
+    "tells": [
+      "Standalone six-word sentence delivering the payoff of the example, part of the document's recurring dramatic short-sentence beats.",
+      "Uses a generic definitional frame ('This result is called X') common in AI explanations."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--explainer-raft",
+    "generator": "astra@codex",
+    "line": 7,
+    "sentence": "Persistence matters because a restart must not erase these facts.",
+    "judges": [
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler",
+      "hedging"
+    ],
+    "regexes": [
+      "\\b\\w+ matters because\\b",
+      "\\w+ matters because",
+      "^Otherwise,"
+    ],
+    "tells": [
+      "The 'X matters because' construction announces importance instead of simply stating the consequence.",
+      "Opens with a generic assertion ('X matters because') before stating the obvious reason.",
+      "Uses 'Otherwise' to introduce a hypothetical negative outcome, a common transitional hedge."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--explainer-raft",
+    "generator": "astra@codex",
+    "line": 9,
+    "sentence": "Heartbeats reduce unnecessary elections, but they do not prove that every server can communicate with every other server.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "(?i)\\bbut\\b(?:\\s+\\S+){1,8}\\s+(?:do|does) not\\b",
+      ", but they do not \\w+"
+    ],
+    "tells": [
+      "Balances a positive claim with a limiting negation ('do X, but do not prove Y').",
+      "The sentence grants that heartbeats reduce elections and then denies that they show full communication between servers."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--explainer-raft",
+    "generator": "astra@codex",
+    "line": 21,
+    "sentence": "Raft reduces split votes by randomizing election timeouts.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler",
+      "hedging",
+      "negative-parallelism",
+      "over-compression"
+    ],
+    "regexes": [
+      "(?i),\\s+but cannot\\b",
+      "^Usually,",
+      "also \\w+",
+      "improves the chance of \\w+, but cannot guarantee",
+      "reduces \\w+ by \\w+"
+    ],
+    "tells": [
+      "Compresses a causal mechanism into a tight 'reduces X by Y' formula.",
+      "Opens with a vague frequency adverb to soften a deterministic claim.",
+      "Uses 'also' to add another benefit in a predictable list-like progression.",
+      "Balances improvement with limitation ('improves X, but cannot guarantee Y'), a classic AI hedging pattern.",
+      "The sentence grants a better chance of progress and then denies that the chance is a guarantee, in the same benefit-then-denial shape as the heartbeat sentence."
+    ],
+    "confidence": [
+      "high",
+      "low"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 35,
+    "sentence": "Traffic is information.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "other",
+      "over-compression"
+    ],
+    "regexes": [
+      "(?i)\\b\\w+ is information\\b"
+    ],
+    "tells": [
+      "Aphoristic 'X is Y' equation delivered as shop wisdom, the kind of quotable maxim machines drop into dialogue to signal depth.",
+      "The line reduces traffic to the abstraction \"information\" in a tidy four-word equation."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--fiction-dialogue-repair",
+    "generator": "astra@codex",
+    "line": 117,
+    "sentence": "I felt a tiny betrayal.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "metaphor-noun"
+    ],
+    "regexes": [
+      "(?i)\\ba (tiny|small|quiet|little) (betrayal|sadness|tragedy|victory|grief)\\b",
+      "(?i)\\btiny\\s+betrayal\\b"
+    ],
+    "tells": [
+      "An abstract emotional noun ('betrayal') with a minimizing adjective ('tiny') applied to a loose bearing, the poetic-shrink-wrap metaphor LLMs favor.",
+      "\"Tiny betrayal\" puts a small moral noun on a mechanical click."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 131,
+    "sentence": "After an evening of handshakes, photographs, and speeches, hunger reached her.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "figurative-verb",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(\\w+, \\w+, and \\w+)",
+      "(hunger|fear|desire|panic) (reached|washed over|crept)",
+      "(hunger|fear|panic|relief|dread)\\s+(reached|hit|struck|washed\\s+over|crept\\s+over)",
+      "\\b(?:hunger|silence|grief|relief|exhaustion) (?:reached|found|settled|crept)\\b",
+      "\\b\\w+,\\s+\\w+,\\s+and\\s+\\w+\\b",
+      "\\w+,\\s+\\w+,\\s+and\\s+\\w+"
+    ],
+    "tells": [
+      "A list of exactly three nouns to evoke a generic busy event.",
+      "An abstract state personified as physically arriving, a stock construction for signaling appetite or emotion.",
+      "A three-item list of concrete nouns closes a sentence, the classic rule-of-three rhythm.",
+      "Hunger is given a reaching action, a stock figurative construction for appetite.",
+      "Handshakes, photographs, and speeches are another ready-made group of three for the end of a party.",
+      "Hunger acts like a person who arrives and reaches her."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 71,
+    "sentence": "\u201cTravel,\u201d they suggested. \u201cA garden. You could finally learn Italian.\u201d",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [],
+    "tells": [
+      "Three stock retirement suggestions delivered as fragmentary items for rhythmic effect.",
+      "Travel, a garden, and learning Italian are the usual three suggestions for someone who has just retired."
+    ],
+    "confidence": [
+      "high",
+      "low"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 29,
+    "sentence": "Nora considered the paper banner, the warm wine, the headmaster reading her name from a card.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      "the\\s+\\w+\\s+\\w+,\\s+the\\s+\\w+\\s+\\w+,\\s+the\\s+"
+    ],
+    "tells": [
+      "Another exactly-three-item montage compressed into a single sentence to summarize a scene.",
+      "Three party memories arrive in one even list, and the story uses that three-part shape again for the retirement advice and the party summary."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--fiction-ferry",
+    "generator": "astra@codex",
+    "line": 201,
+    "sentence": "She made the offer before she even thought about it.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "filler"
+    ],
+    "regexes": [
+      "\\beven thought about it\\b",
+      "before\\s+(she|he|they)\\s+(even\\s+)?(thought|realized|knew)"
+    ],
+    "tells": [
+      "Narration that explains the spontaneity already evident from the dialogue, spelling out what the scene shows.",
+      "The narrator adds the stock claim that the offer came before she thought."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--launch-teakettle",
+    "generator": "astra@codex",
+    "line": 5,
+    "sentence": "The handle uses heat-resistant phenolic resin, shaped for a steady, comfortable grip while pouring.",
+    "judges": [
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "figurative-verb",
+      "negative-parallelism",
+      "rule-of-three",
+      "superficial-ing"
+    ],
+    "regexes": [
+      "(?:gas|electric|ceramic)",
+      ", (shaped|designed|crafted|built|made) for (a |an )?",
+      "\\w+, \\w+ grip",
+      "with no \\w+",
+      "works with \\w+"
+    ],
+    "tells": [
+      "A participle tail attaches an unverified ergonomic claim to the material specification.",
+      "Definition by negation rather than positive specification.",
+      "Personification of material compatibility as active cooperation.",
+      "Triplet enumeration of stove types.",
+      "Adjective pair creating a rhythmic sensory claim."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--launch-teakettle",
+    "generator": "astra@codex",
+    "line": 7,
+    "sentence": "All three belong beside the cookware you already use every day.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "figurative-verb",
+      "filler",
+      "metaphor-noun"
+    ],
+    "regexes": [
+      "\\bbelong(s)? (beside|in|with|alongside)\\b",
+      "\\bfeels? (most )?at home\\b",
+      "belong beside",
+      "feels most at home",
+      "same \\w+ \\w+ and \\w+ \\w+"
+    ],
+    "tells": [
+      "Sentimental filler asserts the product 'belongs' in the reader's daily life without adding information.",
+      "An inanimate finish figuratively 'feels at home,' wrapping a purchase prompt in emotional language.",
+      "Redundant reassurance of uniformity.",
+      "Object assigned social placement as if it has agency.",
+      "Domestic comfort metaphor applied to inanimate object.",
+      "Feels most at home turns a finish choice into a feeling of belonging."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--launch-teakettle",
+    "generator": "astra@codex",
+    "line": 11,
+    "sentence": "We designed the Marlow for daily use, with care that fits an ordinary kitchen routine.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler",
+      "staccato"
+    ],
+    "regexes": [
+      "\\bwith care that\\b",
+      "^[A-Z][a-z]+ it \\w+\\.$",
+      "through years of",
+      "with care that fits"
+    ],
+    "tells": [
+      "A vague sentimental tail about 'care' adds feeling but no verifiable fact about the product.",
+      "Vague abstraction about design intent.",
+      "Series of short imperative sentences creating artificial rhythm.",
+      "Unquantified temporal promise of durability.",
+      "With care that fits an ordinary kitchen routine adds warmth and names no design choice."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--launch-teakettle",
+    "generator": "astra@codex",
+    "line": 13,
+    "sentence": "Those parts let you replace a worn component while keeping the kettle you already know.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler",
+      "metaphor-noun",
+      "other",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?:kettle|lid|warranty)",
+      "\\bthe \\w+ you already (know|love|own)\\b",
+      "the \\w+ you already know",
+      "you already know"
+    ],
+    "tells": [
+      "The closing phrase sentimentalizes the product as something the reader 'knows,' padding a plain spare-parts note.",
+      "Tripartite listing of included items.",
+      "Object framed as familiar acquaintance.",
+      "A new kettle is called one the buyer already knows, as if they had a history with it."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--readme-cli",
+    "generator": "astra@codex",
+    "line": 1,
+    "sentence": "Use it for a quick terminal check, a live display, or structured input to another program.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?:[a-z]+, ){1,2}[a-z]+",
+      "\\ba [^,]+, a [^,]+, or \\b",
+      "for a [^,]{1,80}, a [^,]{1,80}, or "
+    ],
+    "tells": [
+      "Opening sentence packages the product's value as a neat trio of parallel use cases, a common generated-prose move, though here each item carries real information.",
+      "Lists three items in parallel structure, a common AI pattern.",
+      "Three uses are stacked in one sentence in a brochure rhythm."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--readme-cli",
+    "generator": "astra@codex",
+    "line": 47,
+    "sentence": "Dates and UTC offsets make events clear when predictions cross midnight or a daylight-saving transition.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "figurative-verb",
+      "filler"
+    ],
+    "regexes": [
+      "illustrate the .* format",
+      "illustrate the .{0,40}format",
+      "make .* clear"
+    ],
+    "tells": [
+      "Uses 'make clear' instead of simpler 'clarify'.",
+      "Generic statement about what samples do.",
+      "The sentence only repeats that the example above shows the format."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--review-headphones",
+    "generator": "astra@codex",
+    "line": 9,
+    "sentence": "That included music, calls, and frequent switching between devices at moderate volume.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "filler",
+      "hedging",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "[^,]+, [^,]+, and [^,]+",
+      "\\b(easy|hard|difficult)\\s+to\\s+trust\\b",
+      "\\beasy to trust\\b",
+      "\\byour\\s+(?:\\w+\\s+){0,6}will affect\\b",
+      "\\w+(\\s+\\w+){0,2},\\s+\\w+(\\s+\\w+){0,2},?\\s+and\\s+\\w+"
+    ],
+    "tells": [
+      "Fourth instance of the repeated three-item list rhythm.",
+      "Assigns a human trust relationship to a consumer product.",
+      "Triplet enumeration of usage types, maintaining the document's rhythmic pattern.",
+      "'Easy to trust' offers a soft feeling in place of a battery fact.",
+      "A measured runtime is immediately softened by a general caveat about the reader's volume and call habits."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--review-headphones",
+    "generator": "astra@codex",
+    "line": 11,
+    "sentence": "The Q3 offers useful noise cancellation, comfortable cushions, and battery life that supports regular travel.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler",
+      "hedging",
+      "negative-parallelism",
+      "other",
+      "rule-of-three",
+      "vocabulary"
+    ],
+    "regexes": [
+      "[^,]+,\\s+[^,]+,\\s+and\\s+",
+      "[^,]+,\\s+and\\s+[^,]+\\s+limit",
+      "\\bcompare alternatives carefully\\b",
+      "\\bdepends on what you expect\\b",
+      "\\bmore convincingly than\\b",
+      "\\w+(\\s+\\w+){0,2},\\s+\\w+(\\s+\\w+){0,2},?\\s+and\\s+\\w+",
+      "beyond\\s+the\\s+essentials",
+      "more\\s+convincingly\\s+than"
+    ],
+    "tells": [
+      "Fifth instance of the three-item summary triad, here compressing the whole review into one list.",
+      "Uses vague, abstract phrasing ('beyond the essentials') rather than concrete specification.",
+      "Contrasts positive and negative attributes in a balanced comparative structure.",
+      "Stacks two limitations in parallel structure, a hallmark of AI cautionary summaries.",
+      "The value claim is handed off to whatever the reader happens to expect beyond the essentials.",
+      "The section recaps the product as three generic strengths: noise cancellation, cushions, and battery life.",
+      "Strengths and a plain finish are yoked by 'more convincingly than' into one neat comparison.",
+      "The advice to 'compare alternatives carefully' stays general, with the choice of rivals left entirely open."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--review-headphones",
+    "generator": "astra@codex",
+    "line": 7,
+    "sentence": "Active noise cancellation handles steady engine noise well, making trains and air conditioners much less intrusive.",
+    "judges": [
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "figurative-verb",
+      "superficial-ing"
+    ],
+    "regexes": [
+      ",\\s*(which\\s+)?making\\b",
+      "create\\s+complete\\s+silence",
+      "wind\\s+introduces"
+    ],
+    "tells": [
+      "Present-participle tail attaches the claimed benefit to the sentence instead of stating it as its own observation.",
+      "Uses 'create' as a transitive verb for an abstract state ('silence'), a metaphorical stretch common in AI writing.",
+      "Personifies wind as actively 'introducing' a sound rather than simply producing it."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--review-headphones",
+    "generator": "astra@codex",
+    "line": 5,
+    "sentence": "Heat is the bigger problem.",
+    "judges": [
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "negative-parallelism",
+      "staccato"
+    ],
+    "regexes": [
+      "^[^.!?\\n]{5,40}[.!?]$",
+      "^\\w+\\s+is\\s+the\\s+bigger\\s+problem\\.$",
+      "initially\\s+[^,]+,\\s+then\\s+"
+    ],
+    "tells": [
+      "Abrupt clipped sentence used for emphasis; the review repeatedly drops punchy one-clause sentences ('The companion app helps here.', 'None spoils the overall package at this price.') as rhythmic beats.",
+      "Sets up a contrast structure ('initially X, then Y') that mirrors common AI transitional patterns.",
+      "Short, punchy declarative sentence used for dramatic emphasis, often deployed by AI to vary rhythm."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "astra-codex--runbook-postgres",
+    "generator": "astra@codex",
+    "line": 7,
+    "sentence": "**Acknowledge the alert.** Record the cluster, affected standby, alert start time, and current lag in the incident log.",
+    "judges": [
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "bold-or-list-overuse"
+    ],
+    "regexes": [
+      "\\*\\*[A-Z][^*]{2,40}\\.\\*\\*",
+      "\\*\\*[^*]+\\*\\*"
+    ],
+    "tells": [
+      "All seven numbered steps lead with a bold imperative fragment, and every cause section repeats bold **Evidence:** and **Fix:** labels; the density of decorative bold goes beyond one legitimate emphasis.",
+      "Every step lead and every Evidence and Fix label is bolded; the document bolds far more runs than a plain procedural runbook needs."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--essay-handwriting",
+    "generator": "grok@grok",
+    "line": 1,
+    "sentence": "I'll write the essay to length and check the word count before the text itself.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler",
+      "other",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)(word count|the draft needs)",
+      "(?i)(write the essay|word count)",
+      "(?i)\\bi(?:'ll| will) write\\b.*\\bcheck the word count\\b",
+      "\\bstand as\\b",
+      "\\bword count\\b"
+    ],
+    "tells": [
+      "The sentence exposes task-management commentary before the requested text.",
+      "The sentence repeats the preceding word-count requirement instead of beginning the essay.",
+      "This three-part fragment starts a repeated pattern of arranging observations into three items.",
+      "Process commentary about hitting an assigned word count, a preamble models emit before delivering the actual text.",
+      "Second sentence of meta-narration about the assignment, plus copula avoidance where 'be' would do.",
+      "Leaked meta-instruction: the writer's process note to itself appears as the essay's opening line.",
+      "Second leaked process sentence, restating the same mechanical constraint about length."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--essay-handwriting",
+    "generator": "grok@grok",
+    "line": 5,
+    "sentence": "The room, the hour, sugar scorching in the ovens under the floor.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      "^the \\w+, the \\w+,"
+    ],
+    "tells": [
+      "Two short items precede a longer sensory detail in another three-part fragment.",
+      "Verbless tricolon fragment listing three sensory anchors for rhetorical weight."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--essay-handwriting",
+    "generator": "grok@grok",
+    "line": 7,
+    "sentence": "Weather, work, the price of eggs.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "figurative-verb",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\b(?:a|the)\\s+message\\s+wants\\b",
+      "(?i)\\b(message|letter|text|email)s? (wants|needs|demands)\\b",
+      "(?i)\\bperform(?:ing|s|ed)?\\s+calm\\b",
+      "(?i)^[A-Za-z]+, [a-z]+(,)? and the price of",
+      "\\b(letter|message|sentence|page)s? (wants|can leave|has to stand)\\b",
+      "^\\w+, \\w+, the \\w+"
+    ],
+    "tells": [
+      "Another three-part fragment repeats the cadence of two short items followed by a longer third item.",
+      "The sentence turns an emotional state into a performance with paper as its audience.",
+      "The sentence gives a message a human desire to make a compact observation about communication.",
+      "Three-item comma fragment presented as a complete sentence, the classic tricolon-as-list move.",
+      "The message is given desire; paired with 'A letter can leave the house unfinished' it forms a personified contrast aphorism.",
+      "Gives the abstract noun a desire, a habitual personification move in model prose.",
+      "A triadic list capping a sentence, the rhythm-of-three construction models favor."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--essay-handwriting",
+    "generator": "grok@grok",
+    "line": 11,
+    "sentence": "Three days in clear weather.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "metaphor-noun",
+      "rule-of-three",
+      "staccato"
+    ],
+    "regexes": [
+      "(?i)\\b(?:letter|message|sentence|text)\\s+changed\\s+its\\s+temperature\\b",
+      "(?i)\\bhour\\s+that\\s+wrote\\b",
+      "\\bchanged its \\w+\\b",
+      "\\bthe \\w+ that wrote\\b"
+    ],
+    "tells": [
+      "This starts a sequence of three sentence fragments that divides one account of waiting into separate beats.",
+      "This continues the dense sequence of sentence fragments, with both the verb and the time unit omitted.",
+      "This completes a three-step progression of waiting times with a longer, more elaborate final item.",
+      "Temperature serves as an abstract substitute for a change in emotional meaning.",
+      "The sentence gives an hour the human ability to write.",
+      "Part of an escalating three-fragment cluster ('Three days... Five when it rained. A week when...'), and the essay sustains a high density of clipped declaratives throughout ('She mails it.', 'The plate washed clean.', 'Pickup had been at four.').",
+      "An abstract object is assigned a sensory property shift ('temperature') to sound profound.",
+      "An hour is made the agent that 'wrote' the letter, a poetic personification used as an aphoristic turn.",
+      "Joins a run of very short declaratives ('The plate washed clean.' after 'I broke the flap...'), a clipped cadence the text leans on repeatedly rather than once."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--essay-handwriting",
+    "generator": "grok@grok",
+    "line": 13,
+    "sentence": "He answers the second reading.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude"
+    ],
+    "categories": [
+      "over-compression",
+      "superficial-ing"
+    ],
+    "regexes": [
+      "\\bstill \\w+ing\\b"
+    ],
+    "tells": [
+      "The sentence compresses replying after reflection into an aphorism that makes a reading the thing answered.",
+      "Participle tail attaching ambient texture; the essay repeats the move ('sugar scorching in the ovens', 'foxing along the corners', 'a woman tipping a page toward a lamp')."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--essay-libraries",
+    "generator": "grok@grok",
+    "line": 1,
+    "sentence": "A branch that closes at five or six does not fail because librarians are lazy or because the books have lost their audience.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "colon-drumroll",
+      "figurative-verb",
+      "negative-parallelism",
+      "vocabulary"
+    ],
+    "regexes": [
+      "(?i)\\bit\\s+(?:should|must|would|could)\\s+be\\s+this\\s*:",
+      "(should be|is) this:",
+      "(should|must|is) this:",
+      "\\b(locks|locked) (its|the) doors\\b",
+      "\\bfails? the \\w+\\b",
+      "one of the few [a-z ]+ (left|remaining)"
+    ],
+    "tells": [
+      "This sentence rejects an explanation before a corrective claim, a structure repeated throughout the essay.",
+      "This sentence completes the preceding denial with a short replacement claim, repeating the essay's contrast pattern.",
+      "The phrase announces an important claim before the colon reveals it.",
+      "Scarcity-superlative opener ('one of the few X left') that frames the subject as a vanishing treasure, a stock essay opening.",
+      "Colon used as a drumroll to unveil the thesis ('it should be this: ...').",
+      "The room is given a deliberate action, locking people out, as if it had intent.",
+      "\"Fails\" is stretched from failing a person to failing an abstraction, a compressed metaphor typical of model prose.",
+      "The colon stalls the sentence to announce the thesis, a drumroll construction common in model essays."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--essay-libraries",
+    "generator": "grok@grok",
+    "line": 3,
+    "sentence": "That is not a romantic claim about the smell of paper.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "negative-parallelism",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "That is not (a|an) \\w+ (claim|argument|point)",
+      "study, job applications, and",
+      "to [a-z ]+, to [a-z ]+, to",
+      "to \\w+, to \\w+, to \\w+, to"
+    ],
+    "tells": [
+      "This sentence starts another contrast that rejects one description and replaces it with another.",
+      "This sentence supplies the affirmative half of the repeated denial and replacement pattern.",
+      "Sets up the 'That is not X. It is Y.' antithesis completed by the next sentence, a hallmark manufactured-epiphany construction.",
+      "Anaphoric 'to X' list stacked past three items for rhythmic swell.",
+      "The essay opens its second paragraph by negating a strawman framing before replacing it, a signature not-X-but-Y move.",
+      "An anaphoric list extended past three items for rhetorical accumulation, the enumerated-catalogue rhythm of model prose.",
+      "A three-item list of purposes inside an otherwise sweeping ironic sentence, part of the essay's repeated catalogue habit."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--essay-libraries",
+    "generator": "grok@grok",
+    "line": 9,
+    "sentence": "That is not thrift.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "colon-drumroll",
+      "metaphor-noun",
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "That is not \\w+\\.",
+      "is a \\w+ \\w+:",
+      "is a design problem:",
+      "stranded asset",
+      "that is not \\w+\\. that is"
+    ],
+    "tells": [
+      "The sentence uses the repeated formula that denies one label before asserting another.",
+      "The repeated opening completes the preceding denial with an affirmative replacement.",
+      "'That is not X. That is Y.' antithesis pair with the following sentence, a manufactured-epiphany construction.",
+      "Colon drumroll unpacking an aphoristic label into a list.",
+      "Leads a two-sentence negation-then-label pair, the essay's recurring not-X-it-is-Y device.",
+      "A business-finance metaphor is borrowed to relabel the situation in two words, a compression move typical of model essays.",
+      "The colon announces a definition followed by an enumerated catalogue, a compressed taxonomizing habit."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--essay-libraries",
+    "generator": "grok@grok",
+    "line": 13,
+    "sentence": "The terminal for a job application still matters when the home connection is a phone with a cracked screen and a data cap.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "figurative-verb",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(needs|demands?|hopes?) (do not|don't|never) (expire|sleep|rest|wait)",
+      "needs do not expire",
+      "rooms have already asked",
+      "warm, lawful, and"
+    ],
+    "tells": [
+      "This sentence begins a three-sentence sequence built around the repeated phrase 'still matters'.",
+      "This sentence repeats the central phrase and structure in a three-part rhetorical sequence.",
+      "This sentence completes the three-part sequence that repeats 'still matters'.",
+      "The sentence gives rooms the human action of asking people for money.",
+      "Needs 'expire' at dusk, a figurative verb doing poetic work where a plain statement would do.",
+      "Rooms 'ask for a wallet', granting agency to places for rhetorical effect.",
+      "A three-adjective list, one item playful (\"cover charge\"), stacking predicates in the model catalogue style.",
+      "Needs are given an expiration date, a personification compressed into a short negated sentence.",
+      "Rooms ask for a wallet; every commercial space is personified in one tidy conceit."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--essay-libraries",
+    "generator": "grok@grok",
+    "line": 15,
+    "sentence": "Workers pay the levy too.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "negative-parallelism",
+      "other",
+      "rule-of-three",
+      "staccato"
+    ],
+    "regexes": [
+      "less civic than",
+      "the retired, the unemployed, the very young"
+    ],
+    "tells": [
+      "This sentence begins three parallel claims that name a group and repeat the verb 'pay'.",
+      "This sentence forms the middle of three parallel claims about groups that pay.",
+      "This sentence completes three parallel claims that repeat the verb 'pay'.",
+      "This sentence denies one interpretation before the next sentence asserts another, repeating the essay's contrast formula.",
+      "This sentence supplies the affirmative reinterpretation after the preceding denial.",
+      "Opens an anaphoric run of three short parallel 'pay' sentences (Workers/Students/Shift workers), a drumbeat rhythm.",
+      "'Has not made X. It has said Y.' antithesis completed by the next sentence, another not-this-but-that epiphany pair.",
+      "A the-X, the-Y, the-Z catalogue of demographic groups, the enumerating rhythm model essays default to.",
+      "An abstract comparative coinage (\"civic\" applied to time) delivers an aphoristic verdict, a compressed moral labeling habit."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--essay-libraries",
+    "generator": "grok@grok",
+    "line": 17,
+    "sentence": "Keep the lights on until nine.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "negative-parallelism",
+      "staccato"
+    ],
+    "regexes": [
+      "The \\w+ cannot\\.$",
+      "the \\w+ can \\w+\\. the \\w+ can(not|'t)"
+    ],
+    "tells": [
+      "This command contributes to a dense closing sequence with four short sentences around one longer sentence.",
+      "This three-word command adds to the density of short, emphatic sentences in the closing paragraph.",
+      "This sentence sets up the closing contrast through parallel affirmative and negative claims.",
+      "This abbreviated negative sentence completes the closing contrast and gives it an aphoristic finish.",
+      "Aphoristic closer built on a clipped antithesis ('The books can wait on the shelf. The people cannot.'), the signature punchy AI essay ending.",
+      "The essay closes on a two-sentence mirrored contrast (books can wait, people cannot), the clipped antithetical button ending favored by models."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--explainer-raft",
+    "generator": "grok@grok",
+    "line": 1,
+    "sentence": "I'll write the explainer to about 900 words and check the count before sending it.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler",
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bi(?:'ll| will)\\s+(?:write|draft)\\b.*\\bwords\\b.*\\bcheck\\s+the\\s+count\\b",
+      "i'?ll (write|draft|create|check) .*(explainer|word|count)"
+    ],
+    "tells": [
+      "The sentence inserts a drafting promise and word-count check before the explanation.",
+      "First-person meta-commentary narrating the writing plan and word-count compliance instead of beginning the content.",
+      "Meta-commentary about word count targets is a process artifact, not a stylistic tell in the prose itself."
+    ],
+    "confidence": [
+      "high",
+      "low"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--fiction-dialogue-repair",
+    "generator": "grok@grok",
+    "line": 21,
+    "sentence": "It thinks about left.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude"
+    ],
+    "categories": [
+      "anthropomorphism"
+    ],
+    "regexes": [
+      "\\b(it|he|she) thinks about\\b"
+    ],
+    "tells": [
+      "The document repeatedly gives mechanical faults human thoughts, speech, and intentions.",
+      "The bike is given intent in a punchy personifying beat, a common device for manufactured charm."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--fiction-dialogue-repair",
+    "generator": "grok@grok",
+    "line": 61,
+    "sentence": "It only speaks when the street tilts.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "The noise becomes another speaking character in a dense sequence of personified mechanical faults.",
+      "A stacked metaphor (the noise lives in a box, speaks when the street tilts) polished into a quotable epigram."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--fiction-dialogue-repair",
+    "generator": "grok@grok",
+    "line": 65,
+    "sentence": "Fade is a curtain word.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude"
+    ],
+    "categories": [
+      "metaphor-noun",
+      "other"
+    ],
+    "regexes": [
+      "\\bis a \\w+ word\\b"
+    ],
+    "tells": [
+      "The dialogue repeatedly turns practical descriptions into compact metaphors about language.",
+      "Aphoristic label construction (\"X is a Y word\") built for quotability rather than speech."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--fiction-dialogue-repair",
+    "generator": "grok@grok",
+    "line": 97,
+    "sentence": "The nerves can stay in the jacket.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude"
+    ],
+    "categories": [
+      "metaphor-noun",
+      "other"
+    ],
+    "regexes": [],
+    "tells": [
+      "The reply turns anxiety into a physical object, adding another compact metaphor to the practical exchange.",
+      "Callback epigram reusing the prior metaphor to close the beat with an aphorism."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--fiction-ferry",
+    "generator": "grok@grok",
+    "line": 79,
+    "sentence": "Neither apologized.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "negative-parallelism",
+      "other",
+      "staccato"
+    ],
+    "regexes": [
+      "Neither [a-z]+ed\\.",
+      "neither \\w+\\.? there was nothing"
+    ],
+    "tells": [
+      "Four consecutive short sentences give one minor movement a conspicuously deliberate emotional rhythm.",
+      "This sentence extends a four-sentence staccato sequence and explains the preceding sentence's implication.",
+      "This short sentence extends a four-sentence staccato sequence that gives a small action disproportionate emphasis.",
+      "This sentence completes a four-sentence staccato sequence with a pointed contrast between the boat and its passengers.",
+      "Negation stacked on the preceding negation (\"Neither apologized. There was nothing to apologize for.\") to inflate a non-event into significance.",
+      "Portentous antithesis (\"The boat had moved. They had stayed where they were.\") that assigns symbolic weight to two people simply sitting still.",
+      "A run of clipped declaratives followed by an explanatory aphorism, a cadence language models lean on for weight in dialogue scenes; here it is a single instance, not a density, so confidence is low."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--fiction-ferry",
+    "generator": "grok@grok",
+    "line": 73,
+    "sentence": "Clove, orange peel, more sugar than any adult needed.",
+    "judges": [
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(\\w+, ){2}(more|less) \\w+ than"
+    ],
+    "tells": [
+      "Three-item sensory fragment capped with a wry aside, a list cadence that recurs in the piece.",
+      "A sensory list of exactly three items closing with a wry comparative, a list shape models favor; harmless alone, so low confidence."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--fiction-ferry",
+    "generator": "grok@grok",
+    "line": 101,
+    "sentence": "Leaving a light is not the same as waiting,",
+    "judges": [
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "\\bis not the same as\\b",
+      "is not the same as"
+    ],
+    "tells": [
+      "The story states its theme outright as a balanced \"X is not Y\" epigram placed in a character's mouth.",
+      "A spoken line built on an \"X is not Y\" contrast that delivers a tidy epiphany, a hallmark of model-written dialogue; one occurrence, so flagged at low confidence."
+    ],
+    "confidence": [
+      "high",
+      "low"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--review-headphones",
+    "generator": "grok@grok",
+    "line": 5,
+    "sentence": "Codec support is ordinary.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "staccato"
+    ],
+    "regexes": [
+      "(?i)\\.(?: [A-Z][\\w ]{2,20})? (?:are here)\\. [\\w and]{3,20} are not\\."
+    ],
+    "tells": [
+      "This begins a run of four consecutive sentences of four to six words, producing a conspicuously clipped rhythm.",
+      "This continues the four-sentence clipped sequence and forms a matching pair with the next sentence.",
+      "This mirrors the preceding short sentence within a dense run of four clipped declarations.",
+      "This completes four consecutive sentences of four to six words, extending the conspicuously clipped rhythm.",
+      "Three clipped sentences in a row, part of a document-wide pattern of terse fragments ('Wind is the weak spot.', 'The misses are specific.', 'You do not get spatial audio.', 'There is no touch panel.').",
+      "A run of clipped declarative fragments, paired by negation ('X is here. Y is not.'), producing an unusual density of two- to four-word sentences."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "grok-grok--review-headphones",
+    "generator": "grok@grok",
+    "line": 17,
+    "sentence": "The misses are specific.",
+    "judges": [
+      "astra-codex",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler"
+    ],
+    "regexes": [
+      "(?i)\\bthe (?:misses|flaws|drawbacks|shortcomings) are specific\\b",
+      "(?i)the misses are specific"
+    ],
+    "tells": [
+      "The sentence announces the specificity of the criticism without supplying an observation itself.",
+      "A four-word topic-sentence announcing the list that follows; it adds no information and serves only as a transition header."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--email-outage",
+    "generator": "kimi@claude",
+    "line": 20,
+    "sentence": "We know you were looking forward to your books, and we are sorry for the wait.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "generic-conclusion",
+      "sycophancy"
+    ],
+    "regexes": [
+      "(?i)\\bwe know you were looking forward\\b",
+      "we (are|'re) sorry for the (wait|delay|inconvenience)"
+    ],
+    "tells": [
+      "Formulaic empathetic apology line of the kind templates insert near the close.",
+      "The writer claims to know the reader's feelings before the apology."
+    ],
+    "confidence": [
+      "high",
+      "low"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--email-outage",
+    "generator": "kimi@claude",
+    "line": 22,
+    "sentence": "Thank you for your patience and for supporting an independent bookshop.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "filler",
+      "generic-conclusion"
+    ],
+    "regexes": [
+      "(?i)\\bthank you for your patience and for supporting\\b",
+      "thank you for your patience"
+    ],
+    "tells": [
+      "Boilerplate closing gratitude pairing patience with support, filler courtesy before the sign-off.",
+      "The sign-off thanks the reader for patience and then for supporting an independent shop."
+    ],
+    "confidence": [
+      "high",
+      "low"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--essay-handwriting",
+    "generator": "kimi@claude",
+    "line": 3,
+    "sentence": "Not the news in the letters, which was ordinary, the price of oranges, a neighbor's surgery, rain.",
+    "judges": [
+      "astra-codex",
+      "grok-grok"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "figurative-verb",
+      "negative-parallelism",
+      "over-compression",
+      "rule-of-three",
+      "synonym-cycling"
+    ],
+    "regexes": [
+      "(?i)[^,]{3,40},\\s+[^,]{3,40},\\s+\\w+\\.",
+      "(?i)\\b(?:eaten|swallowed|devoured)\\b",
+      "(?i)\\bat the speed of\\b",
+      "(?i)\\blike people\\b",
+      "(?i)\\bor rather\\b",
+      "(?i)^not the\\b"
+    ],
+    "tells": [
+      "This fragment rejects one focus before the next sentence announces the preferred focus.",
+      "This sentence completes the staged contrast between the rejected subject and the supposedly deeper subject.",
+      "Digital correction becomes an act of consumption through the verb \"eaten.\"",
+      "Letter shapes are pictured as people walking, a personification of handwriting.",
+      "The sentence sets the news aside so the next sentence can elevate a different subject.",
+      "Ordinary life is reduced to a three-beat list that lands on a single blunt noun.",
+      "\"Or rather\" swaps a plain phrase for a grander restatement of the same idea.",
+      "A text message is given an animal verb and eats the mistake.",
+      "A claim about time and character is packed into one polished figure of speed."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--essay-handwriting",
+    "generator": "kimi@claude",
+    "line": 9,
+    "sentence": "Then there is the envelope, the stamp, the walk.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "figurative-verb",
+      "generic-conclusion",
+      "hedging",
+      "metaphor-noun",
+      "negative-parallelism",
+      "over-compression",
+      "rule-of-three",
+      "vocabulary"
+    ],
+    "regexes": [
+      "(?i)\\b(\\w+) in a way nothing\\b[^.]{0,40}\\bever \\1\\b",
+      "(?i)\\b[a-z]+-ness\\b",
+      "(?i)\\bcannot \\w+[^,]*,\\s+cannot \\w+[^,]*,\\s+cannot \\w+",
+      "(?i)\\bcannot\\b[^,.!?]*,\\s*cannot\\b[^,.!?]*,\\s*cannot\\b",
+      "(?i)\\bdrowning in\\b",
+      "(?i)\\beverything is \\w+ and nothing is \\w+",
+      "(?i)\\beverything\\b[^.!?]*\\band nothing\\b",
+      "(?i)\\bi think\\b[^.]{0,80}\\bpartly\\b",
+      "(?i)\\bin a \\w+,\\s+on a \\w+,\\s+in the\\b",
+      "(?i)\\bthe \\w+, the \\w+, the \\w+\\b",
+      "(?i)^then there is the \\w+, the \\w+, the \\w+",
+      "(everything|everyone) is \\w+ and (nothing|no one) is \\w+",
+      "Then there is the \\w+, the \\w+, the \\w+",
+      "drowning in \\w+ words"
+    ],
+    "tells": [
+      "Three parallel noun phrases turn a practical sequence into a measured rhetorical beat.",
+      "The sentence stacks two three-part sequences and ends with three parallel \"cannot\" clauses.",
+      "The familiar \"drowning in\" metaphor turns an abundance of information into physical peril.",
+      "The paragraph ends with a sweeping \"everything/nothing\" contrast shaped as an aphorism.",
+      "A colon-drumroll introduction followed by a rhythmic three-item list, a cadence language models overuse.",
+      "A balanced aphorism built on negated parallel clauses, the 'not X but Y' rhythm in compressed form.",
+      "Stock metaphor of information overload rendered as a neat abstract-noun phrase.",
+      "Three bare nouns are lined up as a rhythmic section opener.",
+      "The letter's route is split into a three-part journey that sounds complete.",
+      "Three \"cannot\" clauses repeat the same syntax in a row.",
+      "The same word is mirrored inside a negative clause so the contrast sounds balanced.",
+      "\"I think\" and \"partly\" soften a general claim about why people write letters.",
+      "A passing word is minted into an abstract hyphenated -ness noun.",
+      "A broad complaint is squeezed into a five-word drowning metaphor that reads like a pull-quote.",
+      "The line balances \"everything\" against \"nothing\" so the claim reads as a mirror aphorism."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--essay-handwriting",
+    "generator": "kimi@claude",
+    "line": 11,
+    "sentence": "The reply, when it comes, arrives at the speed of weather.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "generic-conclusion",
+      "metaphor-noun",
+      "negative-parallelism",
+      "other",
+      "over-compression",
+      "staccato",
+      "vague-attribution"
+    ],
+    "regexes": [
+      "(?i)\\bat the speed of \\w+",
+      "(?i)\\bat the speed of weather\\b",
+      "(?i)\\bi hold the \\w+ he held\\b",
+      "(?i)\\bparenthetical\\s+\\w+\\b",
+      "(?i)\\bpeople mean when they say\\b",
+      "(?i)\\bpeople mean when they say\\b|\\bthey usually say\\b",
+      "(?i)\\bpressed back\\b",
+      "(?i)\\bshows me\\b[^;]{0,80};\\s+the \\w+ shows me\\b",
+      "(?i)\\bthe \\w+ shows me\\b[^;.!?]*;\\s*the \\w+ shows me\\b",
+      "(?i)^[A-Za-z]+, applied to\\b",
+      "(?i)^it is \\w+\\.$",
+      "(?i)^it is not \\w+ at all\\b",
+      "(?i)^no \\w+ does this\\b",
+      "the \\w+ shows me .* the \\w+ shows me"
+    ],
+    "tells": [
+      "Weather becomes an evocative but unspecified measure of speed.",
+      "A compressed passage becomes an athletic action through another conspicuous metaphor.",
+      "Unspecified people receive a shared meaning and manner of expression.",
+      "This sentence supplies the negative half of the adjacent \"not vague\" and \"mechanical\" contrast.",
+      "This short assertion completes the preceding rejection with a categorical replacement.",
+      "The paragraph closes with a symmetrical contrast that condenses its argument into a polished maxim.",
+      "Mirrored clause structure contrasting two things in an epigrammatic closer.",
+      "Weather is used as a metaphor noun standing in for a unit of speed.",
+      "Running out of space is renamed with a punctuation-and-sports compound.",
+      "The pronouns mirror each other in a tiny chiasmus of hold and held.",
+      "The paper is made into a partner that presses back.",
+      "An unnamed \"people\" is cited for a sentimental view the essay is about to correct.",
+      "A short denial clears the way for the one-word correction in the next sentence.",
+      "This is one of a run of clipped sentences in the same stretch, with \"It is not vague at all,\" \"It is mechanical,\" and \"No screen does this\" landing as isolated beats.",
+      "A physical idea is delivered as a definition fragment in a textbook cadence.",
+      "A four-word ban on screens pivots into the balanced contrast of the next sentence.",
+      "A semicolon holds two clauses with the same verb so the contrast looks engraved."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--essay-handwriting",
+    "generator": "kimi@claude",
+    "line": 13,
+    "sentence": "But on the dark winter evenings when the candle is lit and the pen scratches and the mouse in the wall keeps time, I am not being eccentric.",
+    "judges": [
+      "astra-codex",
+      "grok-grok"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "colon-drumroll",
+      "generic-conclusion",
+      "negative-parallelism",
+      "other",
+      "over-compression",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\bcan do:\\s+\\w+ing\\b",
+      "(?i)\\bi am not being \\w+\\b",
+      "(?i)\\bkeeps time\\b",
+      "(?i)\\bone of the (?:oldest|greatest|simplest|most \\w+) things\\b[^:]*:",
+      "(?i)\\bone of the oldest things\\b",
+      "(?i)when the .{5,50} and the .{5,50} and the .{5,50}"
+    ],
+    "tells": [
+      "The conclusion rejects an ordinary description before the next sentence replaces it with a grander identity.",
+      "A grand introductory claim delays the concrete action until after a colon, staging the final insight.",
+      "A shoebox is inflated in one phrase into the archive of a finished world.",
+      "Three images from earlier in the essay are reprised in one \"and\" chain.",
+      "The mouse from an earlier simile is now an agent that keeps time.",
+      "Denying eccentricity clears the way for the final claim of ancient importance.",
+      "The ending lifts the act into one of the oldest things a person can do, a generic closing elevation.",
+      "A colon holds the last sentence open so the moral can be unveiled.",
+      "Weather returns as a closing motif carried over from earlier in the essay."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--essay-libraries",
+    "generator": "kimi@claude",
+    "line": 7,
+    "sentence": "The nurse finishing a shift, the warehouse worker on an evening schedule, the parent who cannot leave the office before six: these people pay for the library through their taxes and then find the door locked when they finally have an hour to spare.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "colon-drumroll",
+      "negative-parallelism",
+      "other",
+      "rule-of-three",
+      "vocabulary"
+    ],
+    "regexes": [
+      ":\\s+these\\s+\\w+",
+      "\\bare not a\\b",
+      "\\blibrary that\\b.{0,80}\\bis a library for\\b",
+      "are not .*\\. They are the difference between"
+    ],
+    "tells": [
+      "Three representative people form another carefully balanced roll call before the argument resumes.",
+      "This sentence rejects one description before the next sentence supplies a more elevated replacement.",
+      "Negative parallelism constructing a false dichotomy for rhetorical effect.",
+      "The same noun is defined as its own critique, a paradox template that restates the library as a library for the jobless.",
+      "Three stock workers are lined up and then released through a colon into the moral.",
+      "\"Are not a luxury add-on\" is the negative half of a not-X then they-are-Y pair finished in the next sentence, one of several such reversals in the essay.",
+      "\"Publicly leisured\" is a coined, elevated antonym built to mirror \"public service.\""
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--essay-libraries",
+    "generator": "kimi@claude",
+    "line": 9,
+    "sentence": "Not every teenager has a quiet bedroom, a desk, and reliable internet.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "figurative-verb",
+      "metaphor-noun",
+      "other",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\bno new\\b[^,;.!?]*,\\s*no new\\b[^,;.!?]*,\\s*and no new\\b",
+      "\\bno new\\b.+\\bno new\\b.+\\bno new\\b",
+      "\\bwe are telling\\b",
+      "actually (?:gets|is|does)",
+      "grows wider each",
+      "no new \\w+, no new \\w+, and no new \\w+"
+    ],
+    "tells": [
+      "The three-item inventory contributes to the essay's repeated use of three-part examples.",
+      "Three parallel circumstances immediately follow another three-item list, making the repeated construction conspicuous.",
+      "The repeated phrase 'no new' turns three examples into a rhythmic rhetorical formula.",
+      "Use of 'actually' to emphasize reality, a common ML hedge/emphasis pattern.",
+      "Metaphorical framing of abstract gap widening as spatial expansion.",
+      "Triple negative list with identical structure, a hallmark of ML prose.",
+      "A closing time is recast as the town telling students a moral, ventriloquizing a schedule into a message.",
+      "The same \"no new\" frame is repeated across curriculum, technology, and staff training, an anaphoric triad of absences."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--essay-libraries",
+    "generator": "kimi@claude",
+    "line": 11,
+    "sentence": "Then there is the simple matter of physical space.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "figurative-verb",
+      "filler",
+      "metaphor-noun",
+      "rule-of-three",
+      "staccato"
+    ],
+    "regexes": [
+      "(?i)\\bthen there is the (?:simple )?matter of\\b",
+      "(?i)\\bwhen\\b[^.!?]*,\\s*when\\b[^.!?]*,\\s*and when\\b",
+      "(?i)\\bwhere\\b[^.!?]*,\\s*where\\b[^.!?]*,\\s*and where\\b",
+      "\\bthe simple matter of\\b",
+      "\\bwhere\\b[^,]*,\\s*where\\b[^,]*,\\s*and where\\b",
+      "^The \\w+ .+\\.$",
+      "one answer that costs a fraction",
+      "steadily (?:lost|gained|disappeared)",
+      "when .+, when .+, and when .+"
+    ],
+    "tells": [
+      "A stock transition announces the topic through extra words that add no substantive detail.",
+      "Three parallel 'where' clauses give the description the essay's recurring three-part cadence.",
+      "The sentence nests a three-item list inside three parallel 'when' clauses.",
+      "Abstract process framed with gradual physical verb.",
+      "Series of short declarative sentences listing failures, creating rhythmic emphasis typical of ML essays.",
+      "Triple 'when' clause structure followed by another triple list within the final clause.",
+      "Solution framed as physical object with measurable cost fraction.",
+      "\"Then there is the simple matter of\" is throat-clearing that announces the next topic instead of starting it, one of several signposts in the essay.",
+      "Three parallel where-clauses drill the same claim about free presence, a rhetorical triad rather than a new fact in each clause.",
+      "\"Loneliness bites\" gives a mood an animal verb, a figurative flash inside an already tripled when-list."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--essay-libraries",
+    "generator": "kimi@claude",
+    "line": 13,
+    "sentence": "The strongest objection, and it deserves a serious answer, is money.",
+    "judges": [
+      "astra-codex",
+      "grok-grok"
+    ],
+    "categories": [
+      "filler",
+      "other",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\bdeserves a serious answer\\b",
+      "\\ba fair question\\b",
+      "\\bdeserves a serious answer\\b"
+    ],
+    "tells": [
+      "The inserted assurance announces serious treatment instead of contributing to the answer.",
+      "Three parallel cost items continue the unusually frequent three-part construction across the essay.",
+      "The aside performs fairness, blessing the objection before the essay takes it up, in a cluster of similar concessions.",
+      "\"A fair question\" flatters the opposing view before stating it, part of the same concession pose as the serious answer and the understandable discomfort."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--essay-libraries",
+    "generator": "kimi@claude",
+    "line": 15,
+    "sentence": "The answer has several parts.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "colon-drumroll",
+      "filler",
+      "generic-conclusion",
+      "hedging",
+      "other",
+      "rule-of-three",
+      "vague-attribution"
+    ],
+    "regexes": [
+      "(?i)\\b(?:libraries|institutions|organizations|systems)\\b[^.!?]*\\bconsistently report\\b",
+      "(?i)^the answer has (?:several|multiple|many|two|three|four) parts\\.$",
+      ": .+, .+, .+",
+      "The answer has several parts",
+      "You cannot measure .* for .* that does not exist",
+      "\\bclosed \\w+ proves nothing\\b",
+      "\\bconsistently report\\b",
+      "\\bhas several parts\\b",
+      "\\bwherever\\b.+\\btried\\b",
+      "\\byou cannot\\b.+\\bthat does not exist\\b",
+      "actually (?:been|done|tried)"
+    ],
+    "tells": [
+      "The sentence announces an answer's structure without giving any part of the answer.",
+      "The sentence invokes unspecified trials as evidence without identifying a location or source.",
+      "Unnamed libraries supply an asserted consensus through the phrase 'consistently report'.",
+      "Setup phrase preceding enumerated points, a structural ML convention.",
+      "Use of 'actually' to assert empirical grounding.",
+      "Triple list after colon describing demographic groups.",
+      "Self-evident principle stated as conclusive insight.",
+      "The sentence only promises a list, an empty signpost before any reason appears.",
+      "\"Wherever\" claims a universal result of evening-hour trials without naming a single library or study.",
+      "\"Consistently report\" invents a uniform finding from unnamed libraries, then a colon rolls out three stock visitor types.",
+      "The line is a freestanding proverb about demand, the first of two maxim buttons closing the point.",
+      "A second clipped verdict follows the previous maxim, a paradoxical proverb rather than a reported measurement."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--essay-libraries",
+    "generator": "kimi@claude",
+    "line": 21,
+    "sentence": "There is also a harder argument beneath the budget debate, and honesty requires naming it.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "colon-drumroll",
+      "figurative-verb",
+      "filler",
+      "generic-conclusion",
+      "hedging",
+      "negative-parallelism",
+      "other",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\bhonesty requires (?:naming|acknowledging|recognizing|stating)\\b",
+      ",\\s+[^,]{3,40},\\s+and\\s+",
+      ":\\s+the \\w+ \\w+, the \\w+",
+      "A \\w+ empty of \\w+ is usually a \\w+ empty of \\w+",
+      "\\bempty of\\b.+\\bempty of\\b",
+      "\\bhonesty requires\\b",
+      "\\bis not to\\b",
+      "\\bis understandable\\b",
+      "\\w+ requires naming it",
+      "to \\w+ it \\w+, \\w+ \\w+ \\w+, and \\w+"
+    ],
+    "tells": [
+      "The sentence announces the writer's candor before stating the argument.",
+      "Another roll call presents three representative people in parallel noun phrases.",
+      "This sentence supplies the negative half of a correction that the next sentence completes with 'It is'.",
+      "Three parallel remedies give the rebuttal another balanced three-part ending.",
+      "Abstract virtue personified as requiring action.",
+      "Triple imperative list offering solutions.",
+      "Epigrammatic statement presented as universal truth.",
+      "\"Honesty requires naming it\" performs candor, announcing that the uncomfortable point is about to be said.",
+      "A colon holds the sentence so three stock night patrons can be revealed in a row.",
+      "\"Understandable\" softens the charge about who is unwelcome, a concession hedge before the pivot.",
+      "\"Is not to close it\" is the negative half of a not-to-X then it-is-to-Y reversal completed in the next sentence.",
+      "Three remedies are lined up in a row, and the last snaps shut on the echo that everyone allowed in will show up.",
+      "The sentence mirrors its own wording, a chiasmus that turns the point into a proverb."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--essay-libraries",
+    "generator": "kimi@claude",
+    "line": 25,
+    "sentence": "Turn the lights on, and leave them on.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "generic-conclusion"
+    ],
+    "regexes": [
+      "Turn the lights on, and leave them on",
+      "\\bturn the\\b.+\\bleave them on\\b"
+    ],
+    "tells": [
+      "Imperative closing echoing title, a common essay structure.",
+      "The essay buttons itself with a bare imperative that echoes the title, a generic closing flourish."
+    ],
+    "confidence": [
+      "high"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--explainer-raft",
+    "generator": "kimi@claude",
+    "line": 9,
+    "sentence": "The rule is simple:",
+    "judges": [
+      "astra-codex",
+      "grok-grok"
+    ],
+    "categories": [
+      "colon-drumroll",
+      "filler"
+    ],
+    "regexes": [
+      "(?i)\\bthe (?:rule|principle|idea|answer) is simple\\s*:",
+      "(?i)the rule is simple"
+    ],
+    "tells": [
+      "A stock announcement declares the explanation simple before presenting it.",
+      "A filler announcement calls the next rule obvious before stating it."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--explainer-raft",
+    "generator": "kimi@claude",
+    "line": 14,
+    "sentence": "A server isolated in an old term cannot fool the rest of the cluster once it rejoins, because everyone else has moved to a newer term and will ignore it.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism"
+    ],
+    "regexes": [
+      "(?i)cannot fool",
+      "\\b(fool|trick|deceive)s?\\b",
+      "\\bresolves? \\w*confusion\\b"
+    ],
+    "tells": [
+      "The sentence describes protocol behavior as deception among people.",
+      "Attributes confusion to servers, a human mental state.",
+      "Servers described as fooling and ignoring each other deliberately.",
+      "The server is described as fooling the cluster, as if it had a deceptive intent."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--explainer-raft",
+    "generator": "kimi@claude",
+    "line": 39,
+    "sentence": "A leader does not hold office through a lease file or a lock.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "figurative-verb",
+      "metaphor-noun",
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "(?i)does not hold office through",
+      "(?i)holds office",
+      "\\bholds? office\\b"
+    ],
+    "tells": [
+      "This sentence begins a staged contrast that repeats the office metaphor in the next sentence.",
+      "This sentence completes the repeated contrast between how the leader does not and does hold office.",
+      "Political-office metaphor applied to a server role.",
+      "It denies a lease file or a lock in the same 'hold office' frame the next sentence corrects.",
+      "The verb 'holds office' keeps the leader inside the political metaphor."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--explainer-raft",
+    "generator": "kimi@claude",
+    "line": 65,
+    "sentence": "This is the detail junior engineers most often get wrong when reimplementing Raft: they use a fixed timeout, and their test cluster deadlocks in repeated split votes.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "other",
+      "staccato",
+      "vague-attribution"
+    ],
+    "regexes": [
+      "(?i)\\b(?:engineers|developers|programmers|beginners|teams)\\s+most often get wrong\\b",
+      "(?i)most often get wrong",
+      "\\bRandomize, every round\\.",
+      "\\bengineers most often get wrong\\b"
+    ],
+    "tells": [
+      "The sentence invokes an unnamed group's supposed common mistake to imply practical authority.",
+      "An unusually punctuated short command gives the paragraph an emphatic closing beat.",
+      "Manufactured audience-failure anecdote presented as a known generality.",
+      "Imperative fragment appended for punchy emphasis.",
+      "A mistake is pinned on junior engineers as a group, with no source for how often they make it, then revealed after a colon.",
+      "A three-word imperative fragment lands as a slogan, in the same clipped cadence as other short lines here."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--explainer-raft",
+    "generator": "kimi@claude",
+    "line": 69,
+    "sentence": "The full cycle in one paragraph: followers listen.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "colon-drumroll",
+      "figurative-verb",
+      "generic-conclusion",
+      "rule-of-three",
+      "staccato"
+    ],
+    "regexes": [
+      "(?i)\\bcrowns?\\s+(?:a|the|an)\\s+(?:leader|winner|champion)\\b",
+      "(?i)\\bcrowns\\b",
+      "(?i)\\bthe (?:full|whole|entire)\\s+[^:.!?]+\\s+in one (?:paragraph|sentence|line)\\s*:",
+      "(?i)\\bthe result is\\b",
+      "(?i)in one paragraph:",
+      "\\balways \\w+[^.]*, \\w+s? [^.]*, and never \\w+",
+      "\\bcrowns?\\b"
+    ],
+    "tells": [
+      "The sentence announces its own summary format before delivering a clipped opening clause.",
+      "The summary presents servers as people whom the leader keeps quiet.",
+      "The ceremonial verb adds another political flourish to the technical explanation.",
+      "The conclusion packages the explanation into three parallel benefits with a polished closing cadence.",
+      "Coronation metaphor for winning an election.",
+      "Three stacked guarantees in the closing summary.",
+      "A colon announces that the whole cycle will be delivered as a compressed run of short lines.",
+      "This is one of a run of very short recap sentences that restate the protocol as slogans.",
+      "The verb 'crowns' turns winning a majority into a coronation.",
+      "The closer opens with 'The result is' and stacks three broad outcomes, the last an absolute 'never.'"
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--explainer-raft",
+    "generator": "kimi@claude",
+    "line": 3,
+    "sentence": "Election is the mechanism the cluster uses to pick that one leader, and to replace it when it fails.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "copula-avoidance",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)the leader, the leader",
+      "\\bis the \\w+ (mechanism|means|way|process)\\b"
+    ],
+    "tells": [
+      "\"is the mechanism\" avoids a plain verb like \"elects\".",
+      "Three matched clauses chain the leader's job, with 'the leader' repeated as the hinge."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--explainer-raft",
+    "generator": "kimi@claude",
+    "line": 37,
+    "sentence": "Heartbeats: the leader's lease on power",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "metaphor-noun"
+    ],
+    "regexes": [
+      "(?i)lease on power",
+      "\\blease on power\\b"
+    ],
+    "tells": [
+      "Metaphorical framing of leadership as political power.",
+      "The heading names heartbeats with a political metaphor, 'lease on power.'"
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--explainer-raft",
+    "generator": "kimi@claude",
+    "line": 41,
+    "sentence": "Silence is the trigger.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "staccato"
+    ],
+    "regexes": [
+      "\\b[A-Z]\\w+ is the trigger\\."
+    ],
+    "tells": [
+      "Punchy isolated short sentence for rhetorical emphasis.",
+      "A four-word slogan closes the paragraph, one of several clipped lines in the piece."
+    ],
+    "confidence": [
+      "high",
+      "low"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--fiction-dialogue-repair",
+    "generator": "kimi@claude",
+    "line": 113,
+    "sentence": "And your kickstand bolt is loose enough to dance.",
+    "judges": [
+      "astra-codex",
+      "grok-grok"
+    ],
+    "categories": [
+      "figurative-verb",
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bloose enough to dance\\b",
+      "(?i)enough to dance"
+    ],
+    "tells": [
+      "The bolt dances in the first of several closely spaced music and performance metaphors.",
+      "The verb dance gives a loose bolt a human way of moving."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--fiction-dialogue-repair",
+    "generator": "kimi@claude",
+    "line": 117,
+    "sentence": "You might have a whole percussion section in here.",
+    "judges": [
+      "astra-codex",
+      "grok-grok"
+    ],
+    "categories": [
+      "metaphor-noun",
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\b(?:a\\s+)?whole percussion section\\b",
+      "(?i)\\b(?:percussion section|orchestra|symphony|chorus)\\b"
+    ],
+    "tells": [
+      "This musical metaphor continues a sequence of conspicuously polished jokes about mechanical faults.",
+      "The noun phrase percussion section gathers ordinary noises into a band metaphor."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--fiction-dialogue-repair",
+    "generator": "kimi@claude",
+    "line": 125,
+    "sentence": "The kickstand is the free bonus track.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "metaphor-noun",
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\b(?:bonus track|soundtrack|remix|b-side)\\b",
+      "(?i)\\b(?:free\\s+)?bonus track\\b",
+      "free bonus track"
+    ],
+    "tells": [
+      "This adds another musical punch line to the earlier dancing bolt and percussion section.",
+      "Music-industry metaphor stacked on the earlier percussion line; the doubled music joke suggests writer cleverness rather than offhand speech.",
+      "The phrase free bonus track gives the kickstand a second music-world name."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--fiction-dialogue-repair",
+    "generator": "kimi@claude",
+    "line": 155,
+    "sentence": "\"It never is,\" Marisol said.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "generic-conclusion",
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bit never is\\b",
+      "(?i)\\buntil it is\\b",
+      "(?i)\\buntil it is\\s*[.!?]?[\"\u201d]?$",
+      "It never is[.,]? ?Until it is"
+    ],
+    "tells": [
+      "This begins a generic closing maxim whose reversal gives an ordinary exchange an air of wisdom.",
+      "This stock closing reversal suggests significance without adding a concrete observation.",
+      "Staccato symmetrical closer built to end the piece on a chime; the neat reversal is a signature scripted-punchline shape.",
+      "This line opens a closing paradox that reads like a proverb.",
+      "The last line flips the previous claim into a two-beat proverb."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--fiction-dialogue-repair",
+    "generator": "kimi@claude",
+    "line": 107,
+    "sentence": "\"Bikes usually do what physics tells them. People are the unpredictable part.\"",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "negative-parallelism",
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bpeople are the \\w+ part\\b",
+      "(?i)\\bphysics\\s+tells\\b",
+      "(do(es)?|usually) what \\w+ tells them"
+    ],
+    "tells": [
+      "Contrastive two-part aphorism that sets a mechanical thing against people as the unpredictable element, a tidy wisdom beat that lands harder than shop talk would.",
+      "Physics is pictured as an agent that tells bikes what to do.",
+      "The line closes the contrast by labeling people with one abstract phrase."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 23,
+    "sentence": "Ruth let the silence sit.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "figurative-verb",
+      "generic-conclusion",
+      "other",
+      "over-compression"
+    ],
+    "regexes": [
+      "(?i)\\blet(?:ting)? (?:the )?silence sit\\b",
+      "let the silence sit",
+      "like something \\w+ing into",
+      "the main thing .{0,40}learned"
+    ],
+    "tells": [
+      "The sentence uses the stock phrase of letting silence sit to signal emotional patience.",
+      "The narrator converts a brief biography into a broad life lesson that explains the preceding gesture.",
+      "Another soft domestic simile; combined with the small-animal and match-flare comparisons, the story carries a density of gentle similes typical of model prose.",
+      "Silence is given a body that can sit and be left there.",
+      "A life with three children and a buried husband is compressed into one stated rule about strangers.",
+      "The deck is glossed with another domestic simile, motion compared to someone settling into a chair."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 35,
+    "sentence": "I just needed my hands to know what to do while the rest of me caught up.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\b(?:my|your|his|her|their|our) hands to know what to do\\b",
+      "(\\w+, ){2}\\w+ we"
+    ],
+    "tells": [
+      "The sentence gives the hands separate understanding to create a polished maxim about coping with grief.",
+      "Three-item laundry list with escalating sentimental weight, the structured triple models reach for in inventory sentences.",
+      "The hands are given knowledge of their own while the rest of her catches up."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 39,
+    "sentence": "It goes where it fits.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "figurative-verb",
+      "other",
+      "over-compression"
+    ],
+    "regexes": [
+      "That's \\w+\\. It goes",
+      "where it fits"
+    ],
+    "tells": [
+      "The reply packages grief as a compact maxim through vague language about movement and fit.",
+      "Neat aphoristic wisdom line, the kind of quotable closure sentence model dialogue defaults to.",
+      "The coffee story is closed by naming the whole feeling in two words.",
+      "Grief is given the behavior of something that moves and then settles where it can."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 79,
+    "sentence": "Clare stood and dropped her cup in the bin by the cabin door, then stood there a moment with her hand still on the lid, as if the motion had cost her something.",
+    "judges": [
+      "astra-codex",
+      "grok-grok"
+    ],
+    "categories": [
+      "figurative-verb",
+      "hedging"
+    ],
+    "regexes": [
+      "(?i)\\bas if\\b[^.!?]*\\bcost (?:her|him|them|me|you) something\\b",
+      "as if .{0,80}had cost"
+    ],
+    "tells": [
+      "The sentence gives an ordinary gesture unspecified emotional weight through the stock phrase of costing someone something.",
+      "A hedge of as if charges a hand left on a bin lid with an unnamed cost."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 3,
+    "sentence": "Near the bow, a bench ran along the cabin wall under a row of windows that glowed a flat, tired yellow, and on it sat a woman with a paper coffee cup held in both hands like a small animal she was keeping warm.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "like a \\w+ [a-z]+ (she|he) was"
+    ],
+    "tells": [
+      "Tender simile attached to an incidental prop, the kind of decorative comparison language models add to establish tone.",
+      "An extended simile turns the coffee cup into a small animal, the first of several domestic comparisons that gloss a small gesture."
+    ],
+    "confidence": [
+      "high",
+      "low"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--fiction-ferry",
+    "generator": "kimi@claude",
+    "line": 9,
+    "sentence": "She had been crying at some point earlier, Ruth thought, and had stopped, and the stopping had left a stiffness around her mouth.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "figurative-verb",
+      "filler",
+      "other"
+    ],
+    "regexes": [
+      "the [a-z]+ing had left",
+      "the \\w+ing had (left|made|given)",
+      "the kind of"
+    ],
+    "tells": [
+      "Nominalized repetition ('the stopping had left') doing emotional inference work, a pattern typical of model-written observation beats.",
+      "The phrase \"the kind of\" returns a second time, pricing the boots with a generic grocery comparison.",
+      "Stopping is renamed as a noun that then leaves a precise stiffness around the mouth."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--review-headphones",
+    "generator": "kimi@claude",
+    "line": 19,
+    "sentence": "These are desk, commute, and couch headphones, not gym headphones.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "negative-parallelism",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "\\bthese are\\b[^.!?]*\\bheadphones,\\s*not\\b[^.!?]*\\bheadphones\\b",
+      "\\w+, \\w+, and \\w+"
+    ],
+    "tells": [
+      "The sentence packages its advice as a polished three-part identity followed by a matching rejection.",
+      "A tidy triad of use cases inside a 'these are X, not Y' frame.",
+      "It reduces the intended use to a neat three-noun list of desk, commute, and couch."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--review-headphones",
+    "generator": "kimi@claude",
+    "line": 37,
+    "sentence": "The Corvid Q3 does not try to dazzle you.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "generic-conclusion",
+      "negative-parallelism",
+      "rule-of-three"
+    ],
+    "regexes": [
+      ", [^,]+, [^,]+, and ",
+      "If you want .+, spend more",
+      "\\bdoes(?: not|n't) try to (?:dazzle|impress|wow) you\\b",
+      "difference in your pocket",
+      "does not try to",
+      "does not try to (dazzle|impress|wow)",
+      "easiest recommendation",
+      "the (easiest|best|strongest) recommendation I('ve| have) (made|given)"
+    ],
+    "tells": [
+      "The sentence gives the headphones an intention and presents their restraint as a personality trait.",
+      "This sentence starts a paired conditional conclusion that divides readers into two neat purchasing choices.",
+      "The repeated conditional opening completes a formulaic two-choice verdict with a purchase command.",
+      "The 'it does not try to X' formula, common in model-written review verdicts.",
+      "A closing verdict built on a near-four-part rhythmic stack of parallel verb phrases.",
+      "A superlative summary claim common as a model-written closer.",
+      "It casts the headphones as a character that declines to dazzle.",
+      "It compresses the whole review into a four-beat list of benefits.",
+      "It crowns the product as the easiest recommendation of the year.",
+      "It opens a formulaic two-way ending that points one buyer toward spending more.",
+      "It closes that two-way ending with a pocket-the-savings image and a direct buy line."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--review-headphones",
+    "generator": "kimi@claude",
+    "line": 7,
+    "sentence": "The bass has weight without swallowing the midrange.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "figurative-verb",
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "'s idea of",
+      "(bass|sound)[^.]*swallow",
+      "instead of (drowning|sinking|getting lost)",
+      "instead of \\w+ing",
+      "without \\w+ing"
+    ],
+    "tells": [
+      "The bass is described as a creature that swallows the midrange.",
+      "A 'X instead of Y' contrast paired with a figurative drowning image, a doubled rhetorical move.",
+      "It frames bass weight through a tidy without-plus-gerund antithesis.",
+      "It keeps the vocals forward by setting them against drowning in the low end.",
+      "It treats a synthesizer as if it had an idea of what a guitar is."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--review-headphones",
+    "generator": "kimi@claude",
+    "line": 9,
+    "sentence": "The treble is the one area where the tuning shows a slight preference for safety.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "staccato"
+    ],
+    "regexes": [
+      "(tuning|sound|design) shows? a (slight )?(preference|bias) for safety",
+      "shows a \\w+ preference"
+    ],
+    "tells": [
+      "A tuning is given intent and caution, as if the headphones chose to play safe.",
+      "Two clipped declaratives and a sentence fragment deployed for punch, part of a pattern of fragmented asides in this text.",
+      "It treats the tuning as if it preferred safety.",
+      "This very short dismissal forms the first beat of a two-sentence clipped close.",
+      "This bare fragment ending on might is the second beat of that two-sentence punch."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--review-headphones",
+    "generator": "kimi@claude",
+    "line": 11,
+    "sentence": "Instruments have room to breathe, and you can place a drummer behind and slightly to the left of a vocalist.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "negative-parallelism",
+      "superficial-ing"
+    ],
+    "regexes": [
+      "room to breathe",
+      "will not .+, but"
+    ],
+    "tells": [
+      "The stock 'room to breathe' phrase for describing openness in sound.",
+      "It concedes a loss to open-back headphones and immediately restores the closed design."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--review-headphones",
+    "generator": "kimi@claude",
+    "line": 13,
+    "sentence": "Active noise cancellation is competent rather than class-leading.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "(solid|capable|competent) rather than (class-leading|exceptional|great)",
+      "rather than"
+    ],
+    "tells": [
+      "A 'good-not-great' formula ('competent rather than class-leading') that grades a feature by contrasting it with a rejected label.",
+      "It judges cancellation with a balanced competent-rather-than-class-leading antithesis.",
+      "It casts leftover noise as softened set against fully removed."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--review-headphones",
+    "generator": "kimi@claude",
+    "line": 17,
+    "sentence": "I wore them for a four-hour stretch of writing and forgot they were on, which is the highest compliment I can give a pair of headphones.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "false-range",
+      "filler",
+      "generic-conclusion"
+    ],
+    "regexes": [
+      "highest compliment",
+      "middle of the \\w+ range",
+      "the highest compliment"
+    ],
+    "tells": [
+      "An inflated superlative aside that tells the reader how to interpret the previous detail.",
+      "It places the weight in the middle of a range it never states.",
+      "It labels a comfort anecdote as the highest compliment, a stock review aside."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--review-headphones",
+    "generator": "kimi@claude",
+    "line": 21,
+    "sentence": "Nothing extreme, but on a summer day you will notice.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "hedging",
+      "staccato"
+    ],
+    "regexes": [
+      "Nothing extreme",
+      "^Nothing (extreme|serious|fatal), but"
+    ],
+    "tells": [
+      "A fragment opener in a running series of clipped qualifications throughout the review.",
+      "It softens a warmth complaint with the minimizer Nothing extreme."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--runbook-postgres",
+    "generator": "kimi@claude",
+    "line": 13,
+    "sentence": "Each step takes under two minutes.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "false-range",
+      "filler"
+    ],
+    "regexes": [
+      "takes under \\w+ minutes",
+      "under\\s+\\d+\\s+minutes?"
+    ],
+    "tells": [
+      "Makes a precise time claim without basis, typical of machine-generated confidence in operational contexts.",
+      "A single two-minute cap promises that every step is quick."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "kimi-claude--runbook-postgres",
+    "generator": "kimi@claude",
+    "line": 104,
+    "sentence": "Post a status line in `#meridian-ops` when you start, when you identify the cause, and when lag returns below 60 seconds.",
+    "judges": [
+      "grok-grok",
+      "lumo-opencode"
+    ],
+    "categories": [
+      "rule-of-three",
+      "vocabulary"
+    ],
+    "regexes": [
+      "page through",
+      "when [^,]+, when [^,]+, and when",
+      "when\\s+[^,]+,\\s+when\\s+[^,]+,\\s+and\\s+when\\s+[^,]+"
+    ],
+    "tells": [
+      "Enumerates exactly three milestones in a temporal sequence, exhibiting ML's preference for triadic structure.",
+      "Page through is a phrase for leafing through pages, applied here to sending a PagerDuty page.",
+      "Three when-clauses line up in a row to cover the start, the cause, and the recovery."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--essay-handwriting",
+    "generator": "lumo@opencode",
+    "line": 1,
+    "sentence": "Bills, catalogs, a coupon for gutter cleaning.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude"
+    ],
+    "categories": [
+      "rule-of-three",
+      "staccato"
+    ],
+    "regexes": [
+      "(?i)^[^,;.!?]+,\\s*[^,;.!?]+,\\s*[^,;.!?]+[.!?]?$"
+    ],
+    "tells": [
+      "This three-item list starts a pattern of three-part descriptions that recurs throughout the essay.",
+      "This fragment belongs to a dense sequence of short observations at the paragraph's end.",
+      "This fragment continues the dense sequence of short observations at the paragraph's end.",
+      "A run of three clipped sentence fragments used for dramatic texture, a rhythm LLMs reach for when simulating intimacy."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--essay-handwriting",
+    "generator": "lumo@opencode",
+    "line": 3,
+    "sentence": "That is the whole of it, probably, but it deserves a slower look.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "filler",
+      "hedging"
+    ],
+    "regexes": [
+      "(?i)\\bdeserves?\\s+a\\s+(?:slower|closer|deeper)\\s+look\\b",
+      ",\\s*(probably|perhaps|maybe)\\s*,",
+      "deserves a \\w+ look"
+    ],
+    "tells": [
+      "The sentence announces further explanation through a stock invitation to examine the subject.",
+      "A mid-sentence hedge softens a claim the writer clearly believes, plus a meta-transition announcing that the essay will now go deeper.",
+      "A hedge and a promise of a slower look fill a sentence that adds no new fact."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--essay-handwriting",
+    "generator": "lumo@opencode",
+    "line": 7,
+    "sentence": "There is also the matter of the hand itself.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "filler",
+      "metaphor-noun",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i),\\s*and\\b[^,;.!?]+,\\s*and\\b",
+      "(?i)\\bthere is (?:also )?the matter of\\b",
+      "(?i)\\btypography\\s+has\\s+no\\s+grudges\\b",
+      ", and [^,]+, and ",
+      "\\w+, and \\w+, and the \\w+",
+      "there is also the matter of"
+    ],
+    "tells": [
+      "The sentence introduces its subject through a stock frame that adds no substantive information.",
+      "The scar metaphor turns a handwriting habit into a lasting emotional injury.",
+      "The sentence frames typography through a human capacity for resentment.",
+      "The repeated conjunction builds a three-part list with an elaborate final item.",
+      "A polysyndetic three-part list where the third item swells into a longer, poignant phrase, the classic tricolon crescendo.",
+      "The phrase only announces the next topic, one of several 'there is' openers that clear the throat.",
+      "Typography is cast as a person who might hold a grudge, a setup maxim for the next sentence.",
+      "A 'nothing but' maxim is built as three parts joined by 'and,' a triad shape repeated through the essay."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--essay-handwriting",
+    "generator": "lumo@opencode",
+    "line": 15,
+    "sentence": "Between the writing and the reading sits a stretch of days during which the writer's mood settles, the news ages, and the sentences do their slow work without the writer hovering.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "colon-drumroll",
+      "negative-parallelism",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i):\\s*\\w+\\s+\\w+,\\s*\\w+\\s+\\w+,\\s*\\w+\\s+\\w+[.!?]?$",
+      "(?i)\\bthe\\b[^,;.!?]+,\\s*the\\b[^,;.!?]+,\\s*and\\s+the\\b",
+      ", [^,]+, and ",
+      ":\\s*\\w+\\s+\\w+,\\s*\\w+\\s+\\w+,\\s*\\w+\\s+\\w+",
+      "\\w+ \\w+ly, \\w+ \\w+ly, \\w+ing \\w+",
+      "treat as a \\w+ and which is the"
+    ],
+    "tells": [
+      "Three parallel clauses describe the delay, with the longest clause reserved for the emotional conclusion.",
+      "Three compact phrases each pair a participle with an adverb to produce a balanced ending.",
+      "A colon-drumroll into a three-beat participial cadence with paired adverbs, a machined rhythm.",
+      "Another 'there is' opener sets the delay up as a defect and then names that defect as the point.",
+      "One observation about delay is divided into three matched clauses in a single sentence.",
+      "A stock bottle simile is followed by a colon and a three-part list of how the letter travels."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--essay-handwriting",
+    "generator": "lumo@opencode",
+    "line": 17,
+    "sentence": "None of this makes the handwritten letter superior, exactly.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "hedging"
+    ],
+    "regexes": [
+      "(?i),\\s*exactly[.!?]?$",
+      ", exactly",
+      ",\\s*(exactly|quite|really)\\."
+    ],
+    "tells": [
+      "The final qualifier softens a concession without specifying the limit of the claim.",
+      "A sentence-final 'exactly' that walks the claim back just enough to seem honest, a calibrated hedge.",
+      "The concession is softened by a trailing 'exactly' before the essay returns to its praise."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--essay-handwriting",
+    "generator": "lumo@opencode",
+    "line": 19,
+    "sentence": "So the people who still write by hand are not being nostalgic, or not only.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "generic-conclusion",
+      "hedging",
+      "negative-parallelism",
+      "over-compression",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\bor not only\\b",
+      "(?i)\\bshould\\b[^,;.!?]+,\\s*and\\s+should\\b[^,;.!?]+,\\s*and\\s+should\\b",
+      ", or not only",
+      "\\bor not (only|quite|entirely)\\b",
+      "no matter what becomes of",
+      "should [^,]+, and should [^,]+, and should",
+      "should [^,]{10,60}, and should [^,]{10,60}, and should "
+    ],
+    "tells": [
+      "The sentence immediately qualifies its own denial with a stock partial retreat.",
+      "Three parallel clauses repeat the modal verb to present the essay's claims as a concluding declaration.",
+      "The conclusion expands its specific subject into a sweeping final statement about human fate.",
+      "The concessive tag 'or not only' performs nuance without conceding anything specific.",
+      "An anaphoric 'should ... and should ... and should' triple resolved by a colon-drumroll into a four-item evocative list, two stacked list devices in one sentence.",
+      "The closing sentence swells into a cumulative, comma-stacked crescendo ending on a universal mortal sentiment, the standard LLM essay finale.",
+      "The formula 'not nostalgic, or not only' takes back its own denial in a familiar parallel hedge.",
+      "Three 'should' clauses and a colon list of earlier images are packed into one summarizing sentence.",
+      "The ending swells into a timeless proof about the body, lamplight, and what becomes of us."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--essay-libraries",
+    "generator": "lumo@opencode",
+    "line": 1,
+    "sentence": "If you want to understand what a city actually values, do not read its mission statement.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "colon-drumroll",
+      "figurative-verb",
+      "filler",
+      "negative-parallelism",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\bthe answer is (?:stark|simple|clear|obvious):",
+      "\\b\\w+s \\w+, \\w+s \\w+, \\w+s \\w+\\b",
+      "\\bnot \\w+[.!]?\\s*it is \\w+, \\w+, and\\b",
+      "\\w+, \\w+, and in the \\w+ sense",
+      "if you want to understand what .+ do not",
+      "look, specifically",
+      "not sentimental",
+      "or simply \\w+",
+      "the answer is \\w+:"
+    ],
+    "tells": [
+      "This sentence starts a staged contrast that the next sentence completes with an opposing instruction.",
+      "The sentence announces a striking answer before the colon delivers it.",
+      "The sentence rejects one description before the next sentence supplies the preferred description.",
+      "Three descriptions form a balanced sequence, with extra emphasis on the final item.",
+      "Triadic adjective stack that closes a negative-parallelism pair ('not sentimental. It is X, Y, and Z'), a signature essayistic cadence.",
+      "Triadic verb-phrase catalogue of sympathetic archetypes, a list rhythm that recurs across the essay (nurse, parent, students; stadiums, tax abatements, waterfront projects).",
+      "The hook says that understanding a city means refusing the mission statement, the usual do-not-look-here opening.",
+      "A second \"Look\" command is padded with the parenthetical intensifier \"specifically.\"",
+      "\"The answer is stark\" plus a colon holds the beat so the nine-to-five claim can arrive as a reveal.",
+      "A list of concrete duties ends on the softened figurative phrase \"or simply comes alive.\"",
+      "\"Is not sentimental\" waves off a feeling so the next sentence can name the approved motives.",
+      "Three predicates land in a row, and \"in the plainest sense\" puffes the last, most abstract one."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--essay-libraries",
+    "generator": "lumo@opencode",
+    "line": 3,
+    "sentence": "Start with the practical case.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "figurative-verb",
+      "filler",
+      "negative-parallelism",
+      "other",
+      "over-compression"
+    ],
+    "regexes": [
+      "\\bbolt(ed|ing)? on(to)?\\b",
+      "^start with\\b",
+      "are not a \\w+",
+      "people who most .+ people least",
+      "start with the \\w+ case",
+      "the only \\w+ that exist"
+    ],
+    "tells": [
+      "This sentence contributes to the repeated paragraph openings that announce each stage of the argument.",
+      "The sentence rejects an optional luxury before the next sentence presents an essential need.",
+      "Imperative 'Start with' scaffolding opener, a stock transition used to structure generated essays.",
+      "Mechanical metaphor verb ('bolted onto') applied to an abstract policy concept.",
+      "\"Start with the practical case\" is one of several spoken section labels that walk the essay from case to case.",
+      "The set piece \"the people who most X are the people least Y\" balances the claim, with \"often\" softening the symmetry.",
+      "\"Not a luxury\" denies a frivolous motive, and \"bolted onto\" adds a hardware figure to the denial.",
+      "\"The only hours that exist\" squeezes a scheduling point into an absolute."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--essay-libraries",
+    "generator": "lumo@opencode",
+    "line": 5,
+    "sentence": "Then there is the economics of the building itself.",
+    "judges": [
+      "astra-codex",
+      "grok-grok"
+    ],
+    "categories": [
+      "colon-drumroll",
+      "filler",
+      "metaphor-noun",
+      "other"
+    ],
+    "regexes": [
+      "is like buying a .+ and driving",
+      "owns:(?: [^,]+,){5}",
+      "part-time gift",
+      "then there is the"
+    ],
+    "tells": [
+      "This sentence adds another stage announcement to the essay's repeated paragraph openings.",
+      "The sentence turns restricted library access into a decorative metaphor about a gift.",
+      "\"Then there is\" is another spoken handoff in the chain of case-by-case labels.",
+      "A colon dumps a six-item inventory of costs, one of many reveal-colons in the essay.",
+      "A full-sentence bus-fleet simile, complete with one-way rush hour, carries a point about idle hours.",
+      "\"Part-time gift\" is a coined metaphor that snaps the cost argument shut."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--essay-libraries",
+    "generator": "lumo@opencode",
+    "line": 9,
+    "sentence": "There is also a public safety case, and it deserves to be said plainly.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "filler",
+      "vague-attribution",
+      "vocabulary"
+    ],
+    "regexes": [
+      "(?i)\\b(?:it|this|that) deserves to be (?:said|stated) plainly\\b",
+      "(?i)\\bstudy after study\\b",
+      "\\b(study|studies|research|experts?) after \\w+|study after study\\b",
+      "\\w+-preserving",
+      "deserves to be said \\w+",
+      "study after study"
+    ],
+    "tells": [
+      "The sentence announces the importance of stating a point before it states that point.",
+      "The sentence invokes repeated research without identifying any study.",
+      "Unnamed body of evidence invoked with 'study after study' to lend authority without citing any source.",
+      "\"Deserves to be said plainly\" performs candor, in the same chain of spoken case labels.",
+      "\"Dignity-preserving\" is a brochure compound, cushioned by \"exactly this kind of\" and a repeated \"already.\"",
+      "\"Study after study\" gestures at research with no source, then a colon delivers a good-place, bad-place proverb."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--essay-libraries",
+    "generator": "lumo@opencode",
+    "line": 11,
+    "sentence": "Now, the strongest objection.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "colon-drumroll",
+      "figurative-verb",
+      "filler",
+      "rule-of-three",
+      "staccato",
+      "vague-attribution"
+    ],
+    "regexes": [
+      "(?i)\\b(?:directors|experts|researchers|observers|critics) will tell you\\b",
+      "(?i)\\b(?:it|the argument|the objection) (?:runs|goes) like this:",
+      "\\w+ are tight, \\w+ is short",
+      "^now, the \\w+",
+      "gold-plating a .+ paint",
+      "it runs like this:",
+      "now, the strongest",
+      "will tell you that"
+    ],
+    "tells": [
+      "This fragment adds another explicit stage announcement to the essay's repeated argument signposts.",
+      "The introductory phrase delays the claim and uses a colon to stage its arrival.",
+      "Two short clauses lead into a longer third clause, repeating the essay's three-part rhythm.",
+      "The sentence extends a familiar spending metaphor into a decorative comparison about paint.",
+      "The sentence assigns a position to unnamed directors as if they speak with one voice.",
+      "Fragmented setup sentence announcing the next argumentative move, part of a pattern of two-to-four-word rhetorical beats ('It does not.', 'Start with the practical case.').",
+      "A fragment heading, one more spoken label, names the next move before any argument arrives.",
+      "\"It runs like this\" uses a colon as a drumroll into a scripted objection.",
+      "Two clipped, parallel complaints beat out before the sentence widens.",
+      "\"Gold-plating\" and \"current paint\" stack two finish metaphors on one budget jab.",
+      "\"Directors will tell you\" invents a chorus of unnamed officials in place of a source."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--essay-libraries",
+    "generator": "lumo@opencode",
+    "line": 13,
+    "sentence": "But notice what the objection assumes: that the current schedule serves the most patrons.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "colon-drumroll",
+      "false-range",
+      "other",
+      "rule-of-three",
+      "vocabulary"
+    ],
+    "regexes": [
+      "(?i)\\bnotice what\\b[^.!?:]*:",
+      "\\bfrom [A-Z][\\w]+ to [A-Z][\\w]+\\b",
+      "but notice what .+:",
+      "from \\w+ to \\w+,",
+      "it is half right",
+      "redistribute .+, add .+, and treat",
+      "silently selects",
+      "the whole art of",
+      "waiting behind a locked door"
+    ],
+    "tells": [
+      "The sentence directs attention to a coming revelation before the colon supplies it.",
+      "Three parallel actions build toward a more elevated final item.",
+      "Two examples appear as endpoints of a range without a stated scale.",
+      "The sentence makes abstract demand behave like a person waiting outside.",
+      "'From X to Y' range framing that implies breadth of evidence from two cherry-picked examples.",
+      "The objection is handed a measured half-credit, the usual pause before the reversal.",
+      "\"The whole art of\" inflates a budgeting point into a grand definition.",
+      "\"But notice\" lectures the reader, and the colon holds the hidden assumption up for display.",
+      "The opening hours \"silently select\" their users, giving a schedule a hidden intention.",
+      "Three remedies line up, and the last swells into \"first-class citizen rather than an afterthought.\"",
+      "\"From Columbus to Singapore\" pairs an arbitrary city with a far-off country to suggest a wide record.",
+      "Demand is pictured as a person who has been waiting behind a locked door."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--essay-libraries",
+    "generator": "lumo@opencode",
+    "line": 17,
+    "sentence": "The deepest argument, though, is not economic at all.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "filler",
+      "metaphor-noun",
+      "other",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\bwithout\\b[^,.!?]+,\\s*without\\b[^,.!?]+,\\s*without\\b",
+      "\\bwith a bouncer\\b|\\bdoor policy\\b",
+      "\\bwithout \\w+(ing)?(\\s\\w+)?, without \\w+, without \\w+",
+      "for the \\w+ and accessible to the \\w+",
+      "quietly \\w+",
+      "refuge with a bouncer",
+      "the deepest argument",
+      "to sit, .+, or explain",
+      "without .+, without .+, without"
+    ],
+    "tells": [
+      "The sentence announces a supposedly deeper argument, continuing the essay's repeated ranking and staging of its points.",
+      "Three repeated uses of 'without' turn the list into a rhythmic declaration.",
+      "Three parallel actions immediately repeat the preceding sentence's three-part structure.",
+      "The sentence turns restricted hours into an extended metaphor about a guarded venue.",
+      "Extended nightclub metaphor ('bouncer', 'door policy') grafted onto a policy argument for rhetorical flourish.",
+      "Triple anaphora ('without X, without Y, without Z') building to an emotional register.",
+      "\"The deepest argument\" ranks this section above the cases already announced, another label in that chain.",
+      "Three \"without\" phrases repeat one claim of free welcome.",
+      "A second three-part list immediately restates free entry as coffee, income, and self-explanation.",
+      "The atmospheric adverb \"quietly\" softens an absolute claim that every other public place is now a market.",
+      "The library becomes \"a refuge with a bouncer\" whose door policy is set by the clock, two figures in one sentence.",
+      "The line balances \"the comfortable\" against \"the struggling\" like a proverb about democracy."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--explainer-raft",
+    "generator": "lumo@opencode",
+    "line": 3,
+    "sentence": "This explainer covers how an election starts, how it finishes, and how Raft avoids the failure modes that make naive designs break down.",
+    "judges": [
+      "astra-codex",
+      "grok-grok"
+    ],
+    "categories": [
+      "false-range",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\bhow\\b[^,.;!?]+,\\s*how\\b[^,.;!?]+,\\s*and\\s+how\\b",
+      "(?i)everything else in [^,]+, [^,]+ and [^,]+",
+      "(?i)how [^,]+, how [^,]+, and how [^,]+"
+    ],
+    "tells": [
+      "The introduction presents its outline through three balanced clauses that repeat \"how.\"",
+      "The phrase \"everything else\" plus a two-item aside treats a partial remainder as the whole algorithm.",
+      "Three parallel \"how\" clauses package the scope as a neat triad."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--explainer-raft",
+    "generator": "lumo@opencode",
+    "line": 43,
+    "sentence": "Randomization converts a coordination problem into a race with a strong favorite.",
+    "judges": [
+      "astra-codex",
+      "grok-grok"
+    ],
+    "categories": [
+      "metaphor-noun",
+      "rule-of-three"
+    ],
+    "regexes": [
+      "(?i)\\ba race with a (?:strong|clear|clear-cut) favou?rite\\b",
+      "(?i)\\ba race with a strong favorite\\b",
+      "(?i)\\bevery \\w+\\b[^,]{0,60},\\s*every \\w+\\b"
+    ],
+    "tells": [
+      "The sentence recasts timeout selection as a sporting contest with a favored competitor.",
+      "Repeated \"every server\" openings build a three-beat dramatic cadence.",
+      "The mechanism is renamed as a race that already has a strong favorite."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--explainer-raft",
+    "generator": "lumo@opencode",
+    "line": 64,
+    "sentence": "The lifecycle is simple to trace.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "filler",
+      "staccato",
+      "superficial-ing"
+    ],
+    "regexes": [
+      "(?i)\\b(?:is|are)\\s+(?:simple|easy|straightforward)\\s+to\\s+(?:trace|follow|understand)\\b",
+      "(?i)\\b(?:simple|easy) to (?:trace|follow|grasp)\\b",
+      "(?i)\\bshared sense\\b",
+      "(?i)^[^;]+;[^;]+;[^;]+\\.$",
+      "(?i)^[^;]{5,40}; [^;]{5,40}\\.$",
+      ",\\s*(giving|leaving|creating|shaping|reminding)\\b",
+      ";[^.;]{3,};"
+    ],
+    "tells": [
+      "The sentence announces ease without adding information about the mechanism.",
+      "Attaches a dangling present-participle tail ('giving the cluster a shared sense of...') that gestures at significance the main clause never establishes.",
+      "Chains semicolon-joined micro-clauses, repeating the pattern from the previous sentence ('A leader heartbeats; followers reset timers.'), producing a staccato rhythm across the paragraph.",
+      "An empty evaluative sentence announces that the lifecycle is simple before the recap starts.",
+      "A semicolon joins two very short clauses and opens a clipped recap that the next sentence continues.",
+      "Three short clauses in a row, separated only by semicolons, keep that same chopped recap rhythm.",
+      "The cluster is given a shared sense, as if the group itself understands which elections came later."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--fiction-dialogue-repair",
+    "generator": "lumo@opencode",
+    "line": 35,
+    "sentence": "Tight.",
+    "judges": [
+      "astra-codex",
+      "grok-grok"
+    ],
+    "categories": [
+      "staccato"
+    ],
+    "regexes": [],
+    "tells": [
+      "This fragment joins \u201cNo play\u201d and \u201cNothing obvious\u201d in a dense sequence of clipped inspection beats.",
+      "This fragment repeats the clipped rhythm of \u201cTight\u201d and \u201cNothing obvious\u201d within the same short paragraph.",
+      "This third standalone fragment completes a conspicuous sequence of short action sentences and clipped verdicts.",
+      "Three one-beat verdicts in a row\u2014'Tight,' 'No play,' and 'Nothing obvious'\u2014form a clipped repair montage.",
+      "Three one-beat verdicts in a row\u2014'Tight,' 'No play,' and 'Nothing obvious'\u2014form a clipped repair montage.",
+      "Three one-beat verdicts in a row\u2014'Tight,' 'No play,' and 'Nothing obvious'\u2014form a clipped repair montage."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--fiction-dialogue-repair",
+    "generator": "lumo@opencode",
+    "line": 67,
+    "sentence": "The customer looked at him like he'd asked him to describe the smell of Tuesday.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\b(?:smell|taste|texture) of (?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\\b",
+      "(?i)smell of (monday|tuesday|wednesday|thursday|friday|saturday|sunday)",
+      "smell of (tuesday|monday|wednesday|thursday|friday|saturday|sunday)"
+    ],
+    "tells": [
+      "The comparison uses an impossible sensory description for a conspicuously quirky joke.",
+      "Absurdist synesthesia simile ('the smell of Tuesday') is a recognizable machine-generated quirk used to signal wit.",
+      "The simile reaches for quirk by inventing the smell of a weekday."
+    ],
+    "confidence": [
+      "high",
+      "low"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--fiction-dialogue-repair",
+    "generator": "lumo@opencode",
+    "line": 85,
+    "sentence": "The customer exhaled like a man released from prison.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "figurative-verb",
+      "other"
+    ],
+    "regexes": [
+      "(?i)exhaled like",
+      "like a man (released|just released) from prison"
+    ],
+    "tells": [
+      "Overwrought stock simile inflating a minor relief into cinematic drama.",
+      "Relief arrives as the stock gesture of exhaling paired with a prison-release simile."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--fiction-dialogue-repair",
+    "generator": "lumo@opencode",
+    "line": 61,
+    "sentence": "Dale smiled despite himself.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "anthropomorphism",
+      "filler",
+      "over-compression",
+      "vocabulary"
+    ],
+    "regexes": [
+      "(?i)(smiled|grinned|laughed) despite (him|her)self",
+      "\\bdespite (himself|herself|themselves|itself)\\b",
+      "\\bmachines (perform|know|remember|listen)\\b"
+    ],
+    "tells": [
+      "'Despite himself' is a stock narrative filler phrase common in generated fiction.",
+      "Aphoristic anthropomorphism delivered as a tidy epigram to sound folksy and wise.",
+      "The phrase 'smiled despite himself' is a stock emotional reflex that recurs constantly in generated fiction.",
+      "A two-word aphorism packs the scene's theme into a telegram dropped in the middle of shop talk."
+    ],
+    "confidence": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--fiction-dialogue-repair",
+    "generator": "lumo@opencode",
+    "line": 63,
+    "sentence": "\"A creak, actually, now that I hear you say it. Like a door opening. A haunted door.\"",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "metaphor-noun",
+      "staccato"
+    ],
+    "regexes": [
+      "\\ba haunted \\w+"
+    ],
+    "tells": [
+      "Fragment-stack staccato with a whimsical escalation ('A haunted door') is a patterned cute-beat construction.",
+      "A one-beat fragment upgrades an ordinary door-creak into a cute gothic image."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--fiction-ferry",
+    "generator": "lumo@opencode",
+    "line": 13,
+    "sentence": "Not a question, exactly.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude"
+    ],
+    "categories": [
+      "metaphor-noun",
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "\\b(not a \\w+,? exactly\\.) an \\w+"
+    ],
+    "tells": [
+      "This fragment starts a polished 'not X, but Y' correction, completed by 'An offering.'",
+      "This fragment completes the 'not a question, but an offering' correction across two short sentences.",
+      "A plain remark is re-labeled with an abstract ceremonial noun in a two-beat fragment, a signature interpretive move."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--fiction-ferry",
+    "generator": "lumo@opencode",
+    "line": 37,
+    "sentence": "Not a fight.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude"
+    ],
+    "categories": [
+      "negative-parallelism",
+      "other",
+      "over-compression"
+    ],
+    "regexes": [],
+    "tells": [
+      "This fragment starts a 'not X, just Y' explanation, completed by the next fragment.",
+      "This fragment completes the 'not a fight, just distance' explanation in a separate dramatic beat.",
+      "The ending compresses estrangement and death into wordplay that makes 'close' carry both meanings.",
+      "This fragment starts another 'not X, but Y' correction within the same speech.",
+      "This fragment completes the repeated contrast by replacing a specific experience with an abstract 'shape.'",
+      "Closing clause engineered around a poignant double meaning of \"close\", the polished gut-punch aphorism typical of generated fiction."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--fiction-ferry",
+    "generator": "lumo@opencode",
+    "line": 47,
+    "sentence": "A secret.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude"
+    ],
+    "categories": [
+      "metaphor-noun",
+      "staccato"
+    ],
+    "regexes": [
+      "doing arithmetic"
+    ],
+    "tells": [
+      "This fragment joins 'A letter.' in a cluster of short beats that gives a simple list dramatic emphasis.",
+      "This fragment continues the cluster of isolated beats instead of completing the list within one sentence.",
+      "Emotional accounting rendered as \"doing arithmetic\", a metaphor that explains itself instead of staying in scene."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--fiction-ferry",
+    "generator": "lumo@opencode",
+    "line": 59,
+    "sentence": "They sat with that.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude"
+    ],
+    "categories": [
+      "metaphor-noun",
+      "other",
+      "vocabulary"
+    ],
+    "regexes": [
+      "(?i)\\b(?:sit|sits|sat|sitting) with (?:that|this|it)\\b",
+      "(small|little) dark kingdom",
+      "like a memory of"
+    ],
+    "tells": [
+      "The stock therapeutic phrase presents a pause as emotional processing.",
+      "Poetic possessive metaphor elevating the setting, stock generated lyricism.",
+      "Abstract simile comparing a sound to a memory, resonant but unverifiable, a pattern the text repeats with its many \"like\" and \"as if\" constructions."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--fiction-ferry",
+    "generator": "lumo@opencode",
+    "line": 79,
+    "sentence": "The man watched it come toward them and exhaled the way a person does at the end of held breath they hadn't noticed holding.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude"
+    ],
+    "categories": [
+      "figurative-verb",
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bbreath\\b[^.!?]*\\b(?:hadn't|had not|didn't|did not)\\s+(?:noticed|notice|realized|realize|known|know)\\b[^.!?]*\\bholding\\b",
+      "assemble[sd]? itself",
+      "the way (a person|you|such \\w+) (does|do|would|'d)"
+    ],
+    "tells": [
+      "The sentence uses the stock fiction formula of releasing a breath the character did not know they held.",
+      "The landscape is given a self-performing verb (\"assemble itself\"), the generated-fiction habit of animating scenery, reinforced by the tag \"the way such signs do\".",
+      "The \"the way a person does\" construction describing a universal involuntary gesture; the story repeats this \"the way...\" simile pattern several times (\"the way you'd say you had brown hair\", \"the way such signs do\"), and the density is the tell."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--fiction-ferry",
+    "generator": "lumo@opencode",
+    "line": 89,
+    "sentence": "They shook hands, once, like people concluding a meeting that mattered.",
+    "judges": [
+      "astra-codex",
+      "kimi-claude"
+    ],
+    "categories": [
+      "generic-conclusion",
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bneither\\b[^.!?]*\\band neither needed to\\b",
+      "like (people|a person) \\w+ing a \\w+ that \\w+",
+      "neither (could|would|did) .{0,40} and neither (needed|wanted|had) to"
+    ],
+    "tells": [
+      "The analogy assigns unspecified significance to an ordinary gesture through the generic phrase 'that mattered.'",
+      "The ending repeats the earlier 'mechanism' motif and closes the emotional arc with a claim that explanation is unnecessary.",
+      "Another interpretive \"like\" simile with an understated significance tail (\"that mattered\"), continuing the text's heavy simile density.",
+      "Cumulative closing sentence that resolves the story with a resonant callback (\"the mechanism\") and an emotionally weightless both-grew summary, the standard generated-fiction ending cadence."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--launch-teakettle",
+    "generator": "lumo@opencode",
+    "line": 11,
+    "sentence": "Why $145?",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "other",
+      "staccato"
+    ],
+    "regexes": [
+      "\\b\\w+ wasn't the (goal|point|plan)\\b",
+      "^why \\$?[\\d,.]+\\?",
+      "why\\s+\\$[\\d,]+\\?",
+      "would have been fine"
+    ],
+    "tells": [
+      "A staged question introduces the price objection for the next sentence to answer.",
+      "This answer completes a staged question-and-answer pair with a broad assertion of proper craftsmanship.",
+      "The sentence repeats the previous sentence's final judgment as a short slogan that rejects mere adequacy.",
+      "One-line rhetorical question used as a section header in miniature, a common generated-copy rhythm device.",
+      "Punchy callback fragment repeating the previous sentence's closing word as an epigram, a signature LLM copywriting move.",
+      "A one-line rhetorical question stages the price as a FAQ prompt.",
+      "A cheaper plastic-and-paint kettle is imagined and then softly conceded as fine.",
+      "A three-word sentence snaps shut as a staccato slogan after the longer price concession."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--launch-teakettle",
+    "generator": "lumo@opencode",
+    "line": 15,
+    "sentence": "As always, thanks for cooking with us.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "generic-conclusion"
+    ],
+    "regexes": [
+      "^as always, thanks for",
+      "as always, thanks",
+      "limited\\b.{0,80}\\bquickly\\b"
+    ],
+    "tells": [
+      "Canned sign-off formula that closes the piece without adding information.",
+      "The closing pitch uses a generic limited-run hurry, with the scarcity left unquantified.",
+      "The note ends on a reusable warm sign-off that any launch from the brand could wear."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--readme-cli",
+    "generator": "lumo@opencode",
+    "line": 110,
+    "sentence": "JSON mode writes errors to stderr, not into the JSON document, so a failed fetch does not silently produce an empty array.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "hedging",
+      "negative-parallelism"
+    ],
+    "regexes": [
+      "(?i)\\bnot into\\b.{0,80}\\bdoes not\\b",
+      "\\bsilently\\b"
+    ],
+    "tells": [
+      "The intensifier 'silently' adds dramatic emphasis to a plain behavior description, a common machine-prose flourish.",
+      "The behavior is explained by stacking two negatives about where errors go."
+    ],
+    "confidence": [
+      "high",
+      "low"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--readme-cli",
+    "generator": "lumo@opencode",
+    "line": 112,
+    "sentence": "Bug reports and station requests are welcome at the project repository.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "generic-conclusion"
+    ],
+    "regexes": [
+      "(?i)\\bare welcome\\b",
+      "\\b(bug reports|issues|contributions|feedback)( and \\w+)? (are|is) welcome\\b"
+    ],
+    "tells": [
+      "A formulaic welcoming close ('reports are welcome') that restates open-source boilerplate rather than giving information.",
+      "The close is a standing invitation in generic words."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--review-headphones",
+    "generator": "lumo@opencode",
+    "line": 13,
+    "sentence": "Which brings us to value.",
+    "judges": [
+      "astra-codex",
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "filler",
+      "other",
+      "over-compression"
+    ],
+    "regexes": [
+      "(?i)\\bwhich brings us to\\b",
+      "\\bwhich brings us to\\b",
+      "beats most\\b.{0,80}loses to a few",
+      "established players.{0,60}loss leaders",
+      "which brings us to"
+    ],
+    "tells": [
+      "This empty topic announcement repeats the structural commentary used to introduce the sound section.",
+      "Meta-transition announcing the next section instead of just entering it; a common machine-generated structural tic.",
+      "\"Which brings us to\" is another bare signpost, after \"Let's start with\" and beside the closing \"Verdict:\" label.",
+      "The competitive set is given as two broad classes, \"established players\" and \"newcomers.\"",
+      "A full comparison is packed into one tidy antithesis about beating most and losing to a few."
+    ],
+    "confidence": [
+      "high",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--review-headphones",
+    "generator": "lumo@opencode",
+    "line": 5,
+    "sentence": "Comfort, first.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "other",
+      "staccato",
+      "vocabulary"
+    ],
+    "regexes": [
+      ",\\s*first\\.",
+      "\\bmy only (?:real )?complaint\\b",
+      "\\w+ enough to .{1,70}\\w+ enough",
+      "pleasant surprise"
+    ],
+    "tells": [
+      "Deliberate sentence-fragment cadence ('X, first.') used as a dramatic beat; paired with 'Call quality is fine, nothing more' later, the clipped-fragment device recurs rather than appearing once.",
+      "\"A pleasant surprise\" hands the rest of the product a stock burst of praise.",
+      "The fragment \"Comfort, first.\" is a clipped section break in a review that keeps snapping to short labels and verdicts.",
+      "Clamping force is scored as a balanced pair, \"firm enough\" beside \"gentle enough,\" the same enough/enough mold as the price line.",
+      "\"My only real complaint\" isolates a single concession so the surrounding praise stays tidy."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--review-headphones",
+    "generator": "lumo@opencode",
+    "line": 9,
+    "sentence": "Call quality is fine, nothing more.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "filler",
+      "hedging",
+      "staccato"
+    ],
+    "regexes": [
+      ", nothing (more|else)",
+      "\\bfine, nothing more\\b",
+      "\\bwhich is to say\\b",
+      "genuine(ly)? (good|authority|delight|impressive)"
+    ],
+    "tells": [
+      "Dismissive clipped tail ('nothing more') appended for rhythm, part of the same staccato pattern as 'Comfort, first.'",
+      "Intensifier 'genuinely' propping up a plain adjective, a common sincerity-performance marker; echoes 'genuine authority' earlier in the review.",
+      "\"Fine, nothing more\" is a curt snap, one of the short verdicts dropped in after longer description.",
+      "\"Which is to say\" restates the quote in the same breath and spells out the intended reading."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--runbook-postgres",
+    "generator": "lumo@opencode",
+    "line": 13,
+    "sentence": "1. **Confirm which standby is lagging.** Open the Replication dashboard in Grafana and check each standby.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "bold-or-list-overuse",
+      "other"
+    ],
+    "regexes": [
+      "(?i)\\bone\\b[^.;]{0,80};\\s[^.]{0,80}\\ball\\b",
+      "\\*\\*[A-Z][^*]{5,60}\\.\\*\\*"
+    ],
+    "tells": [
+      "Every numbered triage step opens with a bolded imperative summary phrase, the bold-lead-in list pattern common in generated documentation; the density across six consecutive steps is the tell, not any single bold run.",
+      "Two mirrored clauses pit one replica against all replicas in a semicolon antithesis."
+    ],
+    "confidence": [
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  },
+  {
+    "document": "lumo-opencode--runbook-postgres",
+    "generator": "lumo@opencode",
+    "line": 15,
+    "sentence": "A flat 70-second lag that holds steady is less urgent than lag racing toward minutes.",
+    "judges": [
+      "grok-grok",
+      "kimi-claude"
+    ],
+    "categories": [
+      "figurative-verb"
+    ],
+    "regexes": [
+      "(?i)\\bracing toward\\b",
+      "\\b(racing|spiraling|skyrocketing|surging) (toward|to|past)\\b"
+    ],
+    "tells": [
+      "Uses a motion metaphor (racing) for a metric increase where a plain verb like rising or growing would do.",
+      "Lag is given a racing motion, a figurative verb for a rising metric."
+    ],
+    "confidence": [
+      "low",
+      "medium"
+    ],
+    "vale_hit": false,
+    "vale_rules": []
+  }
+]

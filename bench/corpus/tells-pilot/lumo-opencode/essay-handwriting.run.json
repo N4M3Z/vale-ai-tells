@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "essay-handwriting",
+  "profile": "lumo@opencode",
+  "tool": "opencode",
+  "model_id": "proton-lumo/lumo-max",
+  "started": "2026-09-22T09:35:19Z",
+  "seconds": 93,
+  "exit": 0,
+  "prompt_sha256": "e3d9273157d557d8d2f5e1451f9f7d2ef3a0a1b50ce52abfcec27112a97dc691",
+  "text_sha256": "c85d8783b99f5a2bfae2eb95fef5791096ea13ccf0853036de33b779ad0fea70",
+  "words": 1032
+}

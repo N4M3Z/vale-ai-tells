@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "readme-cli",
+  "profile": "grok@grok",
+  "tool": "grok",
+  "model_id": "grok-4.7",
+  "started": "2026-09-22T08:57:43Z",
+  "seconds": 244,
+  "exit": 0,
+  "prompt_sha256": "d2fb56ab2705cff627864382c3853e0dcbc09402e8683bcb38d5e3c44901b340",
+  "text_sha256": "a5630c72cb539787c8ddce19cb77892d7d8beffc5293e6e2e550d226c4a3d0f2",
+  "words": 726
+}

@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "fiction-dialogue-repair",
+  "profile": "kimi@claude",
+  "tool": "claude",
+  "model_id": "kimi-k3",
+  "started": "2026-09-22T11:55:02Z",
+  "seconds": 66,
+  "exit": 0,
+  "prompt_sha256": "8a7d582a59ed9328218ab051001546e1a2cef3a271e8929fc622f34acc569e78",
+  "text_sha256": "79380b9d124a14e21d4a3336d002b41d7d00eb5faad07bf2f9ef6ea63f7e8eac",
+  "words": 824
+}

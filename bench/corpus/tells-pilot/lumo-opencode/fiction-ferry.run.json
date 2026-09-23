@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "fiction-ferry",
+  "profile": "lumo@opencode",
+  "tool": "opencode",
+  "model_id": "proton-lumo/lumo-max",
+  "started": "2026-09-22T09:39:48Z",
+  "seconds": 102,
+  "exit": 0,
+  "prompt_sha256": "5c89149452c37c99cba19e6edde684f509ba49e9460fc09814a68ab368eaaa78",
+  "text_sha256": "9d9c057fd5968004bb9559e1461bae946e5a33e1e9b985c63613b864455cc624",
+  "words": 1418
+}

@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "fiction-dialogue-repair",
+  "profile": "lumo@opencode",
+  "tool": "opencode",
+  "model_id": "proton-lumo/lumo-max",
+  "started": "2026-09-22T09:41:30Z",
+  "seconds": 79,
+  "exit": 0,
+  "prompt_sha256": "8a7d582a59ed9328218ab051001546e1a2cef3a271e8929fc622f34acc569e78",
+  "text_sha256": "b817f23cd5d95707e6f91da3e1b4c9f8d56a1128ca6984967f3f7842f8581027",
+  "words": 669
+}

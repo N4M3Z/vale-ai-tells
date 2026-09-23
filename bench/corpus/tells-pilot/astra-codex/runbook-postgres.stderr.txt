@@ -1,0 +1,1 @@
+2026-09-22T12:01:12.810294Z ERROR codex_core::tools::router: error=collab spawn failed: no thread with id: 01a0c8fd-3eda-7463-934b-c0d6c2c38484

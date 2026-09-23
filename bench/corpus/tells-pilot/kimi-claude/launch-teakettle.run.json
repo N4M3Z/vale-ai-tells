@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "launch-teakettle",
+  "profile": "kimi@claude",
+  "tool": "claude",
+  "model_id": "kimi-k3",
+  "started": "2026-09-22T11:52:52Z",
+  "seconds": 43,
+  "exit": 0,
+  "prompt_sha256": "f898119a212f8625ff47448d951fd65b5de0d9f38aeb9014438d4e2790584a51",
+  "text_sha256": "f60b5f83352a3e0e05142e1c92df5a3f7a9ea3740a1fb798d997218aad864c71",
+  "words": 424
+}

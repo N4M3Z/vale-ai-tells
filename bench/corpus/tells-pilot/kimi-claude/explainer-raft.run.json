@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "explainer-raft",
+  "profile": "kimi@claude",
+  "tool": "claude",
+  "model_id": "kimi-k3",
+  "started": "2026-09-22T11:46:03Z",
+  "seconds": 53,
+  "exit": 0,
+  "prompt_sha256": "99d87fadb96238f78630ca93d40b626b43d0bd3f5a514c055899768eba2436f6",
+  "text_sha256": "d26054a1960eec05d12d9bf196455af92dab3f1c24ca50db3ae7e9b3b36b680c",
+  "words": 997
+}

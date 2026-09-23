@@ -32,7 +32,7 @@ fi
 
 SYSTEM=$(jq -r '.system_prompt' "$SUITE")
 OUT_BASE="$ROOT/bench/corpus/$SUITE_ID"
-TIMEOUT=${GENERATE_TIMEOUT:-15m}
+TIMEOUT=${GENERATE_TIMEOUT:-30m}
 # An empty working directory, so an agentic harness has nothing to read
 # but the prompt.
 SCRATCH=$(mktemp -d "${TMPDIR:-/tmp}/tells-run.XXXXXX")
@@ -57,7 +57,7 @@ for model in "${MODELS[@]}"; do
         started=$(date -u +%Y-%m-%dT%H:%M:%SZ)
         t0=$(date +%s)
         status=0
-        rune run "$model" --prompt-file "$prompt_file" --timeout "$TIMEOUT" --repo "$SCRATCH" --json \
+        rune run "$model" --clean-harness-state --prompt-file "$prompt_file" --timeout "$TIMEOUT" --repo "$SCRATCH" --json \
             >"$out/$id.transcript.json" 2>"$out/$id.stderr.txt" || status=$?
         t1=$(date +%s)
         # rune run --json reports the final assistant text as .text and the

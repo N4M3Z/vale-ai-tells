@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "suiteId": "tells-pilot",
+    "timestamp": "2026-09-23T07-46-18Z",
+    "version": "tells-report-1",
+    "documents": 40,
+    "confirmedTells": 212,
+    "valeCaught": 83,
+    "valeMissed": 129,
+    "valeRecall": 0.392,
+    "splitsForAdjudicator": 171,
+    "majority": 2
+  },
+  "rankings": [
+    {
+      "model": "kimi@claude",
+      "confirmedTells": 70
+    },
+    {
+      "model": "lumo@opencode",
+      "confirmedTells": 60
+    },
+    {
+      "model": "astra@codex",
+      "confirmedTells": 47
+    },
+    {
+      "model": "grok@grok",
+      "confirmedTells": 35
+    }
+  ],
+  "judges": [
+    {
+      "judge": "grok-grok",
+      "annotations": 513
+    },
+    {
+      "judge": "astra-codex",
+      "annotations": 279
+    },
+    {
+      "judge": "lumo-opencode",
+      "annotations": 249
+    },
+    {
+      "judge": "kimi-claude",
+      "annotations": 242
+    }
+  ],
+  "gapByCategory": [
+    {
+      "category": "rule-of-three",
+      "missed": 48
+    },
+    {
+      "category": "other",
+      "missed": 47
+    },
+    {
+      "category": "filler",
+      "missed": 35
+    },
+    {
+      "category": "negative-parallelism",
+      "missed": 34
+    },
+    {
+      "category": "staccato",
+      "missed": 28
+    },
+    {
+      "category": "figurative-verb",
+      "missed": 27
+    },
+    {
+      "category": "anthropomorphism",
+      "missed": 26
+    },
+    {
+      "category": "metaphor-noun",
+      "missed": 24
+    },
+    {
+      "category": "generic-conclusion",
+      "missed": 22
+    },
+    {
+      "category": "over-compression",
+      "missed": 17
+    },
+    {
+      "category": "hedging",
+      "missed": 15
+    },
+    {
+      "category": "colon-drumroll",
+      "missed": 14
+    },
+    {
+      "category": "vocabulary",
+      "missed": 10
+    },
+    {
+      "category": "false-range",
+      "missed": 5
+    },
+    {
+      "category": "superficial-ing",
+      "missed": 5
+    },
+    {
+      "category": "vague-attribution",
+      "missed": 5
+    },
+    {
+      "category": "bold-or-list-overuse",
+      "missed": 2
+    },
+    {
+      "category": "sycophancy",
+      "missed": 1
+    },
+    {
+      "category": "synonym-cycling",
+      "missed": 1
+    },
+    {
+      "category": "copula-avoidance",
+      "missed": 1
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+Meet the Marlow
+
+Today we're launching the Marlow, a stovetop kettle we've spent two years getting right. It's available now for $145, exclusively at marrowandforge.com.
+
+Let's talk shape first. Most kettles are either bulbous and cartoonish or so minimalist they're hard to pick up. The Marlow splits the difference: a gently tapered body, a gooseneck spout that pours with real control, and a handle set at a natural lift angle, so a full kettle doesn't torque your wrist. The body sits low and wide, which means more contact with your burner and faster boils. In our kitchen tests, the Marlow brought a liter of water to a rolling boil about ninety seconds faster than the standard kettle sitting next to it on the stove.
+
+The materials earned the most arguments in our workshop. The body is a single piece of drawn 304 stainless steel, .8 millimeters thick, brushed to a soft matte finish that hides fingerprints and water spots. Inside, there's no seam and no coating, just bare steel, so there's nothing to flake into your tea. The handle is solid walnut, oiled by hand and attached with a single machined bolt, so it can be tightened or replaced decades from now. The lid knob is walnut too, sized to be lifted with a fingertip without conducting heat up from the boil. The whistle cap, if you want it, is brass and pops off with a quarter turn. If you'd rather pour in silence, leave it in the drawer.
+
+The Marlow holds 1.7 liters, works on gas, electric, and induction cooktops, and carries a lifetime warranty against manufacturing defects. We build spare parts for everything we make, so gaskets and handle hardware will be orderable for as long as we're in business, which we intend to be a while.
+
+Why $145? Because it costs that much to make a kettle properly. Single-piece drawn steel bodies have a high scrap rate. Walnut handles that are finished by hand don't come cheap. We could have molded plastic grips and painted steel and sold it for sixty dollars, and it would have been fine. Fine wasn't the goal.
+
+Every Marlow is inspected before it ships, boiled once, dried, and boxed in recycled cardboard with zero foam.
+
+The Marlow is available now at marrowandforge.com in Brushed Steel, Matte Black, and Walnut Accent. First production run is limited, and we expect it to go quickly. As always, thanks for cooking with us.

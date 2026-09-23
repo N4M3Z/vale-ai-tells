@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "runbook-postgres",
+  "profile": "kimi@claude",
+  "tool": "claude",
+  "model_id": "kimi-k3",
+  "started": "2026-09-22T11:47:58Z",
+  "seconds": 71,
+  "exit": 0,
+  "prompt_sha256": "72d57d8793148a4d4ca415a30e5193d5a8c31fdeef41c99c503d2a925783639a",
+  "text_sha256": "792621d3653a8fe714b133de106dc5458860dd2dd65ae12d7ec6c04db6ccd0e0",
+  "words": 979
+}

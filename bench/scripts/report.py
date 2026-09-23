@@ -81,6 +81,10 @@ def main(argv: list[str]) -> int:
     docs = 0
 
     for record in sorted(corpus.glob("*/*.run.json")):
+        # A dot-directory holds a retired run's records; it is kept as
+        # evidence and never counted.
+        if record.parent.name.startswith("."):
+            continue
         run = load_json(record)
         gen_slug = run["profile"].replace("@", "-")
         name = f"{gen_slug}--{run['test']}"
@@ -93,27 +97,40 @@ def main(argv: list[str]) -> int:
         for judgment in judgments.glob(f"*/{name}.json"):
             judge = judgment.parent.name
             for annotation in load_json(judgment).get("annotations", []):
-                key = norm(annotation.get("sentence", ""))
-                if key:
-                    votes[key].append({"judge": judge, **annotation})
+                sentence = annotation.get("sentence", "")
+                # Judges quote the same sentence with different trimming, so
+                # the vote key is the line it sits on, not its text. A
+                # sentence the text does not contain keeps its own key.
+                line = line_of(text, sentence)
+                key = f"L{line}" if line else norm(sentence)
+                if sentence.strip():
+                    votes[key].append({"judge": judge, "line": line, **annotation})
                     per_judge[judge] += 1
         findings = vale_findings(doc)
         vale_all[name] = findings
-        vale_lines = {f["Line"] for f in findings}
         for key, entries in votes.items():
+            line = entries[0]["line"]
+            sentence_norm = norm(entries[0]["sentence"])
+            # Vale gets credit only for a finding inside this sentence, not
+            # for any finding on the line.
+            hits = [
+                f for f in findings
+                if f["Line"] == line and norm(f.get("Match", "")) and norm(f.get("Match", "")) in sentence_norm
+            ]
             item = {
                 "document": name,
                 "generator": run["profile"],
+                "line": line,
                 "sentence": entries[0]["sentence"],
                 "judges": sorted({e["judge"] for e in entries}),
                 "categories": sorted({e.get("category", "other") for e in entries}),
                 "regexes": sorted({e["regex"] for e in entries if e.get("regex")}),
                 "tells": [e.get("tell", "") for e in entries],
+                "confidence": sorted({e.get("confidence", "") for e in entries}),
             }
             if len(item["judges"]) >= MAJORITY:
-                line = line_of(text, item["sentence"])
-                item["line"] = line
-                item["vale_hit"] = line in vale_lines if line else False
+                item["vale_hit"] = bool(hits)
+                item["vale_rules"] = sorted({f["Check"] for f in hits})
                 confirmed.append(item)
                 per_generator[run["profile"]] += 1
                 if not item["vale_hit"]:

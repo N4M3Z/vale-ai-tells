@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "explainer-raft",
+  "profile": "astra@codex",
+  "tool": "codex",
+  "model_id": "gpt-6-astra",
+  "started": "2026-09-22T11:56:09Z",
+  "seconds": 185,
+  "exit": 0,
+  "prompt_sha256": "99d87fadb96238f78630ca93d40b626b43d0bd3f5a514c055899768eba2436f6",
+  "text_sha256": "125f62829cc0992c023d9ff0813ca3d031009fd282bcd32841807c285761b654",
+  "words": 901
+}

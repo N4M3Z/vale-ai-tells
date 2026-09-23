@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "email-outage",
+  "profile": "lumo@opencode",
+  "tool": "opencode",
+  "model_id": "proton-lumo/lumo-max",
+  "started": "2026-09-22T09:37:58Z",
+  "seconds": 50,
+  "exit": 0,
+  "prompt_sha256": "23f5bacede87bc329f737e3ce2fbee3c16e0cd79854bf4f206bd13430620f088",
+  "text_sha256": "1f77fb0db3075f88534d528757221c523e70a7bfd9cb214705e4217827f92911",
+  "words": 290
+}

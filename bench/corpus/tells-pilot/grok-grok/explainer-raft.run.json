@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "explainer-raft",
+  "profile": "grok@grok",
+  "tool": "grok",
+  "model_id": "grok-4.7",
+  "started": "2026-09-22T08:43:13Z",
+  "seconds": 870,
+  "exit": 0,
+  "prompt_sha256": "99d87fadb96238f78630ca93d40b626b43d0bd3f5a514c055899768eba2436f6",
+  "text_sha256": "10338f628a0abba6c9808491728127cd0c46cf70bd58bb385ed97b47ae631823",
+  "words": 945
+}

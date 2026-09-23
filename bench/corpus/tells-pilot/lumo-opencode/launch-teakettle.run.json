@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "launch-teakettle",
+  "profile": "lumo@opencode",
+  "tool": "opencode",
+  "model_id": "proton-lumo/lumo-max",
+  "started": "2026-09-22T09:38:48Z",
+  "seconds": 60,
+  "exit": 0,
+  "prompt_sha256": "f898119a212f8625ff47448d951fd65b5de0d9f38aeb9014438d4e2790584a51",
+  "text_sha256": "c352d5cabfd904654e67ed9e1b795b3904cc0bad3f013e67be8cb349d3f203f6",
+  "words": 407
+}

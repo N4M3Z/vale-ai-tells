@@ -34,7 +34,8 @@ else
 fi
 
 family_of() {
-    yq -r --arg p "$1" '(.generators + .judges)[] | select(.profile == $p) | .family' "$MODELS" | head -1
+    # mikefarah yq: no --arg, values come in through env().
+    P="$1" yq -r '(.generators + .judges)[] | select(.profile == env(P)) | .family' "$MODELS" | head -1
 }
 
 for judge in "${JUDGES[@]}"; do
@@ -51,7 +52,8 @@ for judge in "${JUDGES[@]}"; do
         [ -s "$doc" ] || continue
         text_sha=$(jq -r '.text_sha256' "$record")
         name="$gen_slug--$test_id"
-        if [ -f "$out/$name.run.json" ] && [ "$(jq -r '.text_sha256' "$out/$name.run.json")" = "$text_sha" ] && [ -s "$out/$name.json" ]; then
+        if [ -f "$out/$name.run.json" ] && [ "$(jq -r '.text_sha256' "$out/$name.run.json")" = "$text_sha" ] \
+            && jq -e 'has("parse_error") | not' "$out/$name.json" >/dev/null 2>&1; then
             echo "skip $judge_slug/$name"
             continue
         fi
@@ -65,20 +67,29 @@ for judge in "${JUDGES[@]}"; do
         started=$(date -u +%Y-%m-%dT%H:%M:%SZ)
         t0=$(date +%s)
         status=0
-        rune run "$judge" --prompt-file "$prompt_file" --timeout "$TIMEOUT" --repo "$SCRATCH" --json \
+        # Every judge runs through rune run with clean harness state, so
+        # no user-level instruction file reaches the model.
+        rune run "$judge" --clean-harness-state --prompt-file "$prompt_file" --timeout "$TIMEOUT" --repo "$SCRATCH" --json \
             >"$out/$name.transcript.json" 2>"$out/$name.stderr.txt" || status=$?
         t1=$(date +%s)
         # The answer is JSON, sometimes inside a fence. Take the first
         # balanced object that has an annotations array.
         jq -r '.text // empty' "$out/$name.transcript.json" \
             | perl -0ne 'print $1 if /(\{.*"annotations"\s*:\s*\[.*\]\s*\})/s' \
-            | jq '.' >"$out/$name.json" 2>/dev/null || printf '{"document":"%s","annotations":[],"parse_error":true}\n' "$name" >"$out/$name.json"
+            | jq '.' >"$out/$name.json" 2>/dev/null || true
+        # An empty or unparsable answer (a harness exit, a refusal, prose
+        # with no object) is recorded as zero annotations with parse_error,
+        # so the phase continues and the pair is retried on the next run.
+        if ! jq -e '.annotations | type == "array"' "$out/$name.json" >/dev/null 2>&1; then
+            printf '{"document":"%s","annotations":[],"parse_error":true}\n' "$name" >"$out/$name.json"
+        fi
+        count=$(jq '.annotations | length' "$out/$name.json")
         jq -n \
             --arg suite "$SUITE_ID" --arg document "$name" --arg profile "$judge" \
             --arg model_id "$(jq -r '.resolved_model // empty' "$out/$name.transcript.json" 2>/dev/null)" \
             --arg started "$started" --argjson seconds "$((t1 - t0))" --argjson status "$status" \
             --arg text_sha "$text_sha" \
-            --argjson count "$(jq '.annotations | length' "$out/$name.json")" \
+            --argjson count "$count" \
             '{suite: $suite, document: $document, profile: $profile, model_id: $model_id,
               started: $started, seconds: $seconds, exit: $status,
               text_sha256: $text_sha, annotations: $count}' >"$out/$name.run.json"

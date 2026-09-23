@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "runbook-postgres",
+  "profile": "lumo@opencode",
+  "tool": "opencode",
+  "model_id": "proton-lumo/lumo-max",
+  "started": "2026-09-22T09:31:22Z",
+  "seconds": 126,
+  "exit": 0,
+  "prompt_sha256": "72d57d8793148a4d4ca415a30e5193d5a8c31fdeef41c99c503d2a925783639a",
+  "text_sha256": "d6cc28bd87d7fa449cac8f7e614444e70ba978df97df8bf96251edeade2a64f0",
+  "words": 893
+}

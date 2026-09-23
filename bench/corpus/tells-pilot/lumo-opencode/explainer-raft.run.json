@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "explainer-raft",
+  "profile": "lumo@opencode",
+  "tool": "opencode",
+  "model_id": "proton-lumo/lumo-max",
+  "started": "2026-09-22T09:28:30Z",
+  "seconds": 94,
+  "exit": 0,
+  "prompt_sha256": "99d87fadb96238f78630ca93d40b626b43d0bd3f5a514c055899768eba2436f6",
+  "text_sha256": "71a1353310066367c5fa88e2220d4c4041c579b804640cfaff2c06ac00e9cae7",
+  "words": 1187
+}

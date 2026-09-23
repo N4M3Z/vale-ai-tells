@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "review-headphones",
+  "profile": "grok@grok",
+  "tool": "grok",
+  "model_id": "grok-4.7",
+  "started": "2026-09-22T09:14:27Z",
+  "seconds": 66,
+  "exit": 0,
+  "prompt_sha256": "eb494a9bdfd68beef5f7a7a6d37490e80839aa4a21647961a5bfac143baa46f3",
+  "text_sha256": "510cfc18123f733b209387b3e5dba796f389156dfae7fd5567fc2ca68e3bf142",
+  "words": 1056
+}

@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "email-outage",
+  "profile": "grok@grok",
+  "tool": "grok",
+  "model_id": "grok-4.7",
+  "started": "2026-09-22T09:15:33Z",
+  "seconds": 116,
+  "exit": 0,
+  "prompt_sha256": "23f5bacede87bc329f737e3ce2fbee3c16e0cd79854bf4f206bd13430620f088",
+  "text_sha256": "b72c086b7382551b23018dd584607e0110f519df3fce6cc16c0783c0dd345b66",
+  "words": 300
+}

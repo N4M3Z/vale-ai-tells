@@ -1,0 +1,13 @@
+{
+  "suite": "tells-pilot",
+  "test": "runbook-postgres",
+  "profile": "grok@grok",
+  "tool": "grok",
+  "model_id": "grok-4.7",
+  "started": "2026-09-22T09:01:47Z",
+  "seconds": 126,
+  "exit": 0,
+  "prompt_sha256": "72d57d8793148a4d4ca415a30e5193d5a8c31fdeef41c99c503d2a925783639a",
+  "text_sha256": "964e08772576530eb4233b01de6d358bce3aaa0a0ac836389556b855a5f1a337",
+  "words": 1090
+}
