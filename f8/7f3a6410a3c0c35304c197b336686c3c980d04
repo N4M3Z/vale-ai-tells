@@ -1,0 +1,27 @@
+bench/results/tells-pilot/proofs/generate.cast
+  s_005b23fc14fbd9::t_7cd4222b2d066c 1
+bench/results/tells-pilot/proofs/judge.cast
+  s_005b23fc14fbd9::t_3a3f67703de97e 1
+bench/results/tells-pilot/proofs/report.cast
+  s_005b23fc14fbd9::t_a5684ee55b8b07 1-2
+bench/results/tells-pilot/proofs/report.sha256
+  s_005b23fc14fbd9::t_51392abd19b3be 1
+bench/results/tells-pilot/proofs/report.txt
+  s_005b23fc14fbd9::t_9ef0ef23b08755 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "f87f3a6410a3c0c35304c197b336686c3c980d04",
+  "prompts": {},
+  "sessions": {
+    "s_005b23fc14fbd9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "44568f17-b8b1-4233-9e9b-cc18f52791bb",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Martin Zeman <N4M3Z@users.noreply.github.com>"
+    }
+  }
+}
