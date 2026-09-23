@@ -1,0 +1,52 @@
+bench/scripts/generate.sh
+  s_005b23fc14fbd9::t_dfc59ecccda778 60
+  s_005b23fc14fbd9::t_8360b1829bee87 35
+bench/scripts/judge.sh
+  s_005b23fc14fbd9::t_99d069f5208543 70
+  s_005b23fc14fbd9::t_1b7b4a130849c2 37-38
+  s_005b23fc14fbd9::t_e539603c30870c 55-56
+  s_005b23fc14fbd9::t_7c3fdc0302a110 92
+  s_005b23fc14fbd9::t_badc67bd5fde19 79-86
+  s_005b23fc14fbd9::t_6a829574ec6b0d 71
+  s_005b23fc14fbd9::t_6d794e394b7eb5 72
+bench/scripts/pilot.sh
+  s_005b23fc14fbd9::t_b86e8733b38970 7-9,16-19
+  s_005b23fc14fbd9::t_7767a42a6e447d 35-42
+bench/scripts/report.py
+  s_005b23fc14fbd9::t_02d21bae8dd72e 84-87
+  s_005b23fc14fbd9::t_db6e091a2ccbe6 100-107,112-119,123,129,132-133
+bench/results/tells-pilot/adjudication-2026-09-23.json
+  s_005b23fc14fbd9::t_38b5e4080ecf72 1-47
+bench/corpus/fixtures/denial-reveal.md
+  s_005b23fc14fbd9::t_a1a2f509fcda21 1-35
+.gitignore
+  s_005b23fc14fbd9::t_f5c282803e7c89 54-58
+bench/results/tells-pilot/2026-09-23T07-46-18Z/confirmed.json
+  s_005b23fc14fbd9::t_c18180807868b1 1-7493
+bench/results/tells-pilot/2026-09-23T07-46-18Z/gap.json
+  s_005b23fc14fbd9::t_97f439da53d65e 1-4353
+bench/results/tells-pilot/2026-09-23T07-46-18Z/report.md
+  s_005b23fc14fbd9::t_89a555708d6381 1-33
+bench/results/tells-pilot/2026-09-23T07-46-18Z/splits.json
+  s_005b23fc14fbd9::t_fface074d9f0f2 1-3560
+bench/results/tells-pilot/2026-09-23T07-46-18Z/summary.json
+  s_005b23fc14fbd9::t_f8eb89cf2252d5 1-132
+bench/results/tells-pilot/2026-09-23T07-46-18Z/vale.json
+  s_005b23fc14fbd9::t_e4dea4ccd07ede 1-19058
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "dd0f9e79466a1423cf6f543db33a61301e015545",
+  "prompts": {},
+  "sessions": {
+    "s_005b23fc14fbd9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "44568f17-b8b1-4233-9e9b-cc18f52791bb",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Martin Zeman <N4M3Z@users.noreply.github.com>"
+    }
+  }
+}
