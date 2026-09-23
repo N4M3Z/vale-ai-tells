@@ -1,0 +1,27 @@
+test-false-positives.md
+  s_005b23fc14fbd9::t_a124baf6af95f4 304-315
+CHANGELOG.md
+  s_005b23fc14fbd9::t_2086c00e2ca43f 10-13
+styles/ai-tells/ContrastiveReveal.yml
+  s_005b23fc14fbd9::t_a9235e294824e9 1-34
+test-document.md
+  s_005b23fc14fbd9::t_2c57192074edb5 1107-1116
+README.md
+  s_005b23fc14fbd9::t_2e6844179d6b8a 170
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8beffc3116ed7712c9b54b0a8e28d761698808c2",
+  "prompts": {},
+  "sessions": {
+    "s_005b23fc14fbd9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "44568f17-b8b1-4233-9e9b-cc18f52791bb",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Martin Zeman <N4M3Z@users.noreply.github.com>"
+    }
+  }
+}
