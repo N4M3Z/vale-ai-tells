@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **ContrastiveReveal** (`ai-tells`): New rule. The contrast that names a rejected alternative so the claim lands as a turn, in four spellings `ContrastiveFormulas` and `ContrastiveNegation` do not read: the graded denial "is not a new expense so much as fuller use," the prepositional fault contrast "was on us, not the couriers," the exclusive with its shadow "only through timeouts, never through a coordinator," and the two-sentence antithesis "The books can wait on the shelf. The people cannot." The shapes come from a cross-model judging run over forty generated documents (Grok, Kimi, Lumo, and GPT as generators, each document judged by the three models that did not write it), where each was confirmed by at least two judges and none was caught by an existing rule. All four match zero times across the seven pre-LLM corpora. The bare denial sentence ("That is not thrift.") was confirmed as a tell too but stays out: the same shape is ordinary technical English 365 times in the corpora ("it is not a nil slice," "this is not strictly necessary"), and "is not the same as" is a real comparison 15 times, so both are left to a reader.
+
 ## [1.37.0] - 2026-09-14
 
 <!-- vale off -->

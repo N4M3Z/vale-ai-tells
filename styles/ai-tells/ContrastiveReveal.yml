@@ -1,0 +1,34 @@
+---
+extends: existence
+message: "AI contrast by reveal: '%s'. State the claim once, without the rejected alternative."
+level: error
+nonword: true
+ignorecase: true
+tokens:
+  # ==========================================================================
+  # The reveal by contrast, four spellings that `ContrastiveFormulas` and
+  # `ContrastiveNegation` do not read. Each names a rejected alternative so
+  # the real claim lands as a turn. A cross-model judging run over forty
+  # generated documents (four models, three judges each) confirmed every
+  # shape at least twice; none matches in the seven pre-LLM corpora.
+  # ==========================================================================
+
+  # --- "is not X so much as Y": the denial that grades the alternative ------
+  # "The evening library is not a new expense so much as fuller use of an
+  # old investment."
+  - "\\b(?:is|was|are|were) not (?:a |an |the )?[^.!?]{2,40} so much as\\b"
+
+  # --- "was on us, not the couriers": the prepositional fault contrast -----
+  # "This outage was on us, not the couriers, and we added a backup."
+  - "\\b(?:was|is|were|are) (?:on|with|about|for) [a-z]+, not (?:the|a|an) [a-z]+"
+
+  # --- "only through X, never through Y": the exclusive with its shadow -----
+  # "Transitions happen only through timeouts and RPCs, never through some
+  # external coordinator."
+  - "\\bonly (?:through|by|via|with) [^,.!?]+, never (?:through|by|via|with)\\b"
+
+  # --- The two-sentence turn: "The books can wait. The people cannot." -----
+  # One short sentence grants the alternative, the next denies it with the
+  # same verb, so the pair reads as a single antithesis. The first clause is
+  # bounded so two unrelated sentences do not pair.
+  - "\\b(?:can|could|will|does|do|is|are)[^.!?]{3,60}\\. (?:The |These |Those )?[A-Za-z]+ (?:cannot|can't|will not|won't|does not|doesn't|do not|don't|is not|isn't|are not|aren't)\\."

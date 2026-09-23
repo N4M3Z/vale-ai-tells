@@ -1104,6 +1104,16 @@ This release will turbocharge growth.
 
 We democratize access to the tooling.
 
+## ContrastiveReveal
+
+The evening library is not a new expense so much as fuller use of an old investment.
+
+This outage was on us, not the couriers, and we added a backup process.
+
+Transitions happen only through timeouts and RPCs, never through some external coordinator.
+
+The books can wait on the shelf. The people cannot.
+
 ## ContrastiveNegation
 
 Cleartext repo names, no k-anonymity gate.

@@ -301,6 +301,18 @@ She gave a talk, not knowing the demo would fail.
 
 We merged a fix, not that anyone noticed.
 
+## ContrastiveReveal: plain negation that should NOT trigger
+
+The function is not thread-safe.
+
+It is not a nil slice.
+
+This is not the same value as before, so the cache is stale.
+
+The test is not deterministic when the clock is mocked.
+
+The server can accept the write. The client retries on a timeout.
+
 ## ContrastiveNegation: non-tells that should NOT trigger
 
 The feature is no longer supported.
